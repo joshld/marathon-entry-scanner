@@ -118,5 +118,533 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "gold-coast",
+    "name": "Gold Coast Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "sunshine-coast",
+    "name": "Sunshine Coast Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "tokyo",
+    "name": "Tokyo Marathon",
+    "before": "no_signal",
+    "after": "no_signal",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "kyoto",
+    "name": "Kyoto Marathon",
+    "before": "no_signal",
+    "after": "no_signal",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "rotorua",
+    "name": "Rotorua Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hobart-marathon",
+    "name": "Hobart Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "adelaide-marathon-festival",
+    "name": "Adelaide Marathon Festival",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "great-ocean-road-running-festival",
+    "name": "Great Ocean Road Running Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "run-melbourne",
+    "name": "Run Melbourne",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hobart-run-the-bridge",
+    "name": "Hobart Run The Bridge",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "launceston-running-festival",
+    "name": "Launceston Running Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "runaway-sydney-half-marathon",
+    "name": "Runaway Sydney Half Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hokkaido-marathon",
+    "name": "Hokkaido Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "lake-biwa-marathon",
+    "name": "Lake Biwa Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "auckland-marathon",
+    "name": "Auckland Marathon",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "christchurch-marathon",
+    "name": "Christchurch Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "queenstown-marathon",
+    "name": "Queenstown Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hawke-s-bay-marathon",
+    "name": "Hawke's Bay Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "taupo-marathon",
+    "name": "Taupo Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "berlin-marathon",
+    "name": "Berlin Marathon",
+    "before": "no_signal",
+    "after": "no_signal",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "london-marathon",
+    "name": "London Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "honolulu-marathon",
+    "name": "Honolulu Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "uta",
+    "name": "Ultra-Trail Australia by UTMB",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "guzzler",
+    "name": "The Guzzler Ultra",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "cape2cape-ultra",
+    "name": "Cape2Cape Ultra",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "ultra-perth",
+    "name": "Ultra Perth",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "manchester-marathon",
+    "name": "Manchester Marathon",
+    "before": "no_signal",
+    "after": "no_signal",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "brighton-marathon",
+    "name": "Brighton Marathon",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "edinburgh-marathon-festival",
+    "name": "Edinburgh Marathon Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "loch-ness-marathon",
+    "name": "Loch Ness Marathon",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "belfast-city-marathon",
+    "name": "Belfast City Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "paris-marathon",
+    "name": "Paris Marathon",
+    "before": "unknown",
+    "after": "unknown",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "rotterdam-marathon",
+    "name": "Rotterdam Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "barcelona-marathon",
+    "name": "Barcelona Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "vienna-city-marathon",
+    "name": "Vienna City Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "copenhagen-marathon",
+    "name": "Copenhagen Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "athens-authentic-marathon",
+    "name": "Athens Authentic Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "zurich-marathon",
+    "name": "Zurich Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "milan-marathon",
+    "name": "Milan Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "los-angeles-marathon",
+    "name": "Los Angeles Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "philadelphia-marathon",
+    "name": "Philadelphia Marathon",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "houston-marathon",
+    "name": "Houston Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "marine-corps-marathon",
+    "name": "Marine Corps Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "grandma-s-marathon",
+    "name": "Grandma's Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "twin-cities-marathon",
+    "name": "Twin Cities Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "san-francisco-marathon",
+    "name": "San Francisco Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "new-york-city-half-marathon",
+    "name": "New York City Half Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "seattle-marathon",
+    "name": "Seattle Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "utmb-mont-blanc",
+    "name": "UTMB Mont-Blanc",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "ccc-by-utmb",
+    "name": "CCC by UTMB",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "comrades-marathon",
+    "name": "Comrades Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "lavaredo-ultra-trail",
+    "name": "Lavaredo Ultra Trail",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "laguna-phuket-marathon",
+    "name": "Laguna Phuket Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "techcombank-ho-chi-minh-city-marathon",
+    "name": "Techcombank Ho Chi Minh City International Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hcmc-marathon",
+    "name": "HCMC Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "cebu-marathon",
+    "name": "Cebu Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:17:39+00:00",
+    "id": "sundown-marathon",
+    "name": "Sundown Marathon Singapore",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

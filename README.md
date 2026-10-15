@@ -21,6 +21,16 @@ The dashboard includes:
 
 The locations selector currently uses these continents: **Oceania, Asia, Europe, North America and Africa**, including Canada within North America and Norway, Sweden, Finland, Denmark and Iceland within Europe. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
 
+## Email subscriptions (optional, not yet active)
+
+The dashboard now includes a **Get personalised race alerts by email** panel beneath the Entries Open banner. Visitors can select countries, marathon/half-marathon/ultra distances, alert types (confirmed entries open, published openings within seven days, newly tracked races), and a daily or weekly digest.
+
+**Email signup is deliberately disabled until a secure backend is configured.** No emails are collected by the public dashboard or sent automatically yet.
+
+The planned free-tier architecture is GitHub Actions + a Cloudflare Worker and Turnstile + Brevo double opt-in and mailing lists. Brevo stores subscriber addresses and preferences outside this public repository; the scanner stores only non-personal, deduplicated race events in `data/alert-events.json`. Scheduled sending also requires explicit GitHub Action secrets and `EMAIL_ALERTS_ENABLED=true`. Tentative race-opening signals cannot trigger confirmed-opening emails.
+
+For prerequisites, deployment instructions, consent and unsubscribe testing, see **[Email subscription setup](subscriptions/README.md)**. This must be completed before enabling the form; no secret API keys should ever be committed to GitHub Pages.
+
 ## Data format
 
 The manually maintained source is [`races.json`](races.json). Each race has an ID and details such as:

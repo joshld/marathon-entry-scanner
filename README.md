@@ -10,6 +10,7 @@ The watchlist currently contains **187 events** across Asia, Oceania, Europe, No
 
 The dashboard includes:
 
+- **Race updates bell:** Free, no-account in-dashboard updates for confirmed new entry openings, approaching published entry dates and newly listed races. The bell shows unread counts, opens official race pages and remembers read items in local browser storage. It respects the selected countries and distances and works with no setup. An optional **browser push** button can deliver native system notifications when the site is closed once a private push endpoint is configured. See [browser notifications setup](push/README.md).
 - **Entries open banner:** A scrolling shortlist of **up to six** organiser-verified open races appears near the top. Races with a verified entry-opening date are ranked newest first; other confirmed-open races fill remaining spaces, clearly marked with opening date unconfirmed. Clicking a tile opens official registration. The marquee pauses on hover or keyboard focus, and becomes a horizontally swipeable row on mobile / reduced-motion settings. Possible-open text matches are **excluded**.
 - **Locations:** One multi-select dropdown grouped by **continent → country**. Select a continent to include all its countries, or use the arrow beside its name to expand the country list and make individual selections. A partially selected continent is shown as partially checked. **Select all** and **Clear** apply to all countries. Multiple continents and countries can be selected at once.
 - **Distances:** Multi-select for marathon, half marathon and ultra.
@@ -20,6 +21,10 @@ The dashboard includes:
 - Race cards show race dates, entry opening/closing dates, price categories, qualifying restrictions, and links to original sources when available.
 
 The locations selector currently uses these continents: **Oceania, Asia, Europe, North America and Africa**, including Canada within North America and Norway, Sweden, Finland, Denmark and Iceland within Europe. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
+
+## Browser notifications
+
+Browser notifications are the recommended alternative to email: **the on-site bell is enabled automatically** and doesn't require permissions, while background push requires one-time [Cloudflare Worker and VAPID setup](push/README.md). Public push configuration remains empty until that setup has been tested. No device push subscriptions are stored in the public GitHub repository.
 
 ## Email subscriptions (optional, not yet active)
 

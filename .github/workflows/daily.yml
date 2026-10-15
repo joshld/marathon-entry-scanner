@@ -109,7 +109,7 @@ jobs:
         run: |
           mkdir -p _site/data
           cp site/index.html site/alerts-config.json site/push-config.json site/push-sw.js site/manifest.webmanifest site/race-icon.svg _site/
-          cp data/races.json data/history.json _site/data/
+          cp data/races.json data/history.json data/alert-events.json _site/data/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

@@ -44,6 +44,9 @@ jobs:
           node --check /tmp/race-entry-dashboard.js
           cp subscriptions/worker.js /tmp/race-alerts-worker.mjs
           node --check /tmp/race-alerts-worker.mjs
+          cp push/worker.js /tmp/race-web-push-worker.mjs
+          node --check /tmp/race-web-push-worker.mjs
+          node --check site/push-sw.js
       - name: Scan and commit with conflict retry
         shell: bash
         run: |
@@ -105,10 +108,35 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site/data
-          cp site/index.html site/alerts-config.json _site/
+          cp site/index.html site/alerts-config.json site/push-config.json site/push-sw.js site/manifest.webmanifest site/race-icon.svg _site/
           cp data/races.json data/history.json _site/data/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  push:
+    name: Browser push notifications
+    needs: scan
+    if: github.event_name == 'schedule' && vars.BROWSER_PUSH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pywebpush
+      - name: Refresh latest published alert events
+        run: |
+          git fetch origin main
+          git checkout origin/main -- data/alert-events.json
+      - name: Deliver personalised background notifications
+        env:
+          BROWSER_PUSH_ENABLED: ${{ vars.BROWSER_PUSH_ENABLED }}
+          PUSH_WORKER_URL: ${{ vars.PUSH_WORKER_URL }}
+          PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}
+          PUSH_VAPID_PRIVATE: ${{ secrets.PUSH_VAPID_PRIVATE }}
+        run: python push/send.py --send

@@ -67,6 +67,36 @@ a:hover { color: #ffcf9c; }
 
 
 
+
+/* Race updates: lightweight on-site inbox with optional native Web Push. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.race-title-row{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}
+.race-title-row h1{min-width:0}
+.updates-control{position:relative;flex:0 0 auto;z-index:40}
+.updates-toggle{position:relative;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);cursor:pointer}
+.updates-toggle:hover,.updates-toggle[aria-expanded="true"]{border-color:var(--accent)}
+.updates-toggle:focus-visible,.updates-panel button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.updates-count{position:absolute;top:-7px;right:-7px;min-width:21px;height:21px;border-radius:11px;border:2px solid var(--bg);background:#22c55e;color:#05180d;font-weight:800;font-size:11px;line-height:17px;text-align:center;padding:0 3px}
+.updates-count[hidden],.updates-panel[hidden],.push-controls[hidden]{display:none!important}
+.updates-panel{position:absolute;right:0;top:calc(100% + 10px);width:min(405px,calc(100vw - 32px));padding:13px;background:var(--surface);border:1px solid #535862;border-radius:13px;box-shadow:0 16px 45px #000b;max-height:min(80vh,650px);overflow-y:auto}
+.updates-panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.updates-panel-head strong{font-size:15px}
+.updates-panel-head button,.push-controls button{border:1px solid var(--border);border-radius:8px;background:var(--surface-raised);padding:7px 9px;color:var(--accent-bright);font:inherit;font-size:12px;cursor:pointer}
+.updates-panel-head button:disabled{opacity:.45;cursor:default}
+.updates-help{font-size:12px;color:var(--muted);margin:10px 0;line-height:1.5}
+.updates-list{display:flex;flex-direction:column;gap:8px}
+.updates-item{display:flex;flex-direction:column;gap:4px;text-decoration:none;border:1px solid var(--border);border-radius:10px;background:#1c2026;padding:11px 12px;color:var(--text)}
+.updates-item:hover{background:var(--surface-raised);border-color:var(--accent)}
+.updates-item.unread{border-left:3px solid #22c55e}
+.updates-item-top{display:flex;justify-content:space-between;gap:8px;color:#b1b5bf;font-size:11px}
+.updates-item-top .is-new{color:#86efac;font-weight:750}
+.updates-item strong{font-size:13px}
+.updates-item small{font-size:12px;color:var(--muted);line-height:1.35}
+.updates-empty{color:var(--muted);font-size:13px;line-height:1.5;padding:14px 4px}
+.push-controls{border-top:1px solid var(--border);padding-top:12px;margin-top:12px;display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+.push-controls small{color:var(--muted);font-size:12px;line-height:1.5}
+@media(max-width:700px){.updates-panel{position:fixed;right:12px;left:12px;top:72px;width:auto;max-height:calc(100dvh - 86px);z-index:150}.race-title-row h1{font-size:clamp(26px,6.4vw,38px)}}
+
 /* Optional email alerts – disabled until a secure subscription API is configured. */
 .alerts-panel[hidden]{display:none!important}
 .alerts-panel{margin:14px 0 22px;border:1px solid var(--border);border-radius:12px;background:#1c2026}
@@ -194,7 +224,23 @@ a:hover { color: #ffcf9c; }
 .date-cell .candidate{color:var(--accent-bright)}
 .detected-entry{background:#312d26;border:1px solid #705032;border-radius:9px;padding:10px;margin:10px 0;color:#f2d7b2;font-size:13px;line-height:1.5}
 @media(max-width:700px){.distance-filter{max-width:none}.date-toolbar>label{flex:1 1 150px}}
-</style></head><body><main><div class="eyebrow">Marathons · Half Marathons · Ultras · Worldwide</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily monitoring of marathon, half-marathon and ultramarathon entries around the world. Follow race dates, registration windows, fees and eligibility—verified information is distinguished from unconfirmed signals.</p>
+</style></head><body><main><div class="eyebrow">Marathons · Half Marathons · Ultras · Worldwide</div><div class="race-title-row"><h1>Race Entry Radar 🏃</h1>
+ <div class="updates-control" id="updates-control">
+  <button id="updates-toggle" class="updates-toggle" type="button" aria-label="Race updates" aria-controls="updates-panel" aria-expanded="false" title="Recent race updates">
+   <svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M10 21h4"/></svg>
+   <span id="updates-count" class="updates-count" hidden></span><span class="sr-only"> Recent race updates</span>
+  </button>
+  <section class="updates-panel" id="updates-panel" aria-label="Recent race updates" hidden>
+   <div class="updates-panel-head"><strong>Race updates</strong><button id="updates-mark-read" type="button">Mark all read</button></div>
+   <div class="updates-help">Verified openings, upcoming entry dates and newly tracked races. Uses your current location and distance filters.</div>
+   <div class="updates-list" id="updates-list" aria-live="polite"><p class="updates-empty">Loading updates…</p></div>
+   <div class="push-controls" id="push-controls" hidden>
+    <button type="button" id="push-toggle">Enable browser notifications</button>
+    <small id="push-info" role="status">Receive alerts even when the website is closed.</small>
+   </div>
+  </section>
+ </div>
+</div><p class="sub">Daily monitoring of marathon, half-marathon and ultramarathon entries around the world. Follow race dates, registration windows, fees and eligibility—verified information is distinguished from unconfirmed signals.</p>
 <section class="open-ticker" id="open-ticker" aria-label="Confirmed open race entries">
   <div class="ticker-heading"><div class="ticker-title"><span class="ticker-indicator" aria-hidden="true"></span><strong>Entries open</strong><span class="ticker-subtitle">Latest verified openings</span></div><span class="ticker-count" id="ticker-count"></span></div>
   <div class="ticker-window" role="region" aria-label="Confirmed-open race registrations, latest known opening dates first" tabindex="0">
@@ -369,6 +415,118 @@ $("alerts-form").addEventListener("submit",async event=>{
     button.disabled=false;
     alertsTurnstileToken="";
     if(window.turnstile)window.turnstile.reset("#alerts-turnstile");
+  }
+});
+
+
+/* No-account inbox: locally remembered unread state, verified events only. */
+const RACE_UPDATE_SEEN_KEY="race-entry-radar:seen:v1";
+const RACE_UPDATE_LIMIT=40;
+let raceUpdates=[],raceUpdatesSeen=new Set();
+function readUpdateSeen(){
+  try {
+    const entries=JSON.parse(localStorage.getItem(RACE_UPDATE_SEEN_KEY)||"[]");
+    raceUpdatesSeen=new Set(Array.isArray(entries)?entries.filter(x=>typeof x==="string").slice(-500):[]);
+  }catch{raceUpdatesSeen=new Set()}
+}
+function saveUpdateSeen(){
+  try{localStorage.setItem(RACE_UPDATE_SEEN_KEY,JSON.stringify([...raceUpdatesSeen].slice(-500)))}catch{}
+}
+function buildRaceUpdates(published,items,today){
+  const cutoff=new Date(today+"T12:00:00Z");
+  cutoff.setUTCDate(cutoff.getUTCDate()-30);
+  const earliest=cutoff.toISOString().slice(0,10);
+  const result=new Map();
+  for(const x of published){
+    if(!["open","soon","new"].includes(x.type)||!x.key||!x.at)continue;
+    const at=x.at.slice(0,10);
+    if(at<earliest||at>today)continue;
+    const event={...x,when:at,title:x.type==="new"?"New race added":x.type==="soon"?"Entries opening soon":"Entries confirmed open"};
+    if(typeof x.url==="string"&&x.url.startsWith("https://"))result.set(x.key,event);
+  }
+  // The site also shows confirmed currently-open entries, even before the new
+  // event journal has accumulated changes. Never upgrade possible_open hints.
+  for(const r of items){
+    if(r.status==="confirmed_open"&&r.verified_entry_status==="open"&&
+        (!r.entry_close_date||r.entry_close_date>=today)){
+      const when=r.entry_open_date||r.status_verified_at;
+      if(when&&when>=earliest&&when<=today){
+        const key="current-open:"+r.id+":"+(r.entry_open_date||r.race_date||when);
+        if(![...result.values()].some(x=>x.id===r.id&&x.type==="open"))
+          result.set(key,{key,type:"open",title:"Entries confirmed open",when,
+            name:r.name,country:r.country,distance:safeArr(r.distance),
+            url:r.registration_url||r.official_url,entry_open_date:r.entry_open_date});
+      }
+    }
+    if(r.entry_open_date&&r.date_source&&r.entry_open_date>today){
+      const dayMs=86400000;
+      const days=(Date.parse(r.entry_open_date+"T00:00:00Z")-Date.parse(today+"T00:00:00Z"))/dayMs;
+      if(days<=7&&days>=1&&r.status!=="confirmed_open"){
+        const key="opens-soon:"+r.id+":"+r.entry_open_date;
+        if(![...result.values()].some(x=>x.id===r.id&&x.type==="soon"))
+          result.set(key,{key,type:"soon",title:"Entries opening soon",when:today,
+            name:r.name,country:r.country,distance:safeArr(r.distance),
+            entry_open_date:r.entry_open_date,url:r.registration_url||r.official_url});
+      }
+    }
+  }
+  return [...result.values()].sort((a,b)=>b.when.localeCompare(a.when)||
+    a.name.localeCompare(b.name)).slice(0,RACE_UPDATE_LIMIT);
+}
+function relevantRaceUpdates(){
+  const countries=new Set(chosen("country")),distances=new Set(chosen("distance"));
+  return raceUpdates.filter(e=>countries.has(e.country)&&safeArr(e.distance).some(d=>distances.has(d)));
+}
+function renderRaceUpdates(){
+  const relevant=relevantRaceUpdates(),unread=relevant.filter(e=>!raceUpdatesSeen.has(e.key));
+  $("updates-count").hidden=!unread.length;
+  $("updates-count").textContent=unread.length>99?"99+":String(unread.length);
+  $("updates-toggle").setAttribute("aria-label",unread.length?unread.length+" unread race updates":"Race updates");
+  $("updates-mark-read").disabled=!unread.length;
+  $("updates-list").innerHTML=relevant.length?relevant.slice(0,30).map(e=>{
+    const date=e.entry_open_date&&(e.type==="soon")?" · opens "+dateText(e.entry_open_date):
+      e.entry_open_date&&(e.type==="open")?" · opened "+dateText(e.entry_open_date):"";
+    const url=typeof e.url==="string"&&e.url.startsWith("https://")?e.url:"#";
+    const unread=!raceUpdatesSeen.has(e.key);
+    return '<a class="updates-item'+(unread?' unread':'')+'" data-update-key="'+esc(e.key)+'" href="'+esc(url)+
+      '" target="_blank" rel="noopener noreferrer"><span class="updates-item-top"><span>'+esc(e.title)+
+      '</span>'+(unread?'<span class="is-new">NEW</span>':"")+'</span><strong>'+esc(e.name)+'</strong>'+
+      '<small>'+esc(e.country)+" · "+esc(safeArr(e.distance).join(" + "))+esc(date)+'</small></a>';
+  }).join(""):'<p class="updates-empty">No recent verified updates match your selected locations and distances. Try broadening your filters.</p>';
+}
+function openRaceUpdates(open){
+  $("updates-panel").hidden=!open;
+  $("updates-toggle").setAttribute("aria-expanded",String(open));
+}
+async function initRaceUpdates(){
+  readUpdateSeen();
+  let published=[];
+  try{
+    const r=await fetch("./data/alert-events.json?"+Date.now());
+    if(r.ok){const data=await r.json();if(Array.isArray(data))published=data}
+  }catch{}
+  raceUpdates=buildRaceUpdates(published,races,brisbaneDay());
+  renderRaceUpdates();
+  await initBrowserPush();
+}
+$("updates-toggle").addEventListener("click",()=>{
+  openRaceUpdates($("updates-panel").hidden);
+});
+$("updates-mark-read").addEventListener("click",()=>{
+  relevantRaceUpdates().forEach(e=>raceUpdatesSeen.add(e.key));
+  saveUpdateSeen();renderRaceUpdates();
+});
+$("updates-list").addEventListener("click",event=>{
+  const row=event.target.closest("[data-update-key]");
+  if(!row)return;
+  raceUpdatesSeen.add(row.dataset.updateKey);saveUpdateSeen();renderRaceUpdates();
+});
+document.addEventListener("click",event=>{
+  if(!$("updates-control").contains(event.target))openRaceUpdates(false);
+});
+document.addEventListener("keydown",event=>{
+  if(event.key==="Escape"&&!$("updates-panel").hidden){
+    openRaceUpdates(false);$("updates-toggle").focus();
   }
 });
 
@@ -550,6 +708,7 @@ try {
   $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
   $("note").textContent=d.disclaimer||"";
   buildLocationFilter();
+  await initRaceUpdates();
   buildAlertCountries();
   initAlertSignup();
   renderOpenTicker();
@@ -564,6 +723,7 @@ $("filter-area").addEventListener("change",e=>{
   }
   if(e.target.matches('.continent-checkbox, input[name="country"]'))syncLocationGroups();
   render();
+  renderRaceUpdates();
 });
 $("date-toolbar").addEventListener("input",render);
 $("filter-area").addEventListener("click",e=>{
@@ -583,6 +743,7 @@ $("filter-area").addEventListener("click",e=>{
   document.querySelectorAll('input[name="'+btn.dataset.filter+'"]').forEach(input=>input.checked=btn.dataset.action==="all");
   if(btn.dataset.filter==="country")syncLocationGroups();
   render();
+  renderRaceUpdates();
 });
 $("clear-dates").addEventListener("click",()=>{$("date-from").value="";$("date-to").value="";$("include-undated").checked=false;render()});
 document.addEventListener("click",e=>document.querySelectorAll("details.distance-filter[open]").forEach(d=>{if(!d.contains(e.target))d.open=false}));

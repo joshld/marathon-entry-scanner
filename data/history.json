@@ -1086,5 +1086,29 @@
     "before": "possible_closed",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:54:46+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:54:46+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:54:46+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

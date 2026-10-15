@@ -4672,5 +4672,342 @@
       "source_url": null,
       "verified_at": null
     }
+  },
+  {
+    "id": "amazing-thailand-marathon",
+    "name": "Amazing Thailand Marathon Bangkok",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / fast-runner category",
+    "official_url": "https://www.atmbkk.com/",
+    "registration_url": "https://www.atmbkk.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2026-11-29",
+    "entry_open_date": "2026-07-03",
+    "entry_close_date": "2026-10-31",
+    "date_source": "https://www.atmbkk.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov"
+  },
+  {
+    "id": "bangkok-marathon",
+    "name": "Bangkok Marathon",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.bkkmarathon.com/eng/",
+    "registration_url": "https://race.thai.run/bangkokmarathon2026",
+    "registration_page_verified": true,
+    "priority": 2,
+    "race_date": "2027-01-10",
+    "entry_open_date": "2026-07-01",
+    "entry_close_date": "2026-10-31",
+    "date_source": "https://race.thai.run/bangkokmarathon2026",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [
+      {
+        "category": "Regular",
+        "distance": "Marathon",
+        "currency": "THB",
+        "amount": 1250
+      },
+      {
+        "category": "Regular",
+        "distance": "Half marathon",
+        "currency": "THB",
+        "amount": 950
+      }
+    ],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "laguna-phuket-marathon",
+    "name": "Laguna Phuket Marathon",
+    "country": "Thailand",
+    "city": "Phuket",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://phuketmarathon.com/",
+    "registration_url": "https://phuketmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "kuala-lumpur-standard-chartered-marathon",
+    "name": "Kuala Lumpur Standard Chartered Marathon",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.kl-marathon.com/",
+    "registration_url": "https://www.kl-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "penang-bridge-international-marathon",
+    "name": "Penang Bridge International Marathon",
+    "country": "Malaysia",
+    "city": "Penang",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://penangmarathon.gov.my/",
+    "registration_url": "https://penangmarathon.gov.my/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "techcombank-ho-chi-minh-city-marathon",
+    "name": "Techcombank Ho Chi Minh City International Marathon",
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.marathonhcmc.com/en/",
+    "registration_url": "https://www.marathonhcmc.com/en/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2026-12-06",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.marathonhcmc.com/en/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "hcmc-marathon",
+    "name": "HCMC Marathon",
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://hcmcmarathon.com/",
+    "registration_url": "https://hcmcmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-01-17",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://hcmcmarathon.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://hanoi.vietnamheritagemarathon.com/en/the-race/",
+    "registration_url": "https://hanoi.vietnamheritagemarathon.com/en/the-race/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2026-11-08",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://hanoi.vietnamheritagemarathon.com/en/the-race/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "cebu-marathon",
+    "name": "Cebu Marathon",
+    "country": "Philippines",
+    "city": "Cebu",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.cebumarathon.com.ph/",
+    "registration_url": "https://www.cebumarathon.com.ph/",
+    "registration_page_verified": true,
+    "priority": 2,
+    "race_date": "2027-01-10",
+    "entry_open_date": "2026-08-15",
+    "entry_close_date": "2026-11-15",
+    "date_source": "https://www.cebumarathon.com.ph/faq",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [
+      {
+        "category": "Regular",
+        "distance": "Marathon",
+        "currency": "PHP",
+        "amount": 2999
+      },
+      {
+        "category": "Regular",
+        "distance": "Half marathon",
+        "currency": "PHP",
+        "amount": 2799
+      }
+    ],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "sundown-marathon",
+    "name": "Sundown Marathon Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.sundownmarathon.com/sundownmarathon-singapore.html",
+    "registration_url": "https://www.sundownmarathon.com/sundownmarathon-singapore.html",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   }
 ]

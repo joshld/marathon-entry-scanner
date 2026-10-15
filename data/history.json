@@ -1190,5 +1190,21 @@
     "before": "possible_open",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:25:06+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:25:06+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

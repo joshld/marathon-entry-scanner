@@ -4,7 +4,7 @@
 
 A GitHub Actions-powered daily worldwide scanner and GitHub Pages dashboard for **marathons (42.2 km), half marathons (21.1 km) and ultramarathons**, with particular attention to Australia and Japan and coverage of Canada, North America, Europe, the Nordic countries, Asia, Oceania and Africa.
 
-The watchlist currently contains **186 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
+The watchlist currently contains **187 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
 
 ## Dashboard
 
@@ -13,6 +13,7 @@ The dashboard includes:
 - **Entries open banner:** A scrolling shortlist of **up to six** organiser-verified open races appears near the top. Races with a verified entry-opening date are ranked newest first; other confirmed-open races fill remaining spaces, clearly marked with opening date unconfirmed. Clicking a tile opens official registration. The marquee pauses on hover or keyboard focus, and becomes a horizontally swipeable row on mobile / reduced-motion settings. Possible-open text matches are **excluded**.
 - **Locations:** One multi-select dropdown grouped by **continent → country**. Select a continent to include all its countries, or use the arrow beside its name to expand the country list and make individual selections. A partially selected continent is shown as partially checked. **Select all** and **Clear** apply to all countries. Multiple continents and countries can be selected at once.
 - **Distances:** Multi-select for marathon, half marathon and ultra.
+  Multi-stage events such as the Warwick Pentathrun are listed under their actual qualifying race distance (its half-marathon stage), not as a standalone full marathon simply because the stages total 42.2 km.
 - **Entry types:** Multi-select for ballot/lottery, direct entry, qualification, charity and unverified/other. A race may match more than one entry type.
 - **Entry status:** Multi-select for confirmed open, confirmed closed/sold-out, possible open, closing/closed indicators, conflicting signals and inaccessible websites.
 - **Race date range:** Optional inclusive start and end dates. Only **verified** race dates qualify by default; use **Include races without confirmed dates** to include undated events in the date filter.

@@ -6171,5 +6171,43 @@
       "verified_at": null
     },
     "entry_notes": "2026 race confirmed, 2027 event date and registration window to be verified."
+  },
+  {
+    "id": "warwick-pentathrun",
+    "name": "Warwick Pentathrun",
+    "country": "Australia",
+    "continent": "Oceania",
+    "city": "Warwick, Queensland",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Direct / 2027 availability unverified",
+    "official_url": "https://www.pentathrun.com/",
+    "registration_url": "https://sportseventservices.com.au/reg/pentath27/",
+    "registration_page_verified": true,
+    "priority": 2,
+    "race_date": "2027-05-29",
+    "race_end_date": "2027-05-30",
+    "race_date_note": "Five separate events over 29–30 May, totalling roughly 42.2 km (not a standalone full marathon): half marathon, ~4.5 km cross-country, 5 km road race, 10 km hill run and 1-mile race. Enter any stage or all five.",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://southerndownsandgranitebelt.com.au/events/sporting-events/warwick-pentathrun/",
+    "date_verified_at": "2026-10-15",
+    "entry_options": [],
+    "entry_price_note": "2027 fees not confirmed. The organiser currently publishes 2026 fees; do not treat those as 2027 prices.",
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Participants may enter one, several or all five races.",
+        "Registration is online; entrants must agree to participation terms, declare relevant medical conditions, and provide an emergency contact.",
+        "Wheelchair competitors should arrange participation with the organiser in advance.",
+        "Individual race age requirements and 2027 pricing need verification."
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.pentathrun.com/the-race/how-to-enter/",
+      "verified_at": "2026-10-15"
+    }
   }
 ]

@@ -3391,11 +3391,11 @@
     "registration_url": "https://copenhagenmarathon.dk/en/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-05-09",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://copenhagenmarathon.dk/en/",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -3479,18 +3479,37 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Unverified",
+    "entry_type": "Direct",
     "official_url": "https://www.stockholmmarathon.se/",
     "registration_url": "https://www.stockholmmarathon.se/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-05-29",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "entry_price_note": null,
-    "entry_options": [],
+    "date_source": "https://stockholmmarathon.se/eng/eng-lopare/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": "Price increases by entry period; check current pricing at organiser website.",
+    "entry_options": [
+      {
+        "category": "2027 period 1",
+        "distance": "Marathon",
+        "currency": "SEK",
+        "amount": 1295
+      },
+      {
+        "category": "2027 period 2",
+        "distance": "Marathon",
+        "currency": "SEK",
+        "amount": 1495
+      },
+      {
+        "category": "2027 period 3",
+        "distance": "Marathon",
+        "currency": "SEK",
+        "amount": 1795
+      }
+    ],
     "eligibility": {
       "minimum_age": null,
       "residency": null,
@@ -3500,7 +3519,10 @@
       "source_url": null,
       "verified_at": null
     },
-    "continent": "Europe"
+    "continent": "Europe",
+    "verified_entry_status": "open",
+    "status_source_url": "https://stockholmmarathon.se/eng/eng-lopare/",
+    "status_verified_at": "2026-10-15"
   },
   {
     "id": "athens-authentic-marathon",
@@ -3635,16 +3657,16 @@
       "Marathon",
       "Half marathon"
     ],
-    "entry_type": "Unverified",
+    "entry_type": "Direct",
     "official_url": "https://helsinkicityrunningday.fi/en/",
-    "registration_url": "https://helsinkicityrunningday.fi/en/",
+    "registration_url": "https://www.helsinkimarathon.fi/en/registration/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-08-28",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://www.helsinkimarathon.fi/en/event-info/",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -3656,7 +3678,10 @@
       "source_url": null,
       "verified_at": null
     },
-    "continent": "Europe"
+    "continent": "Europe",
+    "verified_entry_status": "open",
+    "status_source_url": "https://www.helsinkimarathon.fi/en/event-info/",
+    "status_verified_at": "2026-10-15"
   },
   {
     "id": "dublin-marathon",
@@ -5192,5 +5217,925 @@
       "verified_at": null
     },
     "continent": "Asia"
+  },
+  {
+    "id": "toronto-waterfront-marathon",
+    "name": "TCS Toronto Waterfront Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Toronto",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.torontowaterfrontmarathon.com/",
+    "registration_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "toronto-marathon",
+    "name": "Toronto Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Toronto",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.torontomarathon.com/",
+    "registration_url": "https://www.torontomarathon.com/races/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-05-02",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.torontomarathon.com/races/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Half marathon minimum age 16; 4-hour half-marathon cutoff"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.torontomarathon.com/races/half-marathon/",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://www.torontomarathon.com/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "vancouver-marathon",
+    "name": "BMO Vancouver Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Vancouver",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://bmovanmarathon.ca/",
+    "registration_url": "https://bmovanmarathon.ca/run",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-05-02",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.bmovancouvermarathon.com/info",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Half marathon minimum age 16; 3-hour cutoff"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://bmovanmarathon.ca/halfmarathon",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://bmovanmarathon.ca/halfmarathon",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "ottawa-marathon-weekend",
+    "name": "Tamarack Ottawa Race Weekend",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Ottawa",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.runottawa.ca/",
+    "registration_url": "https://www.runottawa.ca/races-and-events/ottawa-marathon/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-05-30",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.runottawa.ca/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Half marathon minimum age 16; age requirements differ by distance"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.runottawa.ca/races-and-events/half-marathon/",
+      "verified_at": "2026-10-15"
+    },
+    "race_date_note": "Weekend 29–30 May; marathon and half marathon take place Sunday 30 May.",
+    "verified_entry_status": "open",
+    "status_source_url": "https://www.runottawa.ca/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Calgary",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://calgarymarathon.com/",
+    "registration_url": "https://calgarymarathon.com/races/marathon/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-05-30",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://calgarymarathon.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": 16,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Full marathon cutoff 6h30; half marathon cutoff 4h30; race-day age 16+ for full and 14+ for half"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://calgarymarathon.com/races/marathon/",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://calgarymarathon.com/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "victoria-marathon",
+    "name": "Royal Victoria Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Victoria",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.runvictoriamarathon.com/",
+    "registration_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-10-10",
+    "entry_open_date": "2026-11-16",
+    "entry_close_date": null,
+    "date_source": "https://www.runvictoriamarathon.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "race_date_note": "Organiser lists 8–10 October weekend; 2027 Sunday should be 10 October (site contains an inconsistent Sunday 11 October statement), confirm before travel."
+  },
+  {
+    "id": "manitoba-marathon",
+    "name": "Manitoba Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Winnipeg",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://manitobamarathon.mb.ca/",
+    "registration_url": "https://manitobamarathon.mb.ca/marathon/half-marathon/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-06-20",
+    "entry_open_date": "2026-12-01",
+    "entry_close_date": null,
+    "date_source": "https://manitobamarathon.mb.ca/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "edmonton-marathon",
+    "name": "Edmonton Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Edmonton",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.edmontonmarathon.ca/",
+    "registration_url": "https://www.edmontonmarathon.ca/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "niagara-falls-marathon",
+    "name": "Niagara Falls International Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Niagara Falls",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://niagarafallsmarathon.com/",
+    "registration_url": "https://niagarafallsmarathon.com/marathon-event.html",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "banff-half-marathon",
+    "name": "Banff Half Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Banff",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.banffhalf.com/",
+    "registration_url": "https://www.banffhalf.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-06-20",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.banffhalf.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://www.banffhalf.com/",
+    "entry_notes": "Organiser reports 2027 half marathon is 85% sold out.",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "whistler-half-marathon",
+    "name": "Whistler Half Marathon",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Whistler",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.whistlerhalfmarathon.com/",
+    "registration_url": "https://www.whistlerhalfmarathon.com/registration/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-06-05",
+    "entry_open_date": "2027-01-01",
+    "entry_close_date": null,
+    "date_source": "https://www.whistlerhalfmarathon.com/whistler-half-marathon/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": 16,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Recommended minimum age 16; half-marathon 4.5-hour finish cutoff"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.whistlerhalfmarathon.com/whistler-half-marathon/",
+      "verified_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "quebec-mega-trail",
+    "name": "Québec Mega Trail",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Mont-Sainte-Anne",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Direct / qualifying",
+    "official_url": "https://ultratrailcanada.com/en/",
+    "registration_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-07-01",
+    "entry_open_date": "2026-08-01",
+    "entry_close_date": null,
+    "date_source": "https://ultratrailcanada.com/en/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "QMT135 qualification: prior trail race with 75 points (1 point per km plus 1 per 100m climb)"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://ultratrailcanada.com/en/ultra-trail-races/qmt-135/",
+      "verified_at": "2026-10-15"
+    },
+    "race_end_date": "2027-07-04",
+    "verified_entry_status": "open",
+    "ultra_distances_km": [
+      51,
+      77,
+      134
+    ],
+    "entry_notes": "Individual start dates differ by distance, July 2 for QMT50/QMT135 and July 3 for QMT80.",
+    "status_source_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Golden",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.goldenultra.com/",
+    "registration_url": "https://www.goldenultra.com/registration",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-09-10",
+    "entry_open_date": "2026-11-25",
+    "entry_close_date": null,
+    "date_source": "https://www.goldenultra.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "race_end_date": "2027-09-12",
+    "race_date_note": "Three-day ultra and single-day trail events; individual distances vary by day."
+  },
+  {
+    "id": "canadian-death-race",
+    "name": "Canadian Death Race",
+    "country": "Canada",
+    "continent": "North America",
+    "city": "Grande Cache",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Direct / qualifying",
+    "official_url": "https://www.sinistersports.ca/deathrace/",
+    "registration_url": "https://www.sinistersports.ca/deathrace/course",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Technical mountain terrain with ~5,180 m climbing on the full course"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.sinistersports.ca/deathrace/course",
+      "verified_at": "2026-10-15"
+    },
+    "ultra_distances_km": [
+      118
+    ],
+    "entry_notes": "Event includes 118 km ultra; smaller 41.3 km race is not an official 42.195 km marathon."
+  },
+  {
+    "id": "oslo-marathon",
+    "name": "Oslo Marathon",
+    "country": "Norway",
+    "continent": "Europe",
+    "city": "Oslo",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://oslomaraton.no/en/",
+    "registration_url": "https://oslomaraton.no/en/distanser/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "bergen-city-marathon",
+    "name": "Bergen City Marathon",
+    "country": "Norway",
+    "continent": "Europe",
+    "city": "Bergen",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.bergencitymarathon.no/",
+    "registration_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-04-24",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.bergencitymarathon.no/velkommen/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Marathon cutoff 6 h, half marathon cutoff 4 h"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.bergencitymarathon.no/en/18794-2/",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "tromso-midnight-sun-marathon",
+    "name": "Tromsø Midnight Sun Marathon",
+    "country": "Norway",
+    "continent": "Europe",
+    "city": "Tromsø",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://msm.no/en/",
+    "registration_url": "https://msm.no/en/midnight-sun-marathon/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-06-19",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://msm.no/en/midnight-sun-marathon/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://msm.no/en/midnight-sun-marathon/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "stavanger-marathon",
+    "name": "Stavanger Marathon",
+    "country": "Norway",
+    "continent": "Europe",
+    "city": "Stavanger",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://stavangermarathon.no/",
+    "registration_url": "https://stavangermarathon.no/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-08-28",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://stavangermarathon.no/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Marathon cutoff 6 h; half marathon cutoff 3 h 30 min"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://stavangermarathon.no/en/home/participant-information/",
+      "verified_at": "2026-10-15"
+    },
+    "entry_open_note": "February 2027; exact date TBA"
+  },
+  {
+    "id": "reykjavik-marathon",
+    "name": "Reykjavík Marathon",
+    "country": "Iceland",
+    "continent": "Europe",
+    "city": "Reykjavík",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.rmi.is/en/",
+    "registration_url": "https://www.rmi.is/en/registration",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-08-21",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.rmi.is/en/registration",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "Marathon minimum age 18; half marathon minimum age 15; general and competition tickets are different categories"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.rmi.is/en/faq",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://www.rmi.is/en/registration",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "laugavegur-ultramarathon",
+    "name": "Laugavegur Ultra Marathon",
+    "country": "Iceland",
+    "continent": "Europe",
+    "city": "Landmannalaugar–Þórsmörk",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Ballot / qualifying",
+    "official_url": "https://www.laugavegshlaup.is/en",
+    "registration_url": "https://www.laugavegshlaup.is/en/race-for-you",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-07-17",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.laugavegshlaup.is/en",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": 18,
+      "residency": null,
+      "qualifying_time": "ITRA performance index 370 or higher for eligibility",
+      "other_requirements": [
+        "Highest-rated eligible entrants receive secured places; other eligible runners enter the lottery",
+        "Required gear includes space blanket, whistle and phone"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.laugavegshlaup.is/en/race-for-you",
+      "verified_at": "2026-10-15"
+    },
+    "ultra_distances_km": [
+      55
+    ]
+  },
+  {
+    "id": "fire-and-ice-ultra",
+    "name": "Fire + Ice Ultra",
+    "country": "Iceland",
+    "continent": "Europe",
+    "city": "Central Iceland",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://fireandiceultra.com/",
+    "registration_url": "https://fireandiceultra.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-08-30",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://fireandiceultra.com/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": "£700 deposit; remaining payments per organiser schedule.",
+    "entry_options": [
+      {
+        "category": "2027 6-day self-supported stage race",
+        "distance": "Ultra",
+        "currency": "GBP",
+        "amount": 2800
+      }
+    ],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "race_end_date": "2027-09-04",
+    "ultra_distances_km": [
+      250
+    ],
+    "verified_entry_status": "open",
+    "status_source_url": "https://fireandiceultra.com/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "goteborgsvarvet-half-marathon",
+    "name": "Göteborgsvarvet Half Marathon",
+    "country": "Sweden",
+    "continent": "Europe",
+    "city": "Gothenburg",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Sold out / waiting list",
+    "official_url": "https://www.goteborgsvarvet.se/en/",
+    "registration_url": "https://www.goteborgsvarvet.se/en/start-list-results/register-for-a-race-2",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-05-22",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://www.goteborgsvarvet.se/en/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "verified_entry_status": "closed",
+    "status_source_url": "https://www.goteborgsvarvet.se/en/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "country": "Sweden",
+    "continent": "Europe",
+    "city": "Uppsala",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.uppsalamarathon.se/en/",
+    "registration_url": "https://www.uppsalamarathon.se/en/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": "2026-10-18",
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "entry_notes": "Official site advertises opening for 2027 on 18 October 2026; exact 2027 race date not yet verified."
+  },
+  {
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "country": "Sweden",
+    "continent": "Europe",
+    "city": "Kullaberg",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://kullamannen.utmb.world/",
+    "registration_url": "https://kullamannen.utmb.world/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "ultra_distances_km": [
+      53,
+      108,
+      173
+    ],
+    "entry_notes": "Official site currently shows 2026 race editions; do not assume registration dates apply to 2027."
+  },
+  {
+    "id": "helsinki-half-marathon",
+    "name": "Helsinki Half Marathon",
+    "country": "Finland",
+    "continent": "Europe",
+    "city": "Helsinki",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://helsinkihalfmarathon.fi/en/",
+    "registration_url": "https://helsinkihalfmarathon.fi/en/event-info/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-06-12",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://helsinkihalfmarathon.fi/en/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "verified_entry_status": "open",
+    "status_source_url": "https://helsinkihalfmarathon.fi/en/",
+    "status_verified_at": "2026-10-15"
+  },
+  {
+    "id": "paavo-nurmi-marathon",
+    "name": "Paavo Nurmi Marathon",
+    "country": "Finland",
+    "continent": "Europe",
+    "city": "Turku",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/",
+    "registration_url": "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "entry_notes": "2026 race confirmed, 2027 event date and registration window to be verified."
   }
 ]

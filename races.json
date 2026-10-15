@@ -5414,7 +5414,7 @@
     "registration_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
     "registration_page_verified": false,
     "priority": 2,
-    "race_date": "2027-10-10",
+    "race_date": null,
     "entry_open_date": "2026-11-16",
     "entry_close_date": null,
     "date_source": "https://www.runvictoriamarathon.com/",
@@ -5430,7 +5430,7 @@
       "source_url": null,
       "verified_at": null
     },
-    "race_date_note": "Organiser lists 8–10 October weekend; 2027 Sunday should be 10 October (site contains an inconsistent Sunday 11 October statement), confirm before travel."
+    "race_date_note": "2027 weekend is 8–10 October. Organiser's race-day text appears to reuse 2026 weekday/date; exact marathon day needs confirmation."
   },
   {
     "id": "manitoba-marathon",

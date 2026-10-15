@@ -68,6 +68,7 @@ a:hover { color: #ffcf9c; }
 
 
 /* Optional email alerts – disabled until a secure subscription API is configured. */
+.alerts-panel[hidden]{display:none!important}
 .alerts-panel{margin:14px 0 22px;border:1px solid var(--border);border-radius:12px;background:#1c2026}
 .alerts-panel summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;cursor:pointer;list-style:none}
 .alerts-panel summary::-webkit-details-marker{display:none}
@@ -200,7 +201,7 @@ a:hover { color: #ffcf9c; }
     <div class="ticker-track" id="ticker-track"><span class="ticker-empty">Loading open entries…</span></div>
   </div>
 </section>
-<section class="alerts-panel" id="alerts-panel">
+<section class="alerts-panel" id="alerts-panel" hidden>
  <details id="alerts-details">
   <summary><span><strong>Get personalised race alerts by email</strong><small>Pick the countries and distances you care about</small></span><span class="alerts-chevron" aria-hidden="true">⌄</span></summary>
   <div class="alerts-content">

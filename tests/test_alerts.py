@@ -94,6 +94,8 @@ class SignupPanelTests(unittest.TestCase):
         self.assertFalse(cfg.get("turnstile_site_key"))
         index=(ROOT/"site"/"index.html").read_text()
         self.assertIn('id="alerts-fields" disabled',index)
+        self.assertIn('id="alerts-panel" hidden',index)
+        self.assertIn(".alerts-panel[hidden]{display:none!important}",index)
         self.assertIn("initAlertSignup()",index)
         self.assertIn('id="alerts-consent"',index)
 

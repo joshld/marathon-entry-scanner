@@ -23,7 +23,7 @@ The locations selector currently uses these continents: **Oceania, Asia, Europe,
 
 ## Email subscriptions (optional, not yet active)
 
-The dashboard now includes a **Get personalised race alerts by email** panel beneath the Entries Open banner. Visitors can select countries, marathon/half-marathon/ultra distances, alert types (confirmed entries open, published openings within seven days, newly tracked races), and a daily or weekly digest.
+**The email subscription panel is temporarily hidden on the public dashboard.** Its code remains available to reactivate later. When enabled, it will appear beneath the Entries Open banner. Visitors can select countries, marathon/half-marathon/ultra distances, alert types (confirmed entries open, published openings within seven days, newly tracked races), and a daily or weekly digest.
 
 **Email signup is deliberately disabled until a secure backend is configured.** No emails are collected by the public dashboard or sent automatically yet.
 

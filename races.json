@@ -45,7 +45,8 @@
     },
     "verified_entry_status": "open",
     "status_verified_at": "2026-10-15",
-    "status_source_url": "https://www.tcssydneymarathon.com/sign-up"
+    "status_source_url": "https://www.tcssydneymarathon.com/sign-up",
+    "continent": "Oceania"
   },
   {
     "id": "gold-coast",
@@ -79,7 +80,8 @@
     },
     "race_end_date": "2027-07-04",
     "race_date_note": "Half marathon: 3 July; full marathon: 4 July 2027.",
-    "entry_open_note": "Early December 2026 (exact day TBA)"
+    "entry_open_note": "Early December 2026 (exact day TBA)",
+    "continent": "Oceania"
   },
   {
     "id": "brisbane",
@@ -128,7 +130,8 @@
     },
     "verified_entry_status": "open",
     "status_verified_at": "2026-10-15",
-    "status_source_url": "https://www.brisbanemarathon.com.au/marathon"
+    "status_source_url": "https://www.brisbanemarathon.com.au/marathon",
+    "continent": "Oceania"
   },
   {
     "id": "canberra",
@@ -159,7 +162,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "sunshine-coast",
@@ -190,7 +194,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "melbourne",
@@ -221,7 +226,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "tokyo",
@@ -268,7 +274,8 @@
       "source_url": "https://www.marathon.tokyo/en/about/outline/",
       "verified_at": "2026-10-15"
     },
-    "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows."
+    "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows.",
+    "continent": "Asia"
   },
   {
     "id": "osaka",
@@ -298,7 +305,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kyoto",
@@ -352,7 +360,8 @@
       "source_url": "https://a.kyoto-marathon.com/en/info/",
       "verified_at": "2026-10-15"
     },
-    "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule."
+    "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule.",
+    "continent": "Asia"
   },
   {
     "id": "nagoya",
@@ -382,7 +391,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "rotorua",
@@ -413,7 +423,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "wellington",
@@ -444,7 +455,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "hobart-marathon",
@@ -475,7 +487,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "adelaide-marathon-festival",
@@ -506,7 +519,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "perth-running-festival",
@@ -537,7 +551,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "perth-marathon",
@@ -568,7 +583,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "bunbury-3-waters-running-festival",
@@ -599,7 +615,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "margaret-river-ultra-marathon",
@@ -632,7 +649,8 @@
     },
     "ultra_distances_km": [
       80
-    ]
+    ],
+    "continent": "Oceania"
   },
   {
     "id": "great-ocean-road-running-festival",
@@ -663,7 +681,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "ballarat-marathon",
@@ -694,7 +713,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "bendigo-running-festival",
@@ -724,7 +744,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "geelong-half-marathon",
@@ -754,7 +775,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "run-melbourne",
@@ -784,7 +806,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "mornington-running-festival",
@@ -814,7 +837,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "launceston-running-festival",
@@ -844,7 +868,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "cadbury-marathon",
@@ -875,7 +900,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "sydney-half-marathon",
@@ -905,7 +931,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "runaway-sydney-half-marathon",
@@ -935,7 +962,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "newcastle-running-festival",
@@ -966,7 +994,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "port-macquarie-running-festival",
@@ -997,7 +1026,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "mudgee-running-festival",
@@ -1028,7 +1058,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "orange-running-festival",
@@ -1059,7 +1090,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "dubbo-stampede",
@@ -1089,7 +1121,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "bathurst-half-marathon",
@@ -1119,7 +1152,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "noosa-marathon",
@@ -1150,7 +1184,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "cairns-marathon-festival",
@@ -1181,7 +1216,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "townsville-running-festival",
@@ -1212,7 +1248,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "mackay-marina-run",
@@ -1242,7 +1279,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "7-cairns-marathon",
@@ -1273,7 +1311,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "toowoomba-marathon",
@@ -1304,7 +1343,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "hervey-bay-running-festival",
@@ -1334,7 +1374,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "darwin-city2surf-half-marathon",
@@ -1364,7 +1405,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "alice-springs-running-festival",
@@ -1395,7 +1437,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "nagoya-women-s-marathon",
@@ -1425,7 +1468,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kobe-marathon",
@@ -1455,7 +1499,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "fukuoka-marathon",
@@ -1485,7 +1530,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "hokkaido-marathon",
@@ -1515,7 +1561,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "nara-marathon",
@@ -1545,7 +1592,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kumamoto-castle-marathon",
@@ -1575,7 +1623,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "shizuoka-marathon",
@@ -1605,7 +1654,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "yokohama-marathon",
@@ -1635,7 +1685,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kanazawa-marathon",
@@ -1665,7 +1716,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "toyama-marathon",
@@ -1695,7 +1747,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "okayama-marathon",
@@ -1725,7 +1778,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "matsue-castle-marathon",
@@ -1755,7 +1809,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "tsukuba-marathon",
@@ -1785,7 +1840,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "nagano-marathon",
@@ -1815,7 +1871,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "sendai-international-half-marathon",
@@ -1845,7 +1902,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "sapporo-marathon",
@@ -1875,7 +1933,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kagawa-marugame-international-half-marathon",
@@ -1905,7 +1964,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "osaka-half-marathon",
@@ -1935,7 +1995,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "shonan-international-marathon",
@@ -1965,7 +2026,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "niigata-city-marathon",
@@ -1995,7 +2057,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "beppu-oita-mainichi-marathon",
@@ -2025,7 +2088,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "lake-biwa-marathon",
@@ -2055,7 +2119,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "okinawa-marathon",
@@ -2085,7 +2150,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "naha-marathon",
@@ -2115,7 +2181,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "ibusuki-nanohana-marathon",
@@ -2145,7 +2212,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "miyazaki-aoshima-taiheiyo-marathon",
@@ -2175,7 +2243,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "auckland-marathon",
@@ -2206,7 +2275,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "christchurch-marathon",
@@ -2237,7 +2307,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "queenstown-marathon",
@@ -2268,7 +2339,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "hawke-s-bay-marathon",
@@ -2299,7 +2371,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "taupo-marathon",
@@ -2330,12 +2403,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Oceania"
   },
   {
     "id": "berlin-marathon",
     "name": "Berlin Marathon",
-    "country": "Other",
+    "country": "Germany",
     "city": "Berlin",
     "distance": [
       "Marathon"
@@ -2360,12 +2434,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "london-marathon",
     "name": "London Marathon",
-    "country": "Other",
+    "country": "United Kingdom",
     "city": "London",
     "distance": [
       "Marathon"
@@ -2392,12 +2467,13 @@
       "verified_at": null
     },
     "race_end_date": "2027-04-25",
-    "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days."
+    "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days.",
+    "continent": "Europe"
   },
   {
     "id": "chicago-marathon",
     "name": "Chicago Marathon",
-    "country": "Other",
+    "country": "United States",
     "city": "Chicago",
     "distance": [
       "Marathon"
@@ -2422,12 +2498,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "new-york-city-marathon",
     "name": "New York City Marathon",
-    "country": "Other",
+    "country": "United States",
     "city": "New York",
     "distance": [
       "Marathon"
@@ -2452,12 +2529,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "boston-marathon",
     "name": "Boston Marathon",
-    "country": "Other",
+    "country": "United States",
     "city": "Boston",
     "distance": [
       "Marathon"
@@ -2482,12 +2560,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "valencia-marathon",
     "name": "Valencia Marathon",
-    "country": "Other",
+    "country": "Spain",
     "city": "Valencia",
     "distance": [
       "Marathon"
@@ -2512,12 +2591,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "singapore-marathon",
     "name": "Singapore Marathon",
-    "country": "Other",
+    "country": "Singapore",
     "city": "Singapore",
     "distance": [
       "Marathon",
@@ -2543,12 +2623,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "honolulu-marathon",
     "name": "Honolulu Marathon",
-    "country": "Other",
+    "country": "United States",
     "city": "Honolulu",
     "distance": [
       "Marathon"
@@ -2573,7 +2654,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "race_date": "2027-05-13",
@@ -2613,7 +2695,8 @@
     "race_date_note": "Multi-day festival, 13–16 May 2027; individual race dates vary.",
     "entry_type": "Direct / capacity",
     "priority": 1,
-    "race_end_date": "2027-05-16"
+    "race_end_date": "2027-05-16",
+    "continent": "Oceania"
   },
   {
     "race_date": null,
@@ -2649,7 +2732,8 @@
     "registration_url": "https://www.theguzzlerultra.com.au/",
     "race_date_note": "17–18 July 2027; check distance-specific start dates",
     "entry_type": "Direct / capacity",
-    "priority": 1
+    "priority": 1,
+    "continent": "Oceania"
   },
   {
     "race_date": null,
@@ -2684,7 +2768,8 @@
     "registration_url": "https://www.cape2capeultra.com.au/",
     "race_date_note": "12–13 June 2027",
     "entry_type": "Direct",
-    "priority": 2
+    "priority": 2,
+    "continent": "Oceania"
   },
   {
     "race_date": null,
@@ -2718,7 +2803,8 @@
     "official_url": "https://www.ultraperth.com.au/",
     "registration_url": "https://www.ultraperth.com.au/",
     "entry_type": "Direct / verify",
-    "priority": 2
+    "priority": 2,
+    "continent": "Oceania"
   },
   {
     "race_date": null,
@@ -2752,7 +2838,8 @@
     "official_url": "https://saromanblue.jp/",
     "registration_url": "https://saromanblue.jp/outline/",
     "entry_type": "Direct / verify",
-    "priority": 1
+    "priority": 1,
+    "continent": "Asia"
   },
   {
     "race_date": null,
@@ -2786,7 +2873,8 @@
     "official_url": "https://mtfuji100.com/",
     "registration_url": "https://mtfuji100.com/",
     "entry_type": "Qualifying / verify",
-    "priority": 1
+    "priority": 1,
+    "continent": "Asia"
   },
   {
     "id": "manchester-marathon",
@@ -2817,7 +2905,8 @@
       "source_url": null,
       "verified_at": null
     },
-    "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release."
+    "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release.",
+    "continent": "Europe"
   },
   {
     "id": "brighton-marathon",
@@ -2847,7 +2936,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "edinburgh-marathon-festival",
@@ -2879,7 +2969,8 @@
       "source_url": null,
       "verified_at": null
     },
-    "entry_notes": "2027 marathon and half marathon race on 30 May 2027."
+    "entry_notes": "2027 marathon and half marathon race on 30 May 2027.",
+    "continent": "Europe"
   },
   {
     "id": "loch-ness-marathon",
@@ -2909,7 +3000,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "yorkshire-marathon",
@@ -2939,7 +3031,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "cardiff-half-marathon",
@@ -2969,7 +3062,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "great-north-run",
@@ -2999,7 +3093,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "belfast-city-marathon",
@@ -3029,7 +3124,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "oxford-half-marathon",
@@ -3059,7 +3155,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "bath-half-marathon",
@@ -3089,13 +3186,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "paris-marathon",
     "name": "Paris Marathon",
-    "country": "Europe",
-    "city": "Paris, France",
+    "country": "France",
+    "city": "Paris",
     "distance": [
       "Marathon"
     ],
@@ -3119,13 +3217,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "amsterdam-marathon",
     "name": "Amsterdam Marathon",
-    "country": "Europe",
-    "city": "Amsterdam, Netherlands",
+    "country": "Netherlands",
+    "city": "Amsterdam",
     "distance": [
       "Marathon",
       "Half marathon"
@@ -3151,13 +3250,14 @@
       "source_url": null,
       "verified_at": null
     },
-    "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday."
+    "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday.",
+    "continent": "Europe"
   },
   {
     "id": "rotterdam-marathon",
     "name": "Rotterdam Marathon",
-    "country": "Europe",
-    "city": "Rotterdam, Netherlands",
+    "country": "Netherlands",
+    "city": "Rotterdam",
     "distance": [
       "Marathon"
     ],
@@ -3181,13 +3281,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "barcelona-marathon",
     "name": "Barcelona Marathon",
-    "country": "Europe",
-    "city": "Barcelona, Spain",
+    "country": "Spain",
+    "city": "Barcelona",
     "distance": [
       "Marathon"
     ],
@@ -3211,13 +3312,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "rome-marathon",
     "name": "Rome Marathon",
-    "country": "Europe",
-    "city": "Rome, Italy",
+    "country": "Italy",
+    "city": "Rome",
     "distance": [
       "Marathon"
     ],
@@ -3241,13 +3343,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "vienna-city-marathon",
     "name": "Vienna City Marathon",
-    "country": "Europe",
-    "city": "Vienna, Austria",
+    "country": "Austria",
+    "city": "Vienna",
     "distance": [
       "Marathon",
       "Half marathon"
@@ -3272,13 +3375,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "copenhagen-marathon",
     "name": "Copenhagen Marathon",
-    "country": "Europe",
-    "city": "Copenhagen, Denmark",
+    "country": "Denmark",
+    "city": "Copenhagen",
     "distance": [
       "Marathon"
     ],
@@ -3302,13 +3406,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "prague-marathon",
     "name": "Prague Marathon",
-    "country": "Europe",
-    "city": "Prague, Czechia",
+    "country": "Czechia",
+    "city": "Prague",
     "distance": [
       "Marathon"
     ],
@@ -3332,13 +3437,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "frankfurt-marathon",
     "name": "Frankfurt Marathon",
-    "country": "Europe",
-    "city": "Frankfurt, Germany",
+    "country": "Germany",
+    "city": "Frankfurt",
     "distance": [
       "Marathon"
     ],
@@ -3362,13 +3468,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "stockholm-marathon",
     "name": "Stockholm Marathon",
-    "country": "Europe",
-    "city": "Stockholm, Sweden",
+    "country": "Sweden",
+    "city": "Stockholm",
     "distance": [
       "Marathon"
     ],
@@ -3392,13 +3499,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "athens-authentic-marathon",
     "name": "Athens Authentic Marathon",
-    "country": "Europe",
-    "city": "Athens, Greece",
+    "country": "Greece",
+    "city": "Athens",
     "distance": [
       "Marathon"
     ],
@@ -3422,13 +3530,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "lisbon-marathon",
     "name": "Lisbon Marathon",
-    "country": "Europe",
-    "city": "Lisbon, Portugal",
+    "country": "Portugal",
+    "city": "Lisbon",
     "distance": [
       "Marathon"
     ],
@@ -3452,13 +3561,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "seville-marathon",
     "name": "Seville Marathon",
-    "country": "Europe",
-    "city": "Seville, Spain",
+    "country": "Spain",
+    "city": "Seville",
     "distance": [
       "Marathon"
     ],
@@ -3482,13 +3592,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "zurich-marathon",
     "name": "Zurich Marathon",
-    "country": "Europe",
-    "city": "Zurich, Switzerland",
+    "country": "Switzerland",
+    "city": "Zurich",
     "distance": [
       "Marathon"
     ],
@@ -3512,13 +3623,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "helsinki-city-marathon",
     "name": "Helsinki City Marathon",
-    "country": "Europe",
-    "city": "Helsinki, Finland",
+    "country": "Finland",
+    "city": "Helsinki",
     "distance": [
       "Marathon",
       "Half marathon"
@@ -3543,13 +3655,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "dublin-marathon",
     "name": "Dublin Marathon",
-    "country": "Europe",
-    "city": "Dublin, Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
     "distance": [
       "Marathon"
     ],
@@ -3573,13 +3686,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "milan-marathon",
     "name": "Milan Marathon",
-    "country": "Europe",
-    "city": "Milan, Italy",
+    "country": "Italy",
+    "city": "Milan",
     "distance": [
       "Marathon"
     ],
@@ -3603,13 +3717,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "copenhagen-half-marathon",
     "name": "Copenhagen Half Marathon",
-    "country": "Europe",
-    "city": "Copenhagen, Denmark",
+    "country": "Denmark",
+    "city": "Copenhagen",
     "distance": [
       "Half marathon"
     ],
@@ -3633,13 +3748,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "berlin-half-marathon",
     "name": "Berlin Half Marathon",
-    "country": "Europe",
-    "city": "Berlin, Germany",
+    "country": "Germany",
+    "city": "Berlin",
     "distance": [
       "Half marathon"
     ],
@@ -3663,13 +3779,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "valencia-half-marathon",
     "name": "Valencia Half Marathon",
-    "country": "Europe",
-    "city": "Valencia, Spain",
+    "country": "Spain",
+    "city": "Valencia",
     "distance": [
       "Half marathon"
     ],
@@ -3693,7 +3810,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "los-angeles-marathon",
@@ -3723,7 +3841,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "philadelphia-marathon",
@@ -3754,7 +3873,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "houston-marathon",
@@ -3785,7 +3905,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "marine-corps-marathon",
@@ -3815,7 +3936,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "grandma-s-marathon",
@@ -3845,7 +3967,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "big-sur-international-marathon",
@@ -3875,7 +3998,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "california-international-marathon",
@@ -3905,7 +4029,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "twin-cities-marathon",
@@ -3935,7 +4060,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "detroit-free-press-marathon",
@@ -3966,7 +4092,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "san-francisco-marathon",
@@ -3997,7 +4124,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "new-york-city-half-marathon",
@@ -4027,7 +4155,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "brooklyn-half-marathon",
@@ -4057,7 +4186,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "seattle-marathon",
@@ -4088,7 +4218,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "pittsburgh-marathon",
@@ -4119,13 +4250,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "utmb-mont-blanc",
     "name": "UTMB Mont-Blanc",
-    "country": "International Ultra",
-    "city": "Chamonix, France",
+    "country": "France",
+    "city": "Chamonix",
     "distance": [
       "Ultra"
     ],
@@ -4149,13 +4281,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "ccc-by-utmb",
     "name": "CCC by UTMB",
-    "country": "International Ultra",
-    "city": "Chamonix, France",
+    "country": "France",
+    "city": "Chamonix",
     "distance": [
       "Ultra"
     ],
@@ -4179,12 +4312,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "western-states-endurance-run",
     "name": "Western States Endurance Run",
-    "country": "International Ultra",
+    "country": "United States",
     "city": "Olympic Valley, California",
     "distance": [
       "Ultra"
@@ -4209,12 +4343,13 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "leadville-trail-100-run",
     "name": "Leadville Trail 100 Run",
-    "country": "International Ultra",
+    "country": "United States",
     "city": "Leadville, Colorado",
     "distance": [
       "Ultra"
@@ -4239,7 +4374,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "North America"
   },
   {
     "id": "comrades-marathon",
@@ -4280,13 +4416,14 @@
     ],
     "verified_entry_status": "closed",
     "status_verified_at": "2026-10-15",
-    "status_source_url": "https://enter.comrades.com/comrades-2027"
+    "status_source_url": "https://enter.comrades.com/comrades-2027",
+    "continent": "Africa"
   },
   {
     "id": "spartathlon",
     "name": "Spartathlon",
-    "country": "International Ultra",
-    "city": "Athens to Sparta, Greece",
+    "country": "Greece",
+    "city": "Athens to Sparta",
     "distance": [
       "Ultra"
     ],
@@ -4310,13 +4447,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "lavaredo-ultra-trail",
     "name": "Lavaredo Ultra Trail",
-    "country": "International Ultra",
-    "city": "Cortina d'Ampezzo, Italy",
+    "country": "Italy",
+    "city": "Cortina d'Ampezzo",
     "distance": [
       "Ultra"
     ],
@@ -4340,13 +4478,14 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "transgrancanaria",
     "name": "Transgrancanaria",
-    "country": "International Ultra",
-    "city": "Gran Canaria, Spain",
+    "country": "Spain",
+    "city": "Gran Canaria",
     "distance": [
       "Ultra"
     ],
@@ -4370,7 +4509,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Europe"
   },
   {
     "id": "hong-kong-marathon",
@@ -4417,7 +4557,8 @@
       "verification_status": "verified",
       "source_url": "https://www.hkmarathon.com/race-information/",
       "verified_at": "2026-10-15"
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "taipei-marathon",
@@ -4450,7 +4591,8 @@
       "verification_status": "partially_verified",
       "source_url": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
       "verified_at": "2026-10-15"
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "seoul-marathon",
@@ -4482,7 +4624,8 @@
       "verification_status": "partially_verified",
       "source_url": "https://en.seoul-marathon.com/83",
       "verified_at": "2026-10-15"
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "daegu-marathon",
@@ -4512,7 +4655,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "maybank-bali-marathon",
@@ -4543,7 +4687,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "jakarta-international-marathon",
@@ -4574,7 +4719,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "sun-moon-lake-marathon",
@@ -4604,7 +4750,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "chuncheon-marathon",
@@ -4634,7 +4781,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "gyeongju-international-marathon",
@@ -4664,7 +4812,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "jeju-international-ultramarathon",
@@ -4694,7 +4843,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "amazing-thailand-marathon",
@@ -4726,7 +4876,8 @@
       "source_url": null,
       "verified_at": null
     },
-    "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov"
+    "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov",
+    "continent": "Asia"
   },
   {
     "id": "bangkok-marathon",
@@ -4770,7 +4921,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "laguna-phuket-marathon",
@@ -4801,7 +4953,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "kuala-lumpur-standard-chartered-marathon",
@@ -4832,7 +4985,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "penang-bridge-international-marathon",
@@ -4863,7 +5017,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "techcombank-ho-chi-minh-city-marathon",
@@ -4894,7 +5049,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "hcmc-marathon",
@@ -4925,7 +5081,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "hanoi-heritage-marathon",
@@ -4956,7 +5113,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "cebu-marathon",
@@ -5000,7 +5158,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   },
   {
     "id": "sundown-marathon",
@@ -5031,6 +5190,7 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "continent": "Asia"
   }
 ]

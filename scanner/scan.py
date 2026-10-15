@@ -12,8 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
 HEADERS = {"User-Agent":"MarathonEntryWatch/0.2 (public race page monitoring)","Accept-Language":"en-AU,en;q=0.8,ja;q=0.6"}
-OPEN = re.compile(r"(?:\\b(?:register now|entries (?:are )?open|registration (?:is )?open|enter now|ballot (?:is )?open)\\b|エントリー受付中|申込受付中|抽選申込受付中)", re.I)
-CLOSED = re.compile(r"(?:\\b(?:entries (?:are )?closed|registration (?:is )?closed|ballot (?:is )?closed|sold out)\\b|受付終了|募集終了|定員に達しました)", re.I)
+OPEN = re.compile(r"(?:\\b(?:register now|register today|entries (?:are )?open|registrations? (?:are |is )?open|entries open now|entry (?:is )?open|enter now|book now|secure your spot|ballot (?:is )?open|2027 entries open)\\b|エントリー受付中|申込受付中|抽選申込受付中|エントリー開始|申し込み受付中)", re.I)
+CLOSED = re.compile(r"(?:\\b(?:entries (?:are )?closed|registrations? (?:are |is )?closed|ballot (?:is )?closed|sold out|entries close)\\b|受付終了|募集終了|定員に達しました)", re.I)
 
 def load(path, default):
     try:
@@ -38,6 +38,8 @@ def check(session, race):
     target = race.get("registration_url") or race["official_url"]
     result = {**race, "checked_at":NOW,"status":"unknown","http_status":None,
               "evidence":"","error":"","checked_url":target,"date_window_status":date_status(race)}
+    # Generic text hints are deliberately not treated as confirmed availability.
+    # The race configuration may provide verified edition-specific entry windows.
     try:
         resp = session.get(target,headers=HEADERS,timeout=12)
         result["http_status"] = resp.status_code
@@ -63,6 +65,10 @@ def check(session, race):
             result["status"]="no_signal"
     except requests.RequestException as exc:
         result["error"]=str(exc)[:200]
+        result["status"]="unknown"
+    # A published date window is distinct from site-text hints.
+    # It is never silently converted into a confirmed live entry status.
+    result["registration_evidence_status"] = result["status"]
     return result
 
 def main():

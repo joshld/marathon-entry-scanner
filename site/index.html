@@ -83,6 +83,32 @@ a:hover { color: #ffcf9c; }
 .geo-children .country-name{flex:1;min-width:0}
 .geo-children .geo-count{margin-left:4px}
 
+/* Keep the currently expanded menu above later sibling controls on desktop.
+   Each filter is positioned, so equal z-index values previously hid earlier menus. */
+.distance-filter[open]{z-index:100}
+.distance-filter[open] .distance-menu{z-index:101}
+
+/* On a narrow screen, menus belong in normal document flow, directly beneath
+   their own summary. This moves subsequent filters down instead of covering
+   the menu or making its country checkboxes unreachable. */
+@media (max-width:700px){
+  .filters{align-items:stretch}
+  .filters .distance-filter{width:100%;min-width:0;max-width:none;flex:1 0 100%}
+  .filters .distance-filter .distance-menu{
+    position:static;
+    width:100%;
+    min-width:0;
+    max-width:100%;
+    max-height:min(55vh,420px);
+    margin-top:6px;
+    box-shadow:none;
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+  .filters .distance-filter[open]{z-index:auto}
+  .filters .distance-filter[open] .distance-menu{z-index:auto}
+}
+
 /* Compact multi-select filters and race-date window */
 .distance-filter{min-width:150px;max-width:240px}
 .distance-menu{max-height:min(340px,60vh);overflow:auto;overscroll-behavior:contain}

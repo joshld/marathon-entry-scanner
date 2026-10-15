@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "at": "2026-10-15T03:27:28+00:00",
+    "id": "gold-coast",
+    "name": "Gold Coast Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:27:28+00:00",
+    "id": "brisbane",
+    "name": "Brisbane Marathon Festival",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:27:28+00:00",
+    "id": "sunshine-coast",
+    "name": "Sunshine Coast Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:27:28+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:27:28+00:00",
+    "id": "rotorua",
+    "name": "Rotorua Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  }
+]

@@ -66,6 +66,40 @@ a:hover { color: #ffcf9c; }
 
 
 
+
+/* Optional email alerts – disabled until a secure subscription API is configured. */
+.alerts-panel{margin:14px 0 22px;border:1px solid var(--border);border-radius:12px;background:#1c2026}
+.alerts-panel summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;cursor:pointer;list-style:none}
+.alerts-panel summary::-webkit-details-marker{display:none}
+.alerts-panel summary strong{font-size:15px}
+.alerts-panel summary small{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+.alerts-chevron{color:var(--accent);font-size:23px}
+.alerts-content{border-top:1px solid var(--border);padding:16px}
+.alerts-info{font-size:13px;color:var(--accent-bright);line-height:1.5;margin:0 0 14px}
+.alerts-panel fieldset{border:0;margin:0;padding:0;min-width:0}
+.alerts-panel fieldset:disabled{opacity:.6}
+.alerts-panel label{cursor:pointer}
+.alerts-email{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.alerts-email input{width:min(100%,440px);padding:10px}
+.alerts-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:18px 0}
+.alerts-setting{min-width:0}
+.alerts-setting>strong{display:block;font-size:14px;margin-bottom:9px}
+.alerts-setting p{color:var(--muted);font-size:12px}
+.alerts-setting label{display:flex;align-items:center;gap:8px;font-size:13px;padding:6px 0}
+.alerts-setting input[type=checkbox],.alerts-setting input[type=radio],.alerts-consent input{min-width:0;flex:0 0 auto;width:17px;height:17px;accent-color:var(--accent);padding:0}
+.alerts-small-title{margin-top:18px}
+.alert-country-choices{max-height:230px;overflow-y:auto;padding:8px;border:1px solid var(--border);border-radius:10px;background:var(--bg)}
+.alert-country-choices details{border-bottom:1px solid var(--border)}
+.alert-country-choices details:last-child{border-bottom:0}
+.alert-country-choices summary{display:block;padding:8px 4px;font-size:13px;font-weight:600}
+.alert-country-choices .alert-region-countries{padding:0 8px 9px 14px}
+.alerts-actions{display:flex;gap:10px;margin-top:8px}
+.alerts-actions button{background:transparent;border:0;color:var(--accent-bright);font:inherit;font-size:12px;cursor:pointer;padding:5px}
+.alerts-consent{display:flex;align-items:flex-start;gap:9px;font-size:12px;line-height:1.5;margin:12px 0 18px}
+.alerts-submit{border:0;border-radius:9px;background:var(--accent);color:#171717;padding:12px 17px;font:inherit;font-weight:750;cursor:pointer}
+.alerts-submit:disabled{cursor:not-allowed;opacity:.55}
+@media(max-width:700px){.alerts-grid{grid-template-columns:1fr}.alerts-content{padding:14px}}
+
 /* Capped open-entry ticker: duplicates only for the visual desktop marquee.
    Interactive clones are removed from keyboard navigation and accessibility. */
 .open-ticker{margin:22px 0 10px;padding:14px 0 12px;border-top:1px solid #454952;border-bottom:1px solid #454952}
@@ -166,6 +200,43 @@ a:hover { color: #ffcf9c; }
     <div class="ticker-track" id="ticker-track"><span class="ticker-empty">Loading open entries…</span></div>
   </div>
 </section>
+<section class="alerts-panel" id="alerts-panel">
+ <details id="alerts-details">
+  <summary><span><strong>Get personalised race alerts by email</strong><small>Pick the countries and distances you care about</small></span><span class="alerts-chevron" aria-hidden="true">⌄</span></summary>
+  <div class="alerts-content">
+   <p class="alerts-info" id="alerts-info" role="status" aria-live="polite">Email subscriptions are being configured. No email addresses are being collected yet.</p>
+   <form id="alerts-form" novalidate>
+    <fieldset id="alerts-fields" disabled>
+     <label class="alerts-email">Your email address<input type="email" id="alerts-email" name="email" placeholder="you@example.com" autocomplete="email" maxlength="254" required></label>
+     <div class="alerts-grid">
+      <div class="alerts-setting">
+       <strong>Where?</strong>
+       <p>Select the countries you'd like to follow.</p>
+       <div class="alert-country-choices" id="alert-country-choices"></div>
+       <div class="alerts-actions"><button type="button" id="alert-country-all">All countries</button><button type="button" id="alert-country-none">Clear</button></div>
+      </div>
+      <div class="alerts-setting">
+       <strong>Which distances?</strong>
+       <label><input type="checkbox" name="alert_distance" value="M" checked> Marathon</label>
+       <label><input type="checkbox" name="alert_distance" value="H" checked> Half marathon</label>
+       <label><input type="checkbox" name="alert_distance" value="U" checked> Ultra</label>
+       <strong class="alerts-small-title">Send alerts for</strong>
+       <label><input type="checkbox" name="alert_type" value="open" checked> Confirmed newly open entries</label>
+       <label><input type="checkbox" name="alert_type" value="soon" checked> Entries opening within 7 days</label>
+       <label><input type="checkbox" name="alert_type" value="new" checked> Newly listed races</label>
+       <strong class="alerts-small-title">How often?</strong>
+       <label><input type="radio" name="alert_frequency" value="weekly" checked> Weekly summary</label>
+       <label><input type="radio" name="alert_frequency" value="daily"> Daily if anything changes</label>
+      </div>
+     </div>
+     <label class="alerts-consent"><input type="checkbox" id="alerts-consent" required> I agree to receive the requested race-entry emails. I'll confirm my address by email and can unsubscribe at any time.</label>
+     <div id="alerts-turnstile" aria-label="Anti-spam verification"></div>
+     <button class="alerts-submit" id="alerts-submit" type="submit">Subscribe to race alerts</button>
+    </fieldset>
+   </form>
+  </div>
+ </details>
+</section>
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Open / possible open</span><strong id="opened">—</strong><div id="coverage" class="coverage"></div></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
 <p id="note"></p><div class="filters" id="filter-area">
   <input id="q" aria-label="Search races" placeholder="Search race or city…">
@@ -205,6 +276,101 @@ const detailsPanel=r=>{
   return `<details class="details"><summary>Entry prices & eligibility</summary><p><strong>Price:</strong> ${esc(price)}</p><p><strong>Restrictions:</strong> ${esc(requirements.join("; ")||"Not yet verified (do not assume unrestricted entry)")}</p><p><strong>Verification:</strong> ${esc(verified)}${e.source_url?' · <a href="'+esc(e.source_url)+'" rel="noopener noreferrer" target="_blank">Eligibility source ↗</a>':''}</p>${candidateDetails}</details>`;
 };
 const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',confirmed_closed:'Confirmed closed / sold out',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
+
+const ISO_CODES={
+ "Australia":"AU","New Zealand":"NZ","Japan":"JP","Hong Kong":"HK","Taiwan":"TW",
+ "South Korea":"KR","Indonesia":"ID","Thailand":"TH","Malaysia":"MY","Vietnam":"VN",
+ "Philippines":"PH","Singapore":"SG","United Kingdom":"GB","France":"FR",
+ "Germany":"DE","Netherlands":"NL","Spain":"ES","Italy":"IT","Austria":"AT",
+ "Denmark":"DK","Czechia":"CZ","Sweden":"SE","Greece":"GR","Portugal":"PT",
+ "Switzerland":"CH","Finland":"FI","Ireland":"IE","Norway":"NO","Iceland":"IS",
+ "United States":"US","Canada":"CA","South Africa":"ZA"
+};
+let alertsConfig=null, alertsTurnstileToken="";
+function buildAlertCountries(){
+  const byRegion=new Map();
+  for(const race of races){
+    const region=race.continent||countryContinents[race.country]||"Other locations";
+    if(!byRegion.has(region))byRegion.set(region,new Set());
+    byRegion.get(region).add(race.country);
+  }
+  const ordered=[...byRegion.keys()].sort((a,b)=>{
+    const ai=continentOrder.indexOf(a),bi=continentOrder.indexOf(b);
+    return (ai<0?999:ai)-(bi<0?999:bi)||a.localeCompare(b);
+  });
+  $("alert-country-choices").innerHTML=ordered.map(region=>
+    '<details><summary>'+esc(region)+'</summary><div class="alert-region-countries">'+
+    [...byRegion.get(region)].sort().map(country=>
+      '<label><input type="checkbox" name="alert_country" value="'+esc(ISO_CODES[country]||"")+'" checked> '+esc(country)+'</label>').join("")+
+    '</div></details>').join("");
+  $("alert-country-all").addEventListener("click",()=>document.querySelectorAll('input[name="alert_country"]').forEach(x=>x.checked=true));
+  $("alert-country-none").addEventListener("click",()=>document.querySelectorAll('input[name="alert_country"]').forEach(x=>x.checked=false));
+}
+function selectedAlertValues(name){return [...document.querySelectorAll('input[name="'+name+'"]:checked')].map(x=>x.value)}
+async function initAlertSignup(){
+  try{
+    const response=await fetch("./alerts-config.json?"+Date.now());
+    if(!response.ok)throw Error("Email alert configuration unavailable");
+    const config=await response.json();
+    if(typeof config.subscription_api_url!=="string"||!/^https:\/\/[^/]+/.test(config.subscription_api_url)||
+       typeof config.turnstile_site_key!=="string"||!config.turnstile_site_key)
+      return;
+    alertsConfig=config;
+    $("alerts-info").textContent="Choose your preferences, then confirm your email using the link we send you. No marketing emails.";
+    const script=document.createElement("script");
+    script.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    script.async=true;
+    script.onload=()=>{
+      if(!window.turnstile){$("alerts-info").textContent="Verification unavailable; please try later.";return}
+      window.turnstile.render("#alerts-turnstile",{
+        sitekey:config.turnstile_site_key,
+        callback:token=>{alertsTurnstileToken=token},
+        "expired-callback":()=>{alertsTurnstileToken=""},
+        "error-callback":()=>{alertsTurnstileToken=""}
+      });
+      $("alerts-fields").disabled=false;
+    };
+    script.onerror=()=>{$("alerts-info").textContent="Verification failed to load. Try again later."};
+    document.head.append(script);
+  }catch{
+    $("alerts-info").textContent="Email subscriptions are not live yet. The signup service is being configured; no addresses are being collected.";
+  }
+}
+$("alerts-form").addEventListener("submit",async event=>{
+  event.preventDefault();
+  if(!alertsConfig||$("alerts-fields").disabled)return;
+  const email=$("alerts-email").value.trim();
+  const countryBoxes=[...document.querySelectorAll('input[name="alert_country"]')];
+  const countries=selectedAlertValues("alert_country");
+  const distances=selectedAlertValues("alert_distance");
+  const types=selectedAlertValues("alert_type");
+  const frequency=document.querySelector('input[name="alert_frequency"]:checked')?.value;
+  if(!$("alerts-email").checkValidity()||!$("alerts-consent").checked||!countries.length||
+      countries.some(x=>!x)||!distances.length||!types.length||!alertsTurnstileToken){
+    $("alerts-info").textContent="Enter a valid email, choose your preferences, accept the subscription terms and complete verification.";
+    return;
+  }
+  const button=$("alerts-submit");button.disabled=true;
+  $("alerts-info").textContent="Requesting email confirmation…";
+  try{
+    const response=await fetch(alertsConfig.subscription_api_url.replace(/\/$/,"")+"/subscribe",{
+      method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({email,consent:true,turnstileToken:alertsTurnstileToken,
+        preferences:{c:countries.length===countryBoxes.length?"*":countries,d:distances,a:types,f:frequency}})
+    });
+    const data=await response.json();
+    if(!response.ok)throw Error(data.error||"Could not process subscription");
+    $("alerts-info").textContent=data.message||"Check your inbox to confirm your subscription.";
+    $("alerts-email").value="";
+  }catch(error){
+    $("alerts-info").textContent=error.message||"Subscription unavailable. Try later.";
+  }finally{
+    button.disabled=false;
+    alertsTurnstileToken="";
+    if(window.turnstile)window.turnstile.reset("#alerts-turnstile");
+  }
+});
+
 const OPEN_TICKER_LIMIT = 6;
 function brisbaneDay(){
   const parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Australia/Brisbane",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
@@ -383,6 +549,8 @@ try {
   $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
   $("note").textContent=d.disclaimer||"";
   buildLocationFilter();
+  buildAlertCountries();
+  initAlertSignup();
   renderOpenTicker();
   render();
 } catch(err) {$("note").textContent="Could not load race data: "+err.message}

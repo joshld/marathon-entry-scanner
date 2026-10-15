@@ -66,6 +66,21 @@ def check(session, race):
     except requests.RequestException as exc:
         result["error"]=str(exc)[:200]
         result["status"]="unknown"
+    # Verified organiser evidence takes precedence over generic site-text hints.
+    # A closed published window must never remain "open" because of stale text.
+    verified = race.get("verified_entry_status")
+    checked_on = race.get("status_verified_at")
+    if verified == "open" and checked_on:
+        age = (date.today() - date.fromisoformat(checked_on)).days
+        if race.get("entry_close_date") and date.today().isoformat() > race["entry_close_date"]:
+            result["status"] = "window_ended"
+            result["evidence"] = "Verified application deadline has passed"
+        elif age <= 14:
+            result["status"] = "confirmed_open"
+            result["evidence"] = "Organiser verified on " + checked_on
+        elif result["status"] not in ("possible_open", "possible_closed"):
+            result["status"] = "unknown"
+            result["evidence"] = "Previously verified open; verification is stale"
     # A published date window is distinct from site-text hints.
     # It is never silently converted into a confirmed live entry status.
     result["registration_evidence_status"] = result["status"]

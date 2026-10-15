@@ -1,5 +1,13 @@
 name: Daily marathon scan and publish
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scanner/**'
+      - 'site/**'
+      - 'races.json'
+      - 'requirements.txt'
+      - '.github/workflows/daily.yml'
   schedule:
     - cron: '17 21 * * *' # 07:17 AEST (Brisbane)
   workflow_dispatch:

@@ -10,6 +10,7 @@ The watchlist currently contains **186 events** across Asia, Oceania, Europe, No
 
 The dashboard includes:
 
+- **Entries open banner:** A scrolling shortlist of **up to six** organiser-verified open races appears near the top. Races with a verified entry-opening date are ranked newest first; other confirmed-open races fill remaining spaces, clearly marked with opening date unconfirmed. Clicking a tile opens official registration. The marquee pauses on hover or keyboard focus, and becomes a horizontally swipeable row on mobile / reduced-motion settings. Possible-open text matches are **excluded**.
 - **Locations:** One multi-select dropdown grouped by **continent → country**. Select a continent to include all its countries, or use the arrow beside its name to expand the country list and make individual selections. A partially selected continent is shown as partially checked. **Select all** and **Clear** apply to all countries. Multiple continents and countries can be selected at once.
 - **Distances:** Multi-select for marathon, half marathon and ultra.
 - **Entry types:** Multi-select for ballot/lottery, direct entry, qualification, charity and unverified/other. A race may match more than one entry type.

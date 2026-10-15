@@ -65,6 +65,40 @@ a:hover { color: #ffcf9c; }
 }
 
 
+
+/* Capped open-entry ticker: duplicates only for the visual desktop marquee.
+   Interactive clones are removed from keyboard navigation and accessibility. */
+.open-ticker{margin:22px 0 10px;padding:14px 0 12px;border-top:1px solid #454952;border-bottom:1px solid #454952}
+.ticker-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 14px;margin-bottom:12px}
+.ticker-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.ticker-title strong{font-size:15px}
+.ticker-indicator{width:8px;height:8px;border-radius:50%;background:#fb923c;box-shadow:0 0 0 3px #fb923c24}
+.ticker-subtitle,.ticker-count{font-size:12px;color:var(--muted)}
+.ticker-window{max-width:100%;overflow:hidden;border-radius:10px}
+.ticker-window:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ticker-track{display:flex;width:max-content;align-items:stretch;gap:0}
+.ticker-group{display:flex;gap:12px;padding-right:12px;flex:none}
+.ticker-card{display:flex;min-width:220px;max-width:290px;flex:0 0 auto;flex-direction:column;justify-content:center;gap:3px;padding:11px 15px;border:1px solid #51545b;border-radius:10px;background:var(--surface);text-decoration:none;color:var(--text)}
+.ticker-card strong{font-size:13px;line-height:1.4;color:#fff}
+.ticker-card .ticker-meta{font-size:12px;color:#ffc38d;line-height:1.4}
+.ticker-card .ticker-region{font-size:11px;color:var(--muted)}
+.ticker-card:hover{border-color:var(--accent);background:var(--surface-raised)}
+.ticker-empty{padding:8px 2px;color:var(--muted);font-size:13px}
+.ticker-track.is-animated{animation:open-race-scroll 42s linear infinite}
+.ticker-window:hover .ticker-track,.ticker-window:focus-within .ticker-track{animation-play-state:paused}
+@keyframes open-race-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (max-width:700px){
+  .ticker-window{overflow-x:auto;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+  .ticker-track{animation:none!important}
+  .ticker-group[aria-hidden="true"]{display:none}
+  .ticker-card{min-width:215px;max-width:245px;scroll-snap-align:start}
+}
+@media (prefers-reduced-motion:reduce){
+  .ticker-window{overflow-x:auto}
+  .ticker-track{animation:none!important}
+  .ticker-group[aria-hidden="true"]{display:none}
+}
+
 /* Continent-first location selector: click the continent checkbox to select
    its countries, or use the separate arrow to expand individual countries. */
 #country-filter{min-width:168px}
@@ -126,6 +160,12 @@ a:hover { color: #ffcf9c; }
 .detected-entry{background:#312d26;border:1px solid #705032;border-radius:9px;padding:10px;margin:10px 0;color:#f2d7b2;font-size:13px;line-height:1.5}
 @media(max-width:700px){.distance-filter{max-width:none}.date-toolbar>label{flex:1 1 150px}}
 </style></head><body><main><div class="eyebrow">Marathons · Half Marathons · Ultras · Worldwide</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily monitoring of marathon, half-marathon and ultramarathon entries around the world. Follow race dates, registration windows, fees and eligibility—verified information is distinguished from unconfirmed signals.</p>
+<section class="open-ticker" id="open-ticker" aria-label="Confirmed open race entries">
+  <div class="ticker-heading"><div class="ticker-title"><span class="ticker-indicator" aria-hidden="true"></span><strong>Entries open</strong><span class="ticker-subtitle">Latest verified openings</span></div><span class="ticker-count" id="ticker-count"></span></div>
+  <div class="ticker-window" role="region" aria-label="Confirmed-open race registrations, latest known opening dates first" tabindex="0">
+    <div class="ticker-track" id="ticker-track"><span class="ticker-empty">Loading open entries…</span></div>
+  </div>
+</section>
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Open / possible open</span><strong id="opened">—</strong><div id="coverage" class="coverage"></div></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
 <p id="note"></p><div class="filters" id="filter-area">
   <input id="q" aria-label="Search races" placeholder="Search race or city…">
@@ -165,6 +205,50 @@ const detailsPanel=r=>{
   return `<details class="details"><summary>Entry prices & eligibility</summary><p><strong>Price:</strong> ${esc(price)}</p><p><strong>Restrictions:</strong> ${esc(requirements.join("; ")||"Not yet verified (do not assume unrestricted entry)")}</p><p><strong>Verification:</strong> ${esc(verified)}${e.source_url?' · <a href="'+esc(e.source_url)+'" rel="noopener noreferrer" target="_blank">Eligibility source ↗</a>':''}</p>${candidateDetails}</details>`;
 };
 const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',confirmed_closed:'Confirmed closed / sold out',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
+const OPEN_TICKER_LIMIT = 6;
+function brisbaneDay(){
+  const parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Australia/Brisbane",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
+  const v = Object.fromEntries(parts.filter(x=>x.type!=="literal").map(x=>[x.type,x.value]));
+  return v.year+"-"+v.month+"-"+v.day;
+}
+function verifiedOpenCandidates(items,today){
+  return items.filter(r=>
+    r.status==="confirmed_open" &&
+    (!r.entry_open_date||r.entry_open_date<=today) &&
+    (!r.entry_close_date||r.entry_close_date>=today) &&
+    (!(r.race_end_date||r.race_date)||(r.race_end_date||r.race_date)>=today)
+  ).sort((a,b)=>{
+    // Published opening dates first, newest to oldest. Entries whose opening
+    // dates aren't known are included afterwards, but never described as recent.
+    if(Boolean(a.entry_open_date)!==Boolean(b.entry_open_date))return a.entry_open_date?-1:1;
+    if(a.entry_open_date&&b.entry_open_date&&a.entry_open_date!==b.entry_open_date)
+      return b.entry_open_date.localeCompare(a.entry_open_date);
+    return String(a.race_date||"9999-99-99").localeCompare(String(b.race_date||"9999-99-99"))||
+      a.name.localeCompare(b.name);
+  });
+}
+function renderOpenTicker(){
+  const eligible=verifiedOpenCandidates(races,brisbaneDay());
+  const top=eligible.slice(0,OPEN_TICKER_LIMIT);
+  $("ticker-count").textContent=top.length?"Showing "+top.length+" of "+eligible.length:"No confirmed openings";
+  if(!top.length){
+    $("ticker-track").className="ticker-track";
+    $("ticker-track").innerHTML='<span class="ticker-empty">No currently verified open entries. Check all race cards for possible openings.</span>';
+    return;
+  }
+  const makeGroup=clone=>'<div class="ticker-group"'+(clone?' aria-hidden="true"':'')+'>'+
+    top.map(r=>{
+      const info=r.entry_open_date?"Opened "+dateText(r.entry_open_date):"Open now · opening date unconfirmed";
+      const attr=clone?' tabindex="-1"':'';
+      const target=esc(r.registration_url||r.official_url);
+      return '<a class="ticker-card" href="'+target+'" target="_blank" rel="noopener noreferrer"'+attr+'>'+
+        '<span class="ticker-region">'+esc(r.country)+' · '+esc(safeArr(r.distance).join(" + "))+'</span>'+
+        '<strong>'+esc(r.name)+'</strong><span class="ticker-meta">'+esc(info)+'</span></a>';
+    }).join("")+'</div>';
+  $("ticker-track").className="ticker-track"+(top.length>1?" is-animated":"");
+  $("ticker-track").innerHTML=makeGroup(false)+(top.length>1?makeGroup(true):"");
+}
+
 const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["confirmed_closed","Confirmed closed / sold out"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
 const continentOrder=["Oceania","Asia","Europe","North America","Africa","South America"];
 const countryContinents={
@@ -299,6 +383,7 @@ try {
   $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
   $("note").textContent=d.disclaimer||"";
   buildLocationFilter();
+  renderOpenTicker();
   render();
 } catch(err) {$("note").textContent="Could not load race data: "+err.message}
 })();

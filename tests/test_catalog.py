@@ -69,6 +69,19 @@ class CatalogAndDashboardTests(unittest.TestCase):
         self.assertIn('"Canada":"North America"', self.script)
         self.assertIn('"Norway":"Europe"', self.script)
 
+    def test_capped_accessible_open_entry_ticker(self):
+        banner = self.page.select_one("section#open-ticker")
+        self.assertIsNotNone(banner)
+        self.assertIsNotNone(banner.select_one("#ticker-track"))
+        for fragment in ("OPEN_TICKER_LIMIT = 6", 'r.status==="confirmed_open"',
+                         "verifiedOpenCandidates", "renderOpenTicker", "aria-hidden",
+                         'tabindex="-1"', "r.entry_open_date"):
+            self.assertIn(fragment, self.script)
+        css = self.page.find("style").get_text()
+        self.assertIn("prefers-reduced-motion:reduce", css)
+        self.assertIn(".ticker-window:hover .ticker-track", css)
+        self.assertIn("overflow-x:auto", css)
+
     def test_existing_filters_and_date_range_preserved(self):
         for item in ("#distance-filter", "#type-filter", "#status-filter", "#date-from", "#date-to", "#include-undated"):
             self.assertIsNotNone(self.page.select_one(item), item)

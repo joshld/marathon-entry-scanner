@@ -2767,5 +2767,1575 @@
     "registration_url": "https://mtfuji100.com/",
     "entry_type": "Qualifying / verify",
     "priority": 1
+  },
+  {
+    "id": "manchester-marathon",
+    "name": "Manchester Marathon",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.manchestermarathon.co.uk/",
+    "registration_url": "https://www.manchestermarathon.co.uk/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "brighton-marathon",
+    "name": "Brighton Marathon",
+    "country": "United Kingdom",
+    "city": "Brighton",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.brightonmarathonweekend.co.uk/",
+    "registration_url": "https://www.brightonmarathonweekend.co.uk/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "edinburgh-marathon-festival",
+    "name": "Edinburgh Marathon Festival",
+    "country": "United Kingdom",
+    "city": "Edinburgh",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.edinburghmarathon.com/",
+    "registration_url": "https://www.edinburghmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "loch-ness-marathon",
+    "name": "Loch Ness Marathon",
+    "country": "United Kingdom",
+    "city": "Inverness",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.lochnessmarathon.com/",
+    "registration_url": "https://www.lochnessmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "yorkshire-marathon",
+    "name": "Yorkshire Marathon",
+    "country": "United Kingdom",
+    "city": "York",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.runforall.com/events/marathon/yorkshire-marathon/",
+    "registration_url": "https://www.runforall.com/events/marathon/yorkshire-marathon/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "cardiff-half-marathon",
+    "name": "Cardiff Half Marathon",
+    "country": "United Kingdom",
+    "city": "Cardiff",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.cardiffhalfmarathon.co.uk/",
+    "registration_url": "https://www.cardiffhalfmarathon.co.uk/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "great-north-run",
+    "name": "Great North Run",
+    "country": "United Kingdom",
+    "city": "Newcastle upon Tyne",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.greatrun.org/events/great-north-run/",
+    "registration_url": "https://www.greatrun.org/events/great-north-run/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "belfast-city-marathon",
+    "name": "Belfast City Marathon",
+    "country": "United Kingdom",
+    "city": "Belfast",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.belfastcitymarathon.com/",
+    "registration_url": "https://www.belfastcitymarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "oxford-half-marathon",
+    "name": "Oxford Half Marathon",
+    "country": "United Kingdom",
+    "city": "Oxford",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.oxfordhalf.com/",
+    "registration_url": "https://www.oxfordhalf.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "bath-half-marathon",
+    "name": "Bath Half Marathon",
+    "country": "United Kingdom",
+    "city": "Bath",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://bathhalf.co.uk/",
+    "registration_url": "https://bathhalf.co.uk/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "paris-marathon",
+    "name": "Paris Marathon",
+    "country": "Europe",
+    "city": "Paris, France",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.schneiderelectricparismarathon.com/en",
+    "registration_url": "https://www.schneiderelectricparismarathon.com/en",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "country": "Europe",
+    "city": "Amsterdam, Netherlands",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.tcsamsterdammarathon.eu/",
+    "registration_url": "https://www.tcsamsterdammarathon.eu/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "rotterdam-marathon",
+    "name": "Rotterdam Marathon",
+    "country": "Europe",
+    "city": "Rotterdam, Netherlands",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://nnmarathonrotterdam.nl/en/",
+    "registration_url": "https://nnmarathonrotterdam.nl/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "barcelona-marathon",
+    "name": "Barcelona Marathon",
+    "country": "Europe",
+    "city": "Barcelona, Spain",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.zurichmaratobarcelona.es/en/",
+    "registration_url": "https://www.zurichmaratobarcelona.es/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "rome-marathon",
+    "name": "Rome Marathon",
+    "country": "Europe",
+    "city": "Rome, Italy",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.runromethemarathon.com/",
+    "registration_url": "https://www.runromethemarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "vienna-city-marathon",
+    "name": "Vienna City Marathon",
+    "country": "Europe",
+    "city": "Vienna, Austria",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.vienna-marathon.com/",
+    "registration_url": "https://www.vienna-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "copenhagen-marathon",
+    "name": "Copenhagen Marathon",
+    "country": "Europe",
+    "city": "Copenhagen, Denmark",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://copenhagenmarathon.dk/en/",
+    "registration_url": "https://copenhagenmarathon.dk/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "prague-marathon",
+    "name": "Prague Marathon",
+    "country": "Europe",
+    "city": "Prague, Czechia",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.runczech.com/en/events/orlen-prague-marathon-2027",
+    "registration_url": "https://www.runczech.com/en/events/orlen-prague-marathon-2027",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "frankfurt-marathon",
+    "name": "Frankfurt Marathon",
+    "country": "Europe",
+    "city": "Frankfurt, Germany",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.frankfurt-marathon.com/en/",
+    "registration_url": "https://www.frankfurt-marathon.com/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "stockholm-marathon",
+    "name": "Stockholm Marathon",
+    "country": "Europe",
+    "city": "Stockholm, Sweden",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.stockholmmarathon.se/",
+    "registration_url": "https://www.stockholmmarathon.se/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "athens-authentic-marathon",
+    "name": "Athens Authentic Marathon",
+    "country": "Europe",
+    "city": "Athens, Greece",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.athensauthenticmarathon.gr/",
+    "registration_url": "https://www.athensauthenticmarathon.gr/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "lisbon-marathon",
+    "name": "Lisbon Marathon",
+    "country": "Europe",
+    "city": "Lisbon, Portugal",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.maratonaclubedeportugal.com/",
+    "registration_url": "https://www.maratonaclubedeportugal.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "seville-marathon",
+    "name": "Seville Marathon",
+    "country": "Europe",
+    "city": "Seville, Spain",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.zurichmaratonsevilla.es/",
+    "registration_url": "https://www.zurichmaratonsevilla.es/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "zurich-marathon",
+    "name": "Zurich Marathon",
+    "country": "Europe",
+    "city": "Zurich, Switzerland",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.zuerichmarathon.ch/",
+    "registration_url": "https://www.zuerichmarathon.ch/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "helsinki-city-marathon",
+    "name": "Helsinki City Marathon",
+    "country": "Europe",
+    "city": "Helsinki, Finland",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://helsinkicityrunningday.fi/en/",
+    "registration_url": "https://helsinkicityrunningday.fi/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "country": "Europe",
+    "city": "Dublin, Ireland",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://irishlifedublinmarathon.ie/",
+    "registration_url": "https://irishlifedublinmarathon.ie/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "milan-marathon",
+    "name": "Milan Marathon",
+    "country": "Europe",
+    "city": "Milan, Italy",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.milanomarathon.it/en/",
+    "registration_url": "https://www.milanomarathon.it/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "copenhagen-half-marathon",
+    "name": "Copenhagen Half Marathon",
+    "country": "Europe",
+    "city": "Copenhagen, Denmark",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://cphhalf.dk/en/",
+    "registration_url": "https://cphhalf.dk/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "berlin-half-marathon",
+    "name": "Berlin Half Marathon",
+    "country": "Europe",
+    "city": "Berlin, Germany",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.generali-berliner-halbmarathon.de/en/",
+    "registration_url": "https://www.generali-berliner-halbmarathon.de/en/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "valencia-half-marathon",
+    "name": "Valencia Half Marathon",
+    "country": "Europe",
+    "city": "Valencia, Spain",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.valenciaciudaddelrunning.com/en/half/medio-maraton/",
+    "registration_url": "https://www.valenciaciudaddelrunning.com/en/half/medio-maraton/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "los-angeles-marathon",
+    "name": "Los Angeles Marathon",
+    "country": "United States",
+    "city": "Los Angeles, California",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.lamarathon.com/",
+    "registration_url": "https://www.lamarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "philadelphia-marathon",
+    "name": "Philadelphia Marathon",
+    "country": "United States",
+    "city": "Philadelphia, Pennsylvania",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.philadelphiamarathon.com/",
+    "registration_url": "https://www.philadelphiamarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "houston-marathon",
+    "name": "Houston Marathon",
+    "country": "United States",
+    "city": "Houston, Texas",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.chevronhoustonmarathon.com/",
+    "registration_url": "https://www.chevronhoustonmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "marine-corps-marathon",
+    "name": "Marine Corps Marathon",
+    "country": "United States",
+    "city": "Washington, DC",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.marinemarathon.com/",
+    "registration_url": "https://www.marinemarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "grandma-s-marathon",
+    "name": "Grandma's Marathon",
+    "country": "United States",
+    "city": "Duluth, Minnesota",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://grandmasmarathon.com/",
+    "registration_url": "https://grandmasmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "country": "United States",
+    "city": "Big Sur, California",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.bigsurmarathon.org/",
+    "registration_url": "https://www.bigsurmarathon.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "country": "United States",
+    "city": "Sacramento, California",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://runsra.org/california-international-marathon/",
+    "registration_url": "https://runsra.org/california-international-marathon/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "twin-cities-marathon",
+    "name": "Twin Cities Marathon",
+    "country": "United States",
+    "city": "Minneapolis–Saint Paul, Minnesota",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.tcmevents.org/",
+    "registration_url": "https://www.tcmevents.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "detroit-free-press-marathon",
+    "name": "Detroit Free Press Marathon",
+    "country": "United States",
+    "city": "Detroit, Michigan",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.freepmarathon.com/",
+    "registration_url": "https://www.freepmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "san-francisco-marathon",
+    "name": "San Francisco Marathon",
+    "country": "United States",
+    "city": "San Francisco, California",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.thesfmarathon.com/",
+    "registration_url": "https://www.thesfmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "new-york-city-half-marathon",
+    "name": "New York City Half Marathon",
+    "country": "United States",
+    "city": "New York, New York",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.nyrr.org/races/2027unitedairlinesnychalf",
+    "registration_url": "https://www.nyrr.org/races/2027unitedairlinesnychalf",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "country": "United States",
+    "city": "Brooklyn, New York",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.nyrr.org/",
+    "registration_url": "https://www.nyrr.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "seattle-marathon",
+    "name": "Seattle Marathon",
+    "country": "United States",
+    "city": "Seattle, Washington",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.seattlemarathon.org/",
+    "registration_url": "https://www.seattlemarathon.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "pittsburgh-marathon",
+    "name": "Pittsburgh Marathon",
+    "country": "United States",
+    "city": "Pittsburgh, Pennsylvania",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.thepittsburghmarathon.com/",
+    "registration_url": "https://www.thepittsburghmarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "utmb-mont-blanc",
+    "name": "UTMB Mont-Blanc",
+    "country": "International Ultra",
+    "city": "Chamonix, France",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://montblanc.utmb.world/",
+    "registration_url": "https://montblanc.utmb.world/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "ccc-by-utmb",
+    "name": "CCC by UTMB",
+    "country": "International Ultra",
+    "city": "Chamonix, France",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://montblanc.utmb.world/",
+    "registration_url": "https://montblanc.utmb.world/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "western-states-endurance-run",
+    "name": "Western States Endurance Run",
+    "country": "International Ultra",
+    "city": "Olympic Valley, California",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.wser.org/",
+    "registration_url": "https://www.wser.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "leadville-trail-100-run",
+    "name": "Leadville Trail 100 Run",
+    "country": "International Ultra",
+    "city": "Leadville, Colorado",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.leadvilleraceseries.com/",
+    "registration_url": "https://www.leadvilleraceseries.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "comrades-marathon",
+    "name": "Comrades Marathon",
+    "country": "International Ultra",
+    "city": "KwaZulu-Natal, South Africa",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.comrades.com/",
+    "registration_url": "https://www.comrades.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "spartathlon",
+    "name": "Spartathlon",
+    "country": "International Ultra",
+    "city": "Athens to Sparta, Greece",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://www.spartathlon.gr/",
+    "registration_url": "https://www.spartathlon.gr/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "lavaredo-ultra-trail",
+    "name": "Lavaredo Ultra Trail",
+    "country": "International Ultra",
+    "city": "Cortina d'Ampezzo, Italy",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://lavaredo.utmb.world/",
+    "registration_url": "https://lavaredo.utmb.world/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "transgrancanaria",
+    "name": "Transgrancanaria",
+    "country": "International Ultra",
+    "city": "Gran Canaria, Spain",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Unverified",
+    "official_url": "https://transgrancanaria.net/",
+    "registration_url": "https://transgrancanaria.net/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   }
 ]

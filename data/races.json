@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T03:46:51+00:00",
+  "generated_at": "2026-10-15T03:52:02+00:00",
   "disclaimer": "Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.",
   "races": [
     {
@@ -49,7 +49,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.tcssydneymarathon.com/sign-up",
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -88,7 +88,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -145,7 +145,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.brisbanemarathon.com.au/marathon",
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -184,7 +184,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -223,7 +223,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -262,7 +262,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -300,7 +300,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -338,7 +338,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -376,7 +376,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -414,7 +414,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -453,7 +453,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -492,7 +492,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -531,7 +531,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -570,7 +570,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -609,7 +609,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -648,7 +648,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -687,7 +687,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -725,7 +725,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -764,7 +764,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -803,7 +803,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -841,7 +841,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -879,7 +879,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -917,7 +917,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -955,7 +955,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -993,7 +993,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1031,7 +1031,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1070,7 +1070,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1108,7 +1108,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1146,7 +1146,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1185,7 +1185,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1224,7 +1224,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1263,7 +1263,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1302,7 +1302,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1340,7 +1340,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1378,7 +1378,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1417,7 +1417,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1456,7 +1456,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1495,7 +1495,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1533,7 +1533,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1572,7 +1572,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1611,7 +1611,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1649,7 +1649,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1687,7 +1687,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1726,7 +1726,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1764,7 +1764,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1802,7 +1802,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1840,7 +1840,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1878,7 +1878,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1916,7 +1916,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1954,7 +1954,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -1992,7 +1992,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2030,7 +2030,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2068,7 +2068,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2106,7 +2106,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2144,11 +2144,11 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okayama-marathon.jp', port=443) at 0x7f9d400ba",
+      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okayama-marathon.jp', port=443) at 0x7f8f404ef",
       "checked_url": "https://www.okayama-marathon.jp/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -2182,7 +2182,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2220,7 +2220,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 202,
       "evidence": "",
@@ -2258,7 +2258,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2296,7 +2296,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2334,7 +2334,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2372,7 +2372,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "募集終了",
@@ -2410,7 +2410,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2448,7 +2448,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2486,7 +2486,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2524,7 +2524,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2562,7 +2562,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2600,7 +2600,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2638,7 +2638,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: エントリー開始; closed: 受付終了",
@@ -2676,7 +2676,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2714,7 +2714,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2753,7 +2753,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2792,7 +2792,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2831,7 +2831,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2870,7 +2870,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2909,7 +2909,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2947,7 +2947,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2985,7 +2985,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3023,7 +3023,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3061,7 +3061,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3099,7 +3099,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3137,7 +3137,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3176,7 +3176,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -3214,7 +3214,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3261,7 +3261,7 @@
       "race_date_note": "13–16 May 2027; distances run on different days",
       "entry_type": "Direct / capacity",
       "priority": 1,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3305,7 +3305,7 @@
       "race_date_note": "17–18 July 2027; check distance-specific start dates",
       "entry_type": "Direct / capacity",
       "priority": 1,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3348,7 +3348,7 @@
       "race_date_note": "12–13 June 2027",
       "entry_type": "Direct",
       "priority": 2,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3390,7 +3390,7 @@
       "registration_url": "https://www.ultraperth.com.au/",
       "entry_type": "Direct / verify",
       "priority": 2,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3432,7 +3432,7 @@
       "registration_url": "https://saromanblue.jp/outline/",
       "entry_type": "Direct / verify",
       "priority": 1,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3474,7 +3474,7 @@
       "registration_url": "https://mtfuji100.com/",
       "entry_type": "Qualifying / verify",
       "priority": 1,
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -3512,7 +3512,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3550,7 +3550,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3589,7 +3589,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3627,7 +3627,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3665,7 +3665,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3703,7 +3703,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -3741,7 +3741,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -3779,7 +3779,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3817,7 +3817,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3855,7 +3855,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3893,7 +3893,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 500,
       "evidence": "",
@@ -3932,7 +3932,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3970,7 +3970,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4008,7 +4008,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4046,7 +4046,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4085,7 +4085,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4123,7 +4123,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4161,7 +4161,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -4199,7 +4199,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4237,7 +4237,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4275,7 +4275,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4313,7 +4313,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4351,7 +4351,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4389,7 +4389,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4428,7 +4428,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4466,7 +4466,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4504,7 +4504,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4542,7 +4542,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4580,7 +4580,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4618,7 +4618,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4656,7 +4656,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4695,7 +4695,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4734,7 +4734,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4772,7 +4772,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4810,7 +4810,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4848,7 +4848,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4886,7 +4886,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4924,7 +4924,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4963,7 +4963,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5002,7 +5002,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5040,7 +5040,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5078,7 +5078,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5117,7 +5117,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5156,7 +5156,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5194,7 +5194,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5232,7 +5232,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5270,7 +5270,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5308,7 +5308,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5357,7 +5357,7 @@
       "verified_entry_status": "closed",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://enter.comrades.com/comrades-2027",
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5395,7 +5395,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5433,7 +5433,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5471,7 +5471,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5526,7 +5526,7 @@
         "source_url": "https://www.hkmarathon.com/race-information/",
         "verified_at": "2026-10-15"
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5567,7 +5567,7 @@
         "source_url": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
         "verified_at": "2026-10-15"
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5607,7 +5607,7 @@
         "source_url": "https://en.seoul-marathon.com/83",
         "verified_at": "2026-10-15"
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5645,7 +5645,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -5684,7 +5684,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5723,7 +5723,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -5761,7 +5761,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5799,7 +5799,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5837,7 +5837,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -5875,11 +5875,11 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7f9d3feece60>, 'Connection to www",
+      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7f8f3ffb29c0>, 'Connection to www",
       "checked_url": "https://www.kumf.kr/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -5915,7 +5915,7 @@
         "verified_at": null
       },
       "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov",
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5967,7 +5967,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6006,7 +6006,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6045,7 +6045,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6084,7 +6084,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -6123,7 +6123,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6162,7 +6162,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6201,7 +6201,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6253,7 +6253,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6292,7 +6292,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T03:46:51+00:00",
+      "checked_at": "2026-10-15T03:52:02+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",

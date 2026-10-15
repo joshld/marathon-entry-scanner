@@ -102,5 +102,13 @@
     "before": "no_signal",
     "after": "confirmed_open",
     "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T03:59:04+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

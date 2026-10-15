@@ -4348,5 +4348,329 @@
       "source_url": null,
       "verified_at": null
     }
+  },
+  {
+    "id": "hong-kong-marathon",
+    "name": "Standard Chartered Hong Kong Marathon",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Ballot",
+    "official_url": "https://www.hkmarathon.com/race-information/",
+    "registration_url": "https://www.hkmarathon.com/race-information/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-01-17",
+    "entry_open_date": "2026-09-11",
+    "entry_close_date": "2026-09-20",
+    "date_source": "https://www.hkmarathon.com/race-information/",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": "Marathon: HKD 600 local / USD 90 non-local; other distances and categories vary.",
+    "entry_options": [
+      {
+        "category": "Local general ballot",
+        "distance": "Marathon",
+        "currency": "HKD",
+        "amount": 600
+      },
+      {
+        "category": "Non-local general ballot",
+        "distance": "Marathon",
+        "currency": "USD",
+        "amount": 90
+      }
+    ],
+    "eligibility": {
+      "minimum_age": 20,
+      "residency": "Local and non-local categories",
+      "qualifying_time": null,
+      "other_requirements": [
+        "Completed a race of at least 10 km between 1 January 2025 and 31 August 2026 for marathon entry",
+        "General ballot closed; other entry categories have separate deadlines"
+      ],
+      "verification_status": "verified",
+      "source_url": "https://www.hkmarathon.com/race-information/",
+      "verified_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "taipei-marathon",
+    "name": "Taipei Marathon",
+    "country": "Taiwan",
+    "city": "Taipei",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Ballot / priority qualifying",
+    "official_url": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
+    "registration_url": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2026-12-20",
+    "entry_open_date": "2026-07-03",
+    "entry_close_date": "2026-07-15",
+    "date_source": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": "Priority entry for qualifying result holders (see official regulations)",
+      "other_requirements": [
+        "Full marathon ballot dates shown; half marathon ballot runs on a separate schedule"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.taipeicitymarathon.com/en/REGULATIONS.php",
+      "verified_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "seoul-marathon",
+    "name": "Seoul Marathon",
+    "country": "South Korea",
+    "city": "Seoul",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Multiple entry waves / qualifying",
+    "official_url": "https://en.seoul-marathon.com/83",
+    "registration_url": "https://en.seoul-marathon.com/83",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": "2027-03-21",
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": "https://en.seoul-marathon.com/83",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "2027 registration information published by organiser; application periods may depend on entry category"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://en.seoul-marathon.com/83",
+      "verified_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "daegu-marathon",
+    "name": "Daegu Marathon",
+    "country": "South Korea",
+    "city": "Daegu",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://daegumarathon.com/",
+    "registration_url": "https://daegumarathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "maybank-bali-marathon",
+    "name": "Maybank Marathon Bali",
+    "country": "Indonesia",
+    "city": "Gianyar, Bali",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.maybank.co.id/en/maybank-marathon",
+    "registration_url": "https://www.maybank.co.id/en/maybank-marathon",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "jakarta-international-marathon",
+    "name": "Jakarta International Marathon",
+    "country": "Indonesia",
+    "city": "Jakarta",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://jakim.id/",
+    "registration_url": "https://jakim.id/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "sun-moon-lake-marathon",
+    "name": "Sun Moon Lake Marathon",
+    "country": "Taiwan",
+    "city": "Nantou",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Direct / verify",
+    "official_url": "https://www.sunmoonlake.gov.tw/en/Events/Activitys?a=24&id=2",
+    "registration_url": "https://www.sunmoonlake.gov.tw/en/Events/Activitys?a=24&id=2",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "chuncheon-marathon",
+    "name": "Chuncheon Marathon",
+    "country": "South Korea",
+    "city": "Chuncheon",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Verify",
+    "official_url": "https://www.chosun.com/",
+    "registration_url": "https://www.chosun.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "gyeongju-international-marathon",
+    "name": "Gyeongju International Marathon",
+    "country": "South Korea",
+    "city": "Gyeongju",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Verify",
+    "official_url": "https://www.donga-marathon.com/",
+    "registration_url": "https://www.donga-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "id": "jeju-international-ultramarathon",
+    "name": "Jeju International Ultramarathon",
+    "country": "South Korea",
+    "city": "Jeju Island",
+    "distance": [
+      "Ultra"
+    ],
+    "entry_type": "Verify",
+    "official_url": "https://www.kumf.kr/",
+    "registration_url": "https://www.kumf.kr/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   }
 ]

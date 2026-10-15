@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T03:27:28+00:00",
+  "generated_at": "2026-10-15T03:34:23+00:00",
   "disclaimer": "Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.",
   "races": [
     {
@@ -20,13 +20,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.tcssydneymarathon.com/marathon",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "gold-coast",
@@ -47,13 +59,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://goldcoastmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "brisbane",
@@ -74,13 +98,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.brisbanemarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "canberra",
@@ -101,13 +137,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='events.solemotive.com', port=443): Max retries exceeded with url: /canberra-marathon (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certifi",
       "checked_url": "https://www.runningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "sunshine-coast",
@@ -128,13 +176,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://sunshinecoastmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "melbourne",
@@ -155,13 +215,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://melbournemarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "tokyo",
@@ -181,13 +253,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.marathon.tokyo/en/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "osaka",
@@ -207,13 +291,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
       "error": "404 Client Error: Not Found for url: https://www.osaka-marathon.com/",
       "checked_url": "https://www.osaka-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "kyoto",
@@ -233,13 +329,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.kyoto-marathon.com/en/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "nagoya",
@@ -259,13 +367,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://city-marathon.nagoya/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "rotorua",
@@ -286,13 +406,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.rotoruamarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "wellington",
@@ -313,13 +445,25 @@
       "date_source": null,
       "date_verified_at": null,
       "registration_page_verified": false,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.wellingtonmarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "hobart-marathon",
@@ -340,13 +484,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.hobartmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "adelaide-marathon-festival",
@@ -367,13 +523,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://adelaidemarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "perth-running-festival",
@@ -394,13 +562,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://perthrunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "perth-marathon",
@@ -421,13 +601,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
       "error": "403 Client Error: Forbidden for url: https://www.wamc.org.au/",
       "checked_url": "https://www.wamc.org.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "bunbury-3-waters-running-festival",
@@ -448,13 +640,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.bunburyrunnersclub.org/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "margaret-river-ultra-marathon",
@@ -474,13 +678,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='mrun.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='mrun.com.au', port=443): Failed to resolve 'mrun.com.au' ([Err",
       "checked_url": "https://mrun.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "great-ocean-road-running-festival",
@@ -501,13 +717,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://greatoceanroadrunfest.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "ballarat-marathon",
@@ -528,13 +756,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://ballaratmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "bendigo-running-festival",
@@ -554,13 +794,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.bendigorunningfestival.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.bendigorunningfestival.com.au', port",
       "checked_url": "https://www.bendigorunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "geelong-half-marathon",
@@ -580,13 +832,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.geelonghalfmarathon.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.geelonghalfmarathon.com.au', port=443):",
       "checked_url": "https://www.geelonghalfmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "run-melbourne",
@@ -606,13 +870,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://runmelbourne.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "mornington-running-festival",
@@ -632,13 +908,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='morningtonrunningfestival.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='morningtonrunningfestival.com.au', port=4",
       "checked_url": "https://morningtonrunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "hobart-run-the-bridge",
@@ -658,13 +946,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.hobartrunthebridge.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "launceston-running-festival",
@@ -684,13 +984,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://launcestonrunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "cadbury-marathon",
@@ -711,13 +1023,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.cadburymarathon.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.cadburymarathon.com.au', port=443): Failed ",
       "checked_url": "https://www.cadburymarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "sydney-half-marathon",
@@ -737,13 +1061,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='sydneyhalf.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='sydneyhalf.com.au', port=443): Failed to resolve 'sydney",
       "checked_url": "https://sydneyhalf.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "runaway-sydney-half-marathon",
@@ -763,13 +1099,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://runawaysydneyhalf.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "newcastle-running-festival",
@@ -790,13 +1138,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='newcastlerunningfestival.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='newcastlerunningfestival.com.au', port=443",
       "checked_url": "https://newcastlerunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "port-macquarie-running-festival",
@@ -817,13 +1177,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.portmacquarierunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "mudgee-running-festival",
@@ -844,13 +1216,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://mudgeerunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "orange-running-festival",
@@ -871,13 +1255,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='orangerunningfestival.com.au', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='orangerunningfestival.com.au', port=443): Fail",
+      "error": "",
       "checked_url": "https://orangerunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "dubbo-stampede",
@@ -897,13 +1293,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://dubbostampede.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "bathurst-half-marathon",
@@ -923,13 +1331,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.bathurstathletics.org.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.bathurstathletics.org.au', port=443): Fai",
       "checked_url": "https://www.bathurstathletics.org.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "noosa-marathon",
@@ -950,13 +1370,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='noosamarathon.com.au', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='noosamarathon.com.au', port=443): Failed to establish ",
       "checked_url": "https://noosamarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "cairns-marathon-festival",
@@ -977,13 +1409,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://cairnsmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "townsville-running-festival",
@@ -1004,13 +1448,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://townsvillerunningfestival.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "mackay-marina-run",
@@ -1030,13 +1486,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://mackaymarinarun.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "7-cairns-marathon",
@@ -1057,13 +1525,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://cairnsmarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "toowoomba-marathon",
@@ -1084,13 +1564,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.toowoombamarathon.com.au', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure",
       "checked_url": "https://www.toowoombamarathon.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "hervey-bay-running-festival",
@@ -1110,13 +1602,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='herveybayrunningfestival.com.au', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='herveybayrunningfestival.com.au', port=443",
       "checked_url": "https://herveybayrunningfestival.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "darwin-city2surf-half-marathon",
@@ -1136,13 +1640,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.darwinrunners.com.au/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "alice-springs-running-festival",
@@ -1163,13 +1679,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.alicespringsrunningwalkingclub.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.alicespringsrunningwalkingclub.",
       "checked_url": "https://www.alicespringsrunningwalkingclub.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "nagoya-women-s-marathon",
@@ -1189,13 +1717,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://womens-marathon.nagoya/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "kobe-marathon",
@@ -1215,13 +1755,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://kobe-marathon.net/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "fukuoka-marathon",
@@ -1241,13 +1793,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.f-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "hokkaido-marathon",
@@ -1267,13 +1831,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.hokkaido-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "nara-marathon",
@@ -1293,13 +1869,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.nara-marathon.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed",
       "checked_url": "https://www.nara-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "kumamoto-castle-marathon",
@@ -1319,13 +1907,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "no_signal",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "possible_open",
       "http_status": 200,
-      "evidence": "",
+      "evidence": "エントリー開始",
       "error": "",
       "checked_url": "https://kumamotojyo-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "shizuoka-marathon",
@@ -1345,13 +1945,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.shizuoka-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "yokohama-marathon",
@@ -1371,13 +1983,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
       "error": "",
       "checked_url": "https://yokohamamarathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "kanazawa-marathon",
@@ -1397,13 +2021,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.kanazawa-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "toyama-marathon",
@@ -1423,13 +2059,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
       "error": "",
       "checked_url": "https://www.toyamamarathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "okayama-marathon",
@@ -1449,13 +2097,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okayama-marathon.jp', port=443) at 0x7f0a1aa84",
+      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okayama-marathon.jp', port=443) at 0x7ff01ce39",
       "checked_url": "https://www.okayama-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "matsue-castle-marathon",
@@ -1475,13 +2135,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.matsuejo-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "tsukuba-marathon",
@@ -1501,13 +2173,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 202,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.tsukuba-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "nagano-marathon",
@@ -1527,13 +2211,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
       "error": "",
       "checked_url": "https://www.naganomarathon.gr.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "sendai-international-half-marathon",
@@ -1553,13 +2249,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "no_signal",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "possible_open",
       "http_status": 200,
-      "evidence": "",
+      "evidence": "エントリー開始",
       "error": "",
       "checked_url": "https://www.sendaihalf.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "sapporo-marathon",
@@ -1579,13 +2287,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://satumara.sapporo-sport.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "kagawa-marugame-international-half-marathon",
@@ -1605,13 +2325,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "募集終了",
       "error": "",
       "checked_url": "https://www.km-half.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "osaka-half-marathon",
@@ -1631,13 +2363,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.osaka-half-marathon.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.osaka-half-marathon.com', port=443): Faile",
       "checked_url": "https://www.osaka-half-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "shonan-international-marathon",
@@ -1657,13 +2401,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.shonan-kokusai.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "niigata-city-marathon",
@@ -1683,13 +2439,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://runfes-niigata.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "beppu-oita-mainichi-marathon",
@@ -1709,13 +2477,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "no_signal",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "possible_open",
       "http_status": 200,
-      "evidence": "",
+      "evidence": "エントリー開始",
       "error": "",
       "checked_url": "https://www.betsudai.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "lake-biwa-marathon",
@@ -1735,13 +2515,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://biwako-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "okinawa-marathon",
@@ -1761,13 +2553,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "no_signal",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "possible_open",
       "http_status": 200,
-      "evidence": "",
+      "evidence": "エントリー開始",
       "error": "",
       "checked_url": "https://www.okinawa-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "naha-marathon",
@@ -1787,13 +2591,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
-      "status": "possible_closed",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "conflicting_signals",
       "http_status": 200,
-      "evidence": "受付終了",
+      "evidence": "Open: エントリー開始; closed: 受付終了",
       "error": "",
       "checked_url": "https://www.naha-marathon.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "conflicting_signals"
     },
     {
       "id": "ibusuki-nanohana-marathon",
@@ -1813,13 +2629,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.ibusuki-nanohana.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "miyazaki-aoshima-taiheiyo-marathon",
@@ -1839,13 +2667,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "HTTPSConnectionPool(host='www.aotai.gr.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: una",
       "checked_url": "https://www.aotai.gr.jp/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "auckland-marathon",
@@ -1866,13 +2706,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://aucklandmarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "christchurch-marathon",
@@ -1893,13 +2745,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://christchurchmarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "queenstown-marathon",
@@ -1920,13 +2784,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://queenstown-marathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "hawke-s-bay-marathon",
@@ -1947,13 +2823,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://hawkesbaymarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "taupo-marathon",
@@ -1974,13 +2862,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://taupomarathon.co.nz/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "berlin-marathon",
@@ -2000,13 +2900,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.bmw-berlin-marathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "london-marathon",
@@ -2026,13 +2938,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.londonmarathonevents.co.uk/london-marathon",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "chicago-marathon",
@@ -2052,13 +2976,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.chicagomarathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "new-york-city-marathon",
@@ -2078,13 +3014,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.nyrr.org/tcsnycmarathon",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "boston-marathon",
@@ -2104,13 +3052,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.baa.org/races/boston-marathon",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "valencia-marathon",
@@ -2130,13 +3090,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.valenciaciudaddelrunning.com/en/marathon/maraton/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "singapore-marathon",
@@ -2157,13 +3129,25 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
       "error": "Exceeded 30 redirects.",
       "checked_url": "https://singaporemarathon.com/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "honolulu-marathon",
@@ -2183,13 +3167,285 @@
       "entry_close_date": null,
       "date_source": null,
       "date_verified_at": null,
-      "checked_at": "2026-10-15T03:27:28+00:00",
+      "entry_options": [],
+      "entry_price_note": null,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T03:34:23+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
       "error": "",
       "checked_url": "https://www.honolulumarathon.org/",
-      "date_window_status": "dates_unknown"
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": "https://uta.utmb.world/runners/event-schedule",
+      "date_verified_at": "2026-10-15",
+      "registration_page_verified": true,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "UTAMiler has qualifying conditions; check event entry page",
+          "Mandatory gear and trail experience requirements apply"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://uta.utmb.world/runners/entry-info",
+        "verified_at": "2026-10-15"
+      },
+      "id": "uta",
+      "name": "Ultra-Trail Australia by UTMB",
+      "country": "Australia",
+      "city": "Katoomba",
+      "distance": [
+        "Ultra"
+      ],
+      "ultra_distances_km": [
+        51,
+        101,
+        161.1
+      ],
+      "official_url": "https://uta.utmb.world/",
+      "registration_url": "https://uta.utmb.world/runners/entry-info",
+      "race_date_note": "13–16 May 2027; distances run on different days",
+      "entry_type": "Direct / capacity",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://uta.utmb.world/runners/entry-info",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": "https://www.theguzzlerultra.com.au/",
+      "date_verified_at": "2026-10-15",
+      "registration_page_verified": false,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "id": "guzzler",
+      "name": "The Guzzler Ultra",
+      "country": "Australia",
+      "city": "Brisbane",
+      "distance": [
+        "Ultra",
+        "Half marathon"
+      ],
+      "ultra_distances_km": [
+        52,
+        105
+      ],
+      "official_url": "https://www.theguzzlerultra.com.au/",
+      "registration_url": "https://www.theguzzlerultra.com.au/",
+      "race_date_note": "17–18 July 2027; check distance-specific start dates",
+      "entry_type": "Direct / capacity",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.theguzzlerultra.com.au/",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": "https://www.cape2capeultra.com.au/",
+      "date_verified_at": "2026-10-15",
+      "registration_page_verified": false,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "id": "cape2cape-ultra",
+      "name": "Cape2Cape Ultra",
+      "country": "Australia",
+      "city": "Augusta to Yallingup",
+      "distance": [
+        "Ultra"
+      ],
+      "ultra_distances_km": [
+        80.5,
+        160.9
+      ],
+      "official_url": "https://www.cape2capeultra.com.au/",
+      "registration_url": "https://www.cape2capeultra.com.au/",
+      "race_date_note": "12–13 June 2027",
+      "entry_type": "Direct",
+      "priority": 2,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.cape2capeultra.com.au/",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": null,
+      "date_verified_at": null,
+      "registration_page_verified": false,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "id": "ultra-perth",
+      "name": "Ultra Perth",
+      "country": "Australia",
+      "city": "Perth",
+      "distance": [
+        "Ultra",
+        "Half marathon"
+      ],
+      "ultra_distances_km": [
+        50
+      ],
+      "official_url": "https://www.ultraperth.com.au/",
+      "registration_url": "https://www.ultraperth.com.au/",
+      "entry_type": "Direct / verify",
+      "priority": 2,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.ultraperth.com.au/",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": null,
+      "date_verified_at": null,
+      "registration_page_verified": false,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "id": "saroma-100",
+      "name": "Lake Saroma 100km Ultramarathon",
+      "country": "Japan",
+      "city": "Hokkaido",
+      "distance": [
+        "Ultra"
+      ],
+      "ultra_distances_km": [
+        50,
+        100
+      ],
+      "official_url": "https://saromanblue.jp/",
+      "registration_url": "https://saromanblue.jp/outline/",
+      "entry_type": "Direct / verify",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://saromanblue.jp/outline/",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "date_source": null,
+      "date_verified_at": null,
+      "registration_page_verified": false,
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "id": "mt-fuji-100",
+      "name": "Mt. FUJI 100",
+      "country": "Japan",
+      "city": "Mount Fuji region",
+      "distance": [
+        "Ultra"
+      ],
+      "ultra_distances_km": [
+        100,
+        160
+      ],
+      "official_url": "https://mtfuji100.com/",
+      "registration_url": "https://mtfuji100.com/",
+      "entry_type": "Qualifying / verify",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:34:23+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "エントリー開始",
+      "error": "",
+      "checked_url": "https://mtfuji100.com/",
+      "date_window_status": "dates_unknown",
+      "registration_evidence_status": "possible_open"
     }
   ]
 }

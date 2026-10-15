@@ -38,5 +38,53 @@
     "before": "possible_open",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "kumamoto-castle-marathon",
+    "name": "Kumamoto Castle Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "sendai-international-half-marathon",
+    "name": "Sendai International Half Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "beppu-oita-mainichi-marathon",
+    "name": "Beppu-Oita Mainichi Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "okinawa-marathon",
+    "name": "Okinawa Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:34:23+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
   }
 ]

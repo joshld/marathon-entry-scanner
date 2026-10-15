@@ -80,6 +80,19 @@ class CatalogAndDashboardTests(unittest.TestCase):
         self.assertIn("general ballot", osaka["entry_notes"].lower())
         self.assertGreater(len(osaka["entry_options"]), 0)
 
+    def test_osaka_2027_has_confirmed_date_and_live_official_source(self):
+        by_id={r["id"]:r for r in self.races}
+        race=by_id["osaka"]
+        self.assertEqual(race["race_date"],"2027-02-28")
+        self.assertEqual(race["entry_open_date"],"2026-07-28")
+        self.assertEqual(race["entry_close_date"],"2026-08-28")
+        self.assertTrue(race["date_source"].startswith("https://www.city.osaka.lg.jp/"))
+        self.assertEqual(race["registration_url"],race["date_source"])
+        self.assertEqual(race["official_url"],race["date_source"])
+        self.assertIn("19 October 2026",race["entry_notes"])
+        self.assertFalse(race["registration_page_verified"])
+        self.assertTrue(race["eligibility"]["source_url"])
+
     def test_known_country_continent_mapping(self):
         by_id = {r["id"]: r for r in self.races}
         for event_id, (country, continent) in EXPECTED.items():

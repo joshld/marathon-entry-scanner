@@ -100,6 +100,13 @@ def check(session, race):
     # A closed published window must never remain "open" because of stale text.
     verified = race.get("verified_entry_status")
     checked_on = race.get("status_verified_at")
+    if verified == "closed" and checked_on:
+        age = (date.today() - date.fromisoformat(checked_on)).days
+        # A confirmed sold-out notice is more reliable than the presence of
+        # an unrelated generic "register now" button elsewhere on the site.
+        if 0 <= age <= 14:
+            result["status"] = "confirmed_closed"
+            result["evidence"] = "Organiser confirmed closed/sold out on " + checked_on
     if verified == "open" and checked_on:
         age = (date.today() - date.fromisoformat(checked_on)).days
         if race.get("entry_close_date") and date.today().isoformat() > race["entry_close_date"]:

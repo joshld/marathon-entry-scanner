@@ -231,27 +231,44 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Ballot",
+    "entry_type": "General ballot",
     "official_url": "https://www.marathon.tokyo/en/",
-    "registration_url": "https://www.marathon.tokyo/en/",
+    "registration_url": "https://www.marathon.tokyo/en/participants/",
     "priority": 1,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "race_date": "2027-03-07",
+    "entry_open_date": "2026-08-14",
+    "entry_close_date": "2026-08-28",
+    "date_source": "https://www.marathon.tokyo/en/participants/",
+    "date_verified_at": "2026-10-15",
     "registration_page_verified": false,
-    "entry_options": [],
+    "entry_options": [
+      {
+        "category": "Domestic participants",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 19800
+      },
+      {
+        "category": "International participants",
+        "distance": "Marathon",
+        "currency": "USD",
+        "amount": 230
+      }
+    ],
     "entry_price_note": null,
     "eligibility": {
-      "minimum_age": null,
-      "residency": null,
+      "minimum_age": 19,
+      "residency": "Domestic and overseas applicants accepted through applicable entry categories",
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "other_requirements": [
+        "General entrants must be capable of completing the race within 6 hours 30 minutes",
+        "Entry to general field is via a random drawing"
+      ],
+      "verification_status": "verified",
+      "source_url": "https://www.marathon.tokyo/en/about/outline/",
+      "verified_at": "2026-10-15"
+    },
+    "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows."
   },
   {
     "id": "osaka",
@@ -291,27 +308,51 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Ballot / overseas direct",
+    "entry_type": "Overseas direct (closed); domestic ballot",
     "official_url": "https://www.kyoto-marathon.com/en/",
-    "registration_url": "https://www.kyoto-marathon.com/en/",
+    "registration_url": "https://kyoto-marathon.com/en/entry/",
     "priority": 1,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "registration_page_verified": false,
-    "entry_options": [],
+    "race_date": "2027-02-21",
+    "entry_open_date": "2026-07-16",
+    "entry_close_date": "2026-09-30",
+    "date_source": "https://kyoto-marathon.com/en/entry/application/",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": true,
+    "entry_options": [
+      {
+        "category": "Overseas",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 35000
+      },
+      {
+        "category": "Domestic (non-Kyoto City)",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 19500
+      },
+      {
+        "category": "Kyoto City resident",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 18500
+      }
+    ],
     "entry_price_note": null,
     "eligibility": {
       "minimum_age": null,
-      "residency": null,
+      "residency": "Overseas marathon category open to non-Japan residents; domestic categories differ",
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "other_requirements": [
+        "Born before 1 April 2008",
+        "Able to complete within 6 hours",
+        "Official overseas applications are first-come-first-served and now closed"
+      ],
+      "verification_status": "verified",
+      "source_url": "https://a.kyoto-marathon.com/en/info/",
+      "verified_at": "2026-10-15"
+    },
+    "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule."
   },
   {
     "id": "nagoya",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T04:26:30+00:00",
+  "generated_at": "2026-10-15T04:29:40+00:00",
   "disclaimer": "Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.",
   "races": [
     {
@@ -50,7 +50,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.tcssydneymarathon.com/sign-up",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -97,7 +97,7 @@
       "race_date_note": "Half marathon: 3 July; full marathon: 4 July 2027.",
       "entry_open_note": "Early December 2026 (exact day TBA)",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -159,7 +159,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.brisbanemarathon.com.au/marathon",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -203,7 +203,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -243,7 +243,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -288,7 +288,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -349,7 +349,7 @@
       },
       "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -433,7 +433,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -496,7 +496,7 @@
       },
       "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -554,7 +554,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -599,7 +599,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 Entries Open",
@@ -656,7 +656,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: entries close",
@@ -722,7 +722,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -766,7 +766,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Entries close",
@@ -837,7 +837,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -881,7 +881,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -921,7 +921,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -967,7 +967,7 @@
         80
       ],
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1007,7 +1007,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1060,7 +1060,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1116,7 +1116,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1155,7 +1155,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1194,7 +1194,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1237,7 +1237,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1276,7 +1276,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -1327,7 +1327,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1366,7 +1366,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1405,7 +1405,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -1477,7 +1477,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1517,7 +1517,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1561,7 +1561,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1605,7 +1605,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -1663,7 +1663,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1735,7 +1735,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1775,7 +1775,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1815,7 +1815,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1859,7 +1859,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -1902,7 +1902,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1947,7 +1947,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1991,7 +1991,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2030,7 +2030,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2069,7 +2069,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2122,7 +2122,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2161,7 +2161,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2205,7 +2205,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2255,7 +2255,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2299,7 +2299,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: 受付終了",
@@ -2343,7 +2343,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2382,7 +2382,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2433,7 +2433,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2476,7 +2476,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2539,7 +2539,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2582,7 +2582,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2625,7 +2625,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2664,7 +2664,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2708,7 +2708,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 202,
       "evidence": "",
@@ -2751,7 +2751,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2795,7 +2795,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2846,7 +2846,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2890,7 +2890,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "募集終了",
@@ -2948,7 +2948,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2987,7 +2987,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3031,7 +3031,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3075,7 +3075,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -3132,7 +3132,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registration closed",
@@ -3185,7 +3185,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -3236,7 +3236,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: エントリー開始; closed: 受付終了",
@@ -3280,7 +3280,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3324,7 +3324,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -3364,7 +3364,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter now; closed: SOLD OUT",
@@ -3448,7 +3448,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3493,7 +3493,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3571,7 +3571,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3655,7 +3655,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3698,7 +3698,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3743,7 +3743,7 @@
       "race_end_date": "2027-04-25",
       "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "secure your spot",
@@ -3795,7 +3795,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3894,7 +3894,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3937,7 +3937,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4008,7 +4008,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4052,7 +4052,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -4091,7 +4091,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Registration is open",
@@ -4166,7 +4166,7 @@
       "priority": 1,
       "race_end_date": "2027-05-16",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Entries open; closed: sold out",
@@ -4254,7 +4254,7 @@
       "entry_type": "Direct / capacity",
       "priority": 1,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "entries open",
@@ -4330,7 +4330,7 @@
       "entry_type": "Direct",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4412,7 +4412,7 @@
       "entry_type": "Direct / verify",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4506,7 +4506,7 @@
       "entry_type": "Direct / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4562,7 +4562,7 @@
       "entry_type": "Qualifying / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -4614,7 +4614,7 @@
       },
       "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4657,7 +4657,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: sold out",
@@ -4703,7 +4703,7 @@
       },
       "entry_notes": "2027 marathon and half marathon race on 30 May 2027.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -4746,7 +4746,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: Sold Out",
@@ -4790,7 +4790,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4848,7 +4848,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4887,7 +4887,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4926,7 +4926,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -4969,7 +4969,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5012,7 +5012,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5056,7 +5056,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 500,
       "evidence": "",
@@ -5097,7 +5097,7 @@
       },
       "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5162,7 +5162,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: registrations open",
@@ -5215,7 +5215,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5258,7 +5258,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5302,7 +5302,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Secure Your Spot",
@@ -5345,7 +5345,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: sold out",
@@ -5404,7 +5404,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -5443,7 +5443,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5508,7 +5508,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -5547,7 +5547,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5590,7 +5590,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5633,7 +5633,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5676,7 +5676,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "SOLD OUT",
@@ -5720,7 +5720,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5779,7 +5779,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: Entries Open",
@@ -5868,7 +5868,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5912,7 +5912,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5964,7 +5964,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6008,7 +6008,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6051,7 +6051,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6103,7 +6103,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: SOLD OUT",
@@ -6147,7 +6147,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6190,7 +6190,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6242,7 +6242,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6319,7 +6319,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6369,7 +6369,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6412,7 +6412,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER TODAY",
@@ -6456,7 +6456,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6500,7 +6500,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6570,7 +6570,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6647,7 +6647,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: Sold Out",
@@ -6725,7 +6725,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -6769,7 +6769,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6812,7 +6812,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6862,7 +6862,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6912,7 +6912,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6990,7 +6990,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7044,7 +7044,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://enter.comrades.com/comrades-2027",
       "continent": "Africa",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Entries closed",
@@ -7094,7 +7094,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7137,7 +7137,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: REGISTRATION OPEN; closed: Registrations closed",
@@ -7233,7 +7233,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7293,7 +7293,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7366,7 +7366,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7443,7 +7443,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7496,7 +7496,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7536,7 +7536,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7580,7 +7580,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -7619,7 +7619,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7662,7 +7662,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7705,7 +7705,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7744,11 +7744,11 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7ffb3ac2f230>, 'Connection to www",
+      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7fa4c0bcfc50>, 'Connection to www",
       "checked_url": "https://www.kumf.kr/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -7785,7 +7785,7 @@
       },
       "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7842,7 +7842,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7886,7 +7886,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: Register now",
@@ -7931,7 +7931,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7975,7 +7975,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -8015,7 +8015,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -8067,7 +8067,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -8112,18 +8112,14 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
-      "status": "possible_open",
-      "http_status": 200,
-      "evidence": "Register Now",
-      "error": "",
+      "checked_at": "2026-10-15T04:29:40+00:00",
+      "status": "unknown",
+      "http_status": null,
+      "evidence": "",
+      "error": "HTTPSConnectionPool(host='hanoi.vietnamheritagemarathon.com', port=443): Max retries exceeded with url: /en/the-race/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='hanoi.vietnamheritagemaratho",
       "checked_url": "https://hanoi.vietnamheritagemarathon.com/en/the-race/",
       "date_window_status": "dates_unknown",
-      "detected": {},
-      "scanned_pages": [
-        "https://hanoi.vietnamheritagemarathon.com/en/the-race/"
-      ],
-      "registration_evidence_status": "possible_open"
+      "registration_evidence_status": "unknown"
     },
     {
       "id": "cebu-marathon",
@@ -8169,7 +8165,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -8213,7 +8209,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:26:30+00:00",
+      "checked_at": "2026-10-15T04:29:40+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",

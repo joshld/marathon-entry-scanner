@@ -678,5 +678,13 @@
     "before": "no_signal",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:29:40+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

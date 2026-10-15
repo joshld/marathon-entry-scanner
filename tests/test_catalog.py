@@ -50,6 +50,17 @@ class CatalogAndDashboardTests(unittest.TestCase):
                          "data-expand-continent", "countryContinents", "No locations", "All locations"):
             self.assertIn(fragment, self.script)
 
+    def test_mobile_menus_do_not_overlap_later_filters(self):
+        # Menus are overlays on desktop but expand in normal flow on mobile.
+        # This is important for touch access to nested continent/country lists.
+        css = self.page.find("style").get_text()
+        self.assertIn(".distance-filter[open]{z-index:100}", css)
+        self.assertIn("@media (max-width:700px)", css)
+        self.assertIn(".filters .distance-filter .distance-menu{", css)
+        self.assertIn("position:static;", css)
+        self.assertIn("overflow-y:auto;", css)
+        self.assertIn("max-height:min(55vh,420px)", css)
+
     def test_existing_filters_and_date_range_preserved(self):
         for item in ("#distance-filter", "#type-filter", "#status-filter", "#date-from", "#date-to", "#include-undated"):
             self.assertIsNotNone(self.page.select_one(item), item)

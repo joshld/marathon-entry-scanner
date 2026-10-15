@@ -67,7 +67,7 @@ class BrowserPushTests(unittest.TestCase):
         self.assertNotIn('initBrowserPush()',html)
         self.assertNotIn('Notification.requestPermission()',html)
         self.assertIn('data-race-id="'+ "'+esc(e.id)+'" + '"',html)
-        self.assertIn('href="'+ "'+esc(target)+'" + '"',html)
+        self.assertIn('const target="#race-"+encodeURIComponent(e.id);',html)
         self.assertNotIn('target="_blank" rel="noopener noreferrer"><span class="updates-item-top">',html)
         self.assertIn("revealRaceCard(raceId)",html)
         self.assertIn("raceUpdatesSeen.add(row.dataset.updateKey)",html)

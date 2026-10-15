@@ -60,23 +60,26 @@
     "official_url": "https://goldcoastmarathon.com.au/",
     "registration_url": "https://goldcoastmarathon.com.au/",
     "priority": 1,
-    "race_date": null,
+    "race_date": "2027-07-03",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://goldcoastmarathon.com.au/races/marathon/",
+    "date_verified_at": "2026-10-15",
     "registration_page_verified": false,
     "entry_options": [],
-    "entry_price_note": null,
+    "entry_price_note": "2027 fee TBC by organiser.",
     "eligibility": {
-      "minimum_age": null,
+      "minimum_age": 18,
       "residency": null,
       "qualifying_time": null,
       "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "verification_status": "partially_verified",
+      "source_url": "https://goldcoastmarathon.com.au/races/marathon/",
+      "verified_at": "2026-10-15"
+    },
+    "race_end_date": "2027-07-04",
+    "race_date_note": "Half marathon: 3 July; full marathon: 4 July 2027.",
+    "entry_open_note": "Early December 2026 (exact day TBA)"
   },
   {
     "id": "brisbane",
@@ -2328,11 +2331,11 @@
     "registration_url": "https://www.bmw-berlin-marathon.com/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-09-26",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://www.berlin.de/en/events/10337131-2842498-berlinmarathon.en.html",
+    "date_verified_at": "2026-10-15",
     "entry_options": [],
     "entry_price_note": null,
     "eligibility": {
@@ -2353,16 +2356,16 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Unknown / verify",
+    "entry_type": "Ballot (closed); charity / qualifying routes",
     "official_url": "https://www.londonmarathonevents.co.uk/london-marathon",
     "registration_url": "https://www.londonmarathonevents.co.uk/london-marathon",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-04-24",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://www.londonmarathonevents.co.uk/london-marathon/article/elite-race-dates-confirmed-historic-2027-double-tcs-london-marathon",
+    "date_verified_at": "2026-10-15",
     "entry_options": [],
     "entry_price_note": null,
     "eligibility": {
@@ -2373,7 +2376,9 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "race_end_date": "2027-04-25",
+    "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days."
   },
   {
     "id": "chicago-marathon",
@@ -2776,16 +2781,16 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Unverified",
+    "entry_type": "Direct (general sold out); charity",
     "official_url": "https://www.manchestermarathon.co.uk/",
-    "registration_url": "https://www.manchestermarathon.co.uk/",
+    "registration_url": "https://www.manchestermarathon.co.uk/entry-types/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "race_date": "2027-04-18",
+    "entry_open_date": "2026-04-21",
+    "entry_close_date": "2026-04-28",
+    "date_source": "https://www.manchestermarathon.co.uk/news/how-to-get-a-place-in-the-2027-adidas-manchester-marathon/",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -2796,7 +2801,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release."
   },
   {
     "id": "brighton-marathon",
@@ -2842,11 +2848,11 @@
     "registration_url": "https://www.edinburghmarathon.com/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
-    "entry_open_date": null,
+    "race_date": "2027-05-30",
+    "entry_open_date": "2026-04-20",
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://www.edinburghmarathon.com/faqs/marathon-2026",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -2857,7 +2863,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "entry_notes": "2027 marathon and half marathon race on 30 May 2027."
   },
   {
     "id": "loch-ness-marathon",
@@ -3082,11 +3089,11 @@
     "registration_url": "https://www.schneiderelectricparismarathon.com/en",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-04-04",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://parisjetaime.com/eng/event/marathon-de-paris-e003",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -3113,11 +3120,11 @@
     "registration_url": "https://www.tcsamsterdammarathon.eu/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-10-31",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://www.tcsamsterdammarathon.eu/program",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {
@@ -3128,7 +3135,8 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday."
   },
   {
     "id": "rotterdam-marathon",
@@ -3143,11 +3151,11 @@
     "registration_url": "https://nnmarathonrotterdam.nl/en/",
     "registration_page_verified": false,
     "priority": 3,
-    "race_date": null,
+    "race_date": "2027-04-11",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
+    "date_source": "https://nnmarathonrotterdam.nl/",
+    "date_verified_at": "2026-10-15",
     "entry_price_note": null,
     "entry_options": [],
     "eligibility": {

@@ -1,1 +1,286 @@
-[]
+[
+  {
+    "key": "new:rio-de-janeiro-marathon:2026-09-18",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "rio-de-janeiro-marathon",
+    "name": "Rio de Janeiro Marathon (Maratona do Rio)",
+    "country": "Brazil",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": null,
+    "entry_open_date": "2026-09-18",
+    "url": "https://maratonadorio.com.br/en/corrida/42k-2027"
+  },
+  {
+    "key": "new:santiago-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "santiago-marathon",
+    "name": "Maratón de Santiago",
+    "country": "Chile",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "race_date": "2027-05-16",
+    "entry_open_date": null,
+    "url": "https://maratondesantiago.cl/"
+  },
+  {
+    "key": "new:buenos-aires-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "buenos-aires-marathon",
+    "name": "Buenos Aires Marathon (42K)",
+    "country": "Argentina",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": null,
+    "entry_open_date": null,
+    "url": "https://www.maratondebuenosaires.com/"
+  },
+  {
+    "key": "new:cape-town-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "cape-town-marathon",
+    "name": "Sanlam Cape Town Marathon",
+    "country": "South Africa",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": "2027-05-22",
+    "entry_open_date": null,
+    "url": "https://capetownmarathon.com/FAQ/"
+  },
+  {
+    "key": "new:two-oceans-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "two-oceans-marathon",
+    "name": "Totalsports Two Oceans Marathon",
+    "country": "South Africa",
+    "distance": [
+      "Ultra",
+      "Half marathon"
+    ],
+    "race_date": "2027-04-03",
+    "entry_open_date": null,
+    "url": "https://enter.twooceansmarathon.org.za/two-oceans-2027/entry-windows"
+  },
+  {
+    "key": "new:nairobi-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "country": "Kenya",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "race_date": "2026-10-25",
+    "entry_open_date": null,
+    "url": "https://www.nairobimarathon.com/"
+  },
+  {
+    "key": "new:tata-mumbai-marathon:2026-07-31",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "tata-mumbai-marathon",
+    "name": "Tata Mumbai Marathon",
+    "country": "India",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": "2027-01-17",
+    "entry_open_date": "2026-07-31",
+    "url": "https://tatamumbaimarathon.procam.in/race-categories/marathon/information"
+  },
+  {
+    "key": "new:new-delhi-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "new-delhi-marathon",
+    "name": "Cognizant New Delhi Marathon",
+    "country": "India",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "race_date": "2027-02-28",
+    "entry_open_date": null,
+    "url": "https://www.newdelhimarathon.com/"
+  },
+  {
+    "key": "new:beijing-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "beijing-marathon",
+    "name": "Beijing Marathon",
+    "country": "China",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": null,
+    "entry_open_date": null,
+    "url": "https://en.beijing-marathon.com/"
+  },
+  {
+    "key": "new:ultra-trail-kosciuszko:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "ultra-trail-kosciuszko",
+    "name": "Ultra-Trail Kosciuszko by UTMB",
+    "country": "Australia",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2026-11-26",
+    "entry_open_date": null,
+    "url": "https://kosciuszko.utmb.world/runners/entry-info"
+  },
+  {
+    "key": "new:surf-coast-century:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "surf-coast-century",
+    "name": "Surf Coast Century",
+    "country": "Australia",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2027-09-18",
+    "entry_open_date": null,
+    "url": "https://surfcoastcentury.rapidascent.com.au/"
+  },
+  {
+    "key": "new:blackall100:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "blackall100",
+    "name": "Blackall100",
+    "country": "Australia",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2026-10-17",
+    "entry_open_date": null,
+    "url": "https://www.runqld.com.au/blackall-100"
+  },
+  {
+    "key": "new:prague-half-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "prague-half-marathon",
+    "name": "Generali Prague Half Marathon",
+    "country": "Czechia",
+    "distance": [
+      "Half marathon"
+    ],
+    "race_date": "2027-04-03",
+    "entry_open_date": null,
+    "url": "https://www.runczech.com/en/events/generali-prague-half-marathon-2027-2"
+  },
+  {
+    "key": "new:roma-ostia-half-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "roma-ostia-half-marathon",
+    "name": "RomaOstia Half Marathon",
+    "country": "Italy",
+    "distance": [
+      "Half marathon"
+    ],
+    "race_date": "2027-02-28",
+    "entry_open_date": null,
+    "url": "https://romaostia.it/?lang=en"
+  },
+  {
+    "key": "new:zegama-aizkorri:2027-01-11",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "zegama-aizkorri",
+    "name": "Zegama-Aizkorri Mountain Marathon",
+    "country": "Spain",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": "2027-06-06",
+    "entry_open_date": "2027-01-11",
+    "url": "https://www.zegama-aizkorri.com/en/news/368-date-2027"
+  },
+  {
+    "key": "new:marathon-du-medoc:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "marathon-du-medoc",
+    "name": "Marathon du Médoc",
+    "country": "France",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": "2027-09-04",
+    "entry_open_date": null,
+    "url": "https://www.marathondumedoc.com/en/"
+  },
+  {
+    "key": "new:dubai-marathon:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "dubai-marathon",
+    "name": "Dubai Marathon",
+    "country": "United Arab Emirates",
+    "distance": [
+      "Marathon"
+    ],
+    "race_date": "2027-01-17",
+    "entry_open_date": null,
+    "url": "https://www.dubaimarathon.org/"
+  },
+  {
+    "key": "new:javelina-jundred:2026-10-15",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "javelina-jundred",
+    "name": "Javelina Jundred",
+    "country": "United States",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2026-10-31",
+    "entry_open_date": null,
+    "url": "https://www.aravaiparunning.com/javelina/"
+  },
+  {
+    "key": "new:tarawera-ultra-trail:2026-04-16",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "tarawera-ultra-trail",
+    "name": "Tarawera Ultra-Trail by UTMB",
+    "country": "New Zealand",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2027-02-13",
+    "entry_open_date": "2026-04-16",
+    "url": "https://tarawera.utmb.world/runners/entry-info"
+  },
+  {
+    "key": "new:run-larapinta:2026-10-14",
+    "at": "2026-10-15T07:16:11+00:00",
+    "type": "new",
+    "id": "run-larapinta",
+    "name": "Run Larapinta Stage Race",
+    "country": "Australia",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2027-08-19",
+    "entry_open_date": "2026-10-14",
+    "url": "https://runlarapinta.rapidascent.com.au/event-entry/enter-online/"
+  }
+]

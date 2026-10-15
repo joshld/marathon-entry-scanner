@@ -1294,5 +1294,93 @@
     "before": "possible_closed",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "nagano-marathon",
+    "name": "Nagano Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "niigata-city-marathon",
+    "name": "Niigata City Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "beppu-oita-mainichi-marathon",
+    "name": "Beppu-Oita Mainichi Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "lake-biwa-marathon",
+    "name": "Lake Biwa Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "okinawa-marathon",
+    "name": "Okinawa Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "conflicting_signals",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "ibusuki-nanohana-marathon",
+    "name": "Ibusuki Nanohana Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "hcmc-marathon",
+    "name": "HCMC Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T07:15:26+00:00",
+    "id": "oslo-marathon",
+    "name": "Oslo Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

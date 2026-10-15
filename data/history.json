@@ -1118,5 +1118,21 @@
     "before": "possible_open",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:03:20+00:00",
+    "id": "new-york-city-marathon",
+    "name": "New York City Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:03:20+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

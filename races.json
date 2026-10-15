@@ -624,33 +624,67 @@
     "country": "Australia",
     "city": "Margaret River",
     "distance": [
+      "Marathon",
       "Ultra"
     ],
-    "entry_type": "Ultra trail / verify",
-    "official_url": "https://mrun.com.au/",
-    "registration_url": "https://mrun.com.au/",
-    "registration_page_verified": false,
+    "entry_type": "Direct / applications (process TBA)",
+    "official_url": "https://margaretriver.rapidascent.com.au/",
+    "registration_url": "https://margaretriver.rapidascent.com.au/event-entry/enter-online/",
+    "registration_page_verified": true,
     "priority": 2,
-    "race_date": null,
+    "race_date": "2027-05-08",
     "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "entry_options": [],
-    "entry_price_note": null,
+    "entry_close_date": "2027-05-06",
+    "date_source": "https://margaretriver.rapidascent.com.au/",
+    "date_verified_at": "2026-10-15",
+    "entry_options": [
+      {
+        "category": "Standard adult solo",
+        "distance": "Ultra",
+        "currency": "AUD",
+        "amount": 451
+      },
+      {
+        "category": "Late adult solo",
+        "distance": "Ultra",
+        "currency": "AUD",
+        "amount": 502
+      },
+      {
+        "category": "Standard adult solo",
+        "distance": "Marathon",
+        "currency": "AUD",
+        "amount": 307
+      },
+      {
+        "category": "Late adult solo",
+        "distance": "Marathon",
+        "currency": "AUD",
+        "amount": 358
+      }
+    ],
+    "entry_price_note": "2027 standard price until 8:00 am AWST 2 March; late entry until 8:00 am AWST 6 May, if places remain. Fees vary for juniors, teams and Grand Slam.",
     "eligibility": {
       "minimum_age": null,
       "residency": null,
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
+      "other_requirements": [
+        "Solo and relay options for 80 km; 42 km solo trail marathon",
+        "2027 field limits: 450 solo 80 km runners, 250 relay teams and 400 solo 42 km runners",
+        "Special policies apply to entrants under 18; check organiser's terms",
+        "Registration can close earlier if field limits are reached"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://margaretriver.rapidascent.com.au/event-entry/entry-info-and-fees/",
+      "verified_at": "2026-10-15"
     },
     "ultra_distances_km": [
       80
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "race_end_date": "2027-05-09",
+    "race_date_note": "80 km ultra and relay on 8 May; 42 km trail marathon on 9 May 2027.",
+    "entry_open_note": "Early November 2026; exact opening date to be announced."
   },
   {
     "id": "great-ocean-road-running-festival",

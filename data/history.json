@@ -862,5 +862,29 @@
     "before": "possible_closed",
     "after": "confirmed_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:09:37+00:00",
+    "id": "matsue-castle-marathon",
+    "name": "Matsue Castle Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:09:37+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:09:37+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

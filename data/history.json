@@ -86,5 +86,21 @@
     "before": "possible_closed",
     "after": "conflicting_signals",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T03:46:51+00:00",
+    "id": "sydney-marathon",
+    "name": "Sydney Marathon",
+    "before": "no_signal",
+    "after": "confirmed_open",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T03:46:51+00:00",
+    "id": "brisbane",
+    "name": "Brisbane Marathon Festival",
+    "before": "no_signal",
+    "after": "confirmed_open",
+    "dates_changed": true
   }
 ]

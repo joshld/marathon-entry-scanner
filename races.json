@@ -1,14 +1,1610 @@
 [
-  {"id":"sydney-marathon","name":"Sydney Marathon","country":"Australia","city":"Sydney","distance":["Marathon"],"entry_type":"Ballot","official_url":"https://www.tcssydneymarathon.com/marathon","registration_url":"https://www.tcssydneymarathon.com/marathon","priority":1},
-  {"id":"gold-coast","name":"Gold Coast Marathon","country":"Australia","city":"Gold Coast","distance":["Marathon","Half marathon"],"entry_type":"Direct / varies","official_url":"https://goldcoastmarathon.com.au/","registration_url":"https://goldcoastmarathon.com.au/","priority":1},
-  {"id":"brisbane","name":"Brisbane Marathon Festival","country":"Australia","city":"Brisbane","distance":["Marathon","Half marathon"],"entry_type":"Direct","official_url":"https://www.brisbanemarathon.com.au/","registration_url":"https://www.brisbanemarathon.com.au/","priority":1},
-  {"id":"canberra","name":"Canberra Marathon Festival","country":"Australia","city":"Canberra","distance":["Marathon","Half marathon"],"entry_type":"Direct","official_url":"https://www.runningfestival.com.au/","registration_url":"https://www.runningfestival.com.au/","priority":2},
-  {"id":"sunshine-coast","name":"Sunshine Coast Marathon","country":"Australia","city":"Sunshine Coast","distance":["Marathon","Half marathon"],"entry_type":"Direct","official_url":"https://sunshinecoastmarathon.com.au/","registration_url":"https://sunshinecoastmarathon.com.au/","priority":1},
-  {"id":"melbourne","name":"Melbourne Marathon Festival","country":"Australia","city":"Melbourne","distance":["Marathon","Half marathon"],"entry_type":"Direct / varies","official_url":"https://melbournemarathon.com.au/","registration_url":"https://melbournemarathon.com.au/","priority":2},
-  {"id":"tokyo","name":"Tokyo Marathon","country":"Japan","city":"Tokyo","distance":["Marathon"],"entry_type":"Ballot","official_url":"https://www.marathon.tokyo/en/","registration_url":"https://www.marathon.tokyo/en/","priority":1},
-  {"id":"osaka","name":"Osaka Marathon","country":"Japan","city":"Osaka","distance":["Marathon"],"entry_type":"Ballot / varies","official_url":"https://www.osaka-marathon.com/","registration_url":"https://www.osaka-marathon.com/","priority":1},
-  {"id":"kyoto","name":"Kyoto Marathon","country":"Japan","city":"Kyoto","distance":["Marathon"],"entry_type":"Ballot / overseas direct","official_url":"https://www.kyoto-marathon.com/en/","registration_url":"https://www.kyoto-marathon.com/en/","priority":1},
-  {"id":"nagoya","name":"Nagoya City Marathon","country":"Japan","city":"Nagoya","distance":["Half marathon"],"entry_type":"Direct / varies","official_url":"https://city-marathon.nagoya/","registration_url":"https://city-marathon.nagoya/","priority":2},
-  {"id":"rotorua","name":"Rotorua Marathon","country":"New Zealand","city":"Rotorua","distance":["Marathon","Half marathon"],"entry_type":"Direct","official_url":"https://www.rotoruamarathon.co.nz/","registration_url":"https://www.rotoruamarathon.co.nz/","priority":3},
-  {"id":"wellington","name":"Wellington Marathon","country":"New Zealand","city":"Wellington","distance":["Marathon","Half marathon"],"entry_type":"Direct","official_url":"https://www.wellingtonmarathon.co.nz/","registration_url":"https://www.wellingtonmarathon.co.nz/","priority":3}
+  {
+    "id": "sydney-marathon",
+    "name": "Sydney Marathon",
+    "country": "Australia",
+    "city": "Sydney",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Ballot",
+    "official_url": "https://www.tcssydneymarathon.com/marathon",
+    "registration_url": "https://www.tcssydneymarathon.com/marathon",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "gold-coast",
+    "name": "Gold Coast Marathon",
+    "country": "Australia",
+    "city": "Gold Coast",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / varies",
+    "official_url": "https://goldcoastmarathon.com.au/",
+    "registration_url": "https://goldcoastmarathon.com.au/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "brisbane",
+    "name": "Brisbane Marathon Festival",
+    "country": "Australia",
+    "city": "Brisbane",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.brisbanemarathon.com.au/",
+    "registration_url": "https://www.brisbanemarathon.com.au/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "canberra",
+    "name": "Canberra Marathon Festival",
+    "country": "Australia",
+    "city": "Canberra",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.runningfestival.com.au/",
+    "registration_url": "https://www.runningfestival.com.au/",
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "sunshine-coast",
+    "name": "Sunshine Coast Marathon",
+    "country": "Australia",
+    "city": "Sunshine Coast",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://sunshinecoastmarathon.com.au/",
+    "registration_url": "https://sunshinecoastmarathon.com.au/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "country": "Australia",
+    "city": "Melbourne",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct / varies",
+    "official_url": "https://melbournemarathon.com.au/",
+    "registration_url": "https://melbournemarathon.com.au/",
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo Marathon",
+    "country": "Japan",
+    "city": "Tokyo",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Ballot",
+    "official_url": "https://www.marathon.tokyo/en/",
+    "registration_url": "https://www.marathon.tokyo/en/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "osaka",
+    "name": "Osaka Marathon",
+    "country": "Japan",
+    "city": "Osaka",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Ballot / varies",
+    "official_url": "https://www.osaka-marathon.com/",
+    "registration_url": "https://www.osaka-marathon.com/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto Marathon",
+    "country": "Japan",
+    "city": "Kyoto",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Ballot / overseas direct",
+    "official_url": "https://www.kyoto-marathon.com/en/",
+    "registration_url": "https://www.kyoto-marathon.com/en/",
+    "priority": 1,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "nagoya",
+    "name": "Nagoya City Marathon",
+    "country": "Japan",
+    "city": "Nagoya",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Direct / varies",
+    "official_url": "https://city-marathon.nagoya/",
+    "registration_url": "https://city-marathon.nagoya/",
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "rotorua",
+    "name": "Rotorua Marathon",
+    "country": "New Zealand",
+    "city": "Rotorua",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.rotoruamarathon.co.nz/",
+    "registration_url": "https://www.rotoruamarathon.co.nz/",
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "country": "New Zealand",
+    "city": "Wellington",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Direct",
+    "official_url": "https://www.wellingtonmarathon.co.nz/",
+    "registration_url": "https://www.wellingtonmarathon.co.nz/",
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false
+  },
+  {
+    "id": "hobart-marathon",
+    "name": "Hobart Marathon",
+    "country": "Australia",
+    "city": "Hobart",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.hobartmarathon.com.au/",
+    "registration_url": "https://www.hobartmarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "adelaide-marathon-festival",
+    "name": "Adelaide Marathon Festival",
+    "country": "Australia",
+    "city": "Adelaide",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://adelaidemarathon.com.au/",
+    "registration_url": "https://adelaidemarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "perth-running-festival",
+    "name": "Perth Running Festival",
+    "country": "Australia",
+    "city": "Perth",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://perthrunningfestival.com.au/",
+    "registration_url": "https://perthrunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "perth-marathon",
+    "name": "Perth Marathon",
+    "country": "Australia",
+    "city": "Perth",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.wamc.org.au/",
+    "registration_url": "https://www.wamc.org.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "bunbury-3-waters-running-festival",
+    "name": "Bunbury 3 Waters Running Festival",
+    "country": "Australia",
+    "city": "Bunbury",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.bunburyrunnersclub.org/",
+    "registration_url": "https://www.bunburyrunnersclub.org/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "margaret-river-ultra-marathon",
+    "name": "Margaret River Ultra Marathon",
+    "country": "Australia",
+    "city": "Margaret River",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://mrun.com.au/",
+    "registration_url": "https://mrun.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "great-ocean-road-running-festival",
+    "name": "Great Ocean Road Running Festival",
+    "country": "Australia",
+    "city": "Apollo Bay",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://greatoceanroadrunfest.com.au/",
+    "registration_url": "https://greatoceanroadrunfest.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "ballarat-marathon",
+    "name": "Ballarat Marathon",
+    "country": "Australia",
+    "city": "Ballarat",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://ballaratmarathon.com.au/",
+    "registration_url": "https://ballaratmarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "bendigo-running-festival",
+    "name": "Bendigo Running Festival",
+    "country": "Australia",
+    "city": "Bendigo",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.bendigorunningfestival.com.au/",
+    "registration_url": "https://www.bendigorunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "geelong-half-marathon",
+    "name": "Geelong Half Marathon",
+    "country": "Australia",
+    "city": "Geelong",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.geelonghalfmarathon.com.au/",
+    "registration_url": "https://www.geelonghalfmarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "run-melbourne",
+    "name": "Run Melbourne",
+    "country": "Australia",
+    "city": "Melbourne",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://runmelbourne.com.au/",
+    "registration_url": "https://runmelbourne.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "mornington-running-festival",
+    "name": "Mornington Running Festival",
+    "country": "Australia",
+    "city": "Mornington",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://morningtonrunningfestival.com.au/",
+    "registration_url": "https://morningtonrunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "hobart-run-the-bridge",
+    "name": "Hobart Run The Bridge",
+    "country": "Australia",
+    "city": "Hobart",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.hobartrunthebridge.com.au/",
+    "registration_url": "https://www.hobartrunthebridge.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "launceston-running-festival",
+    "name": "Launceston Running Festival",
+    "country": "Australia",
+    "city": "Launceston",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://launcestonrunningfestival.com.au/",
+    "registration_url": "https://launcestonrunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "cadbury-marathon",
+    "name": "Cadbury Marathon",
+    "country": "Australia",
+    "city": "Claremont",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.cadburymarathon.com.au/",
+    "registration_url": "https://www.cadburymarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "sydney-half-marathon",
+    "name": "Sydney Half Marathon",
+    "country": "Australia",
+    "city": "Sydney",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://sydneyhalf.com.au/",
+    "registration_url": "https://sydneyhalf.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "runaway-sydney-half-marathon",
+    "name": "Runaway Sydney Half Marathon",
+    "country": "Australia",
+    "city": "Sydney",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://runawaysydneyhalf.com.au/",
+    "registration_url": "https://runawaysydneyhalf.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "newcastle-running-festival",
+    "name": "Newcastle Running Festival",
+    "country": "Australia",
+    "city": "Newcastle",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://newcastlerunningfestival.com.au/",
+    "registration_url": "https://newcastlerunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "country": "Australia",
+    "city": "Port Macquarie",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.portmacquarierunningfestival.com.au/",
+    "registration_url": "https://www.portmacquarierunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "mudgee-running-festival",
+    "name": "Mudgee Running Festival",
+    "country": "Australia",
+    "city": "Mudgee",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://mudgeerunningfestival.com.au/",
+    "registration_url": "https://mudgeerunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "country": "Australia",
+    "city": "Orange",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://orangerunningfestival.com.au/",
+    "registration_url": "https://orangerunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "dubbo-stampede",
+    "name": "Dubbo Stampede",
+    "country": "Australia",
+    "city": "Dubbo",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://dubbostampede.com.au/",
+    "registration_url": "https://dubbostampede.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "bathurst-half-marathon",
+    "name": "Bathurst Half Marathon",
+    "country": "Australia",
+    "city": "Bathurst",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.bathurstathletics.org.au/",
+    "registration_url": "https://www.bathurstathletics.org.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "noosa-marathon",
+    "name": "Noosa Marathon",
+    "country": "Australia",
+    "city": "Noosa",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://noosamarathon.com.au/",
+    "registration_url": "https://noosamarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "cairns-marathon-festival",
+    "name": "Cairns Marathon Festival",
+    "country": "Australia",
+    "city": "Cairns",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://cairnsmarathon.com.au/",
+    "registration_url": "https://cairnsmarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "country": "Australia",
+    "city": "Townsville",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://townsvillerunningfestival.com/",
+    "registration_url": "https://townsvillerunningfestival.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "mackay-marina-run",
+    "name": "Mackay Marina Run",
+    "country": "Australia",
+    "city": "Mackay",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://mackaymarinarun.com/",
+    "registration_url": "https://mackaymarinarun.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "7-cairns-marathon",
+    "name": "7 Cairns Marathon",
+    "country": "Australia",
+    "city": "Cairns",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://cairnsmarathon.com.au/",
+    "registration_url": "https://cairnsmarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "toowoomba-marathon",
+    "name": "Toowoomba Marathon",
+    "country": "Australia",
+    "city": "Toowoomba",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.toowoombamarathon.com.au/",
+    "registration_url": "https://www.toowoombamarathon.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "hervey-bay-running-festival",
+    "name": "Hervey Bay Running Festival",
+    "country": "Australia",
+    "city": "Hervey Bay",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://herveybayrunningfestival.com.au/",
+    "registration_url": "https://herveybayrunningfestival.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "darwin-city2surf-half-marathon",
+    "name": "Darwin City2Surf Half Marathon",
+    "country": "Australia",
+    "city": "Darwin",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.darwinrunners.com.au/",
+    "registration_url": "https://www.darwinrunners.com.au/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "alice-springs-running-festival",
+    "name": "Alice Springs Running Festival",
+    "country": "Australia",
+    "city": "Alice Springs",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.alicespringsrunningwalkingclub.com/",
+    "registration_url": "https://www.alicespringsrunningwalkingclub.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "nagoya-women-s-marathon",
+    "name": "Nagoya Women's Marathon",
+    "country": "Japan",
+    "city": "Nagoya",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://womens-marathon.nagoya/",
+    "registration_url": "https://womens-marathon.nagoya/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "kobe-marathon",
+    "name": "Kobe Marathon",
+    "country": "Japan",
+    "city": "Kobe",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://kobe-marathon.net/",
+    "registration_url": "https://kobe-marathon.net/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "fukuoka-marathon",
+    "name": "Fukuoka Marathon",
+    "country": "Japan",
+    "city": "Fukuoka",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.f-marathon.jp/",
+    "registration_url": "https://www.f-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "hokkaido-marathon",
+    "name": "Hokkaido Marathon",
+    "country": "Japan",
+    "city": "Sapporo",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.hokkaido-marathon.com/",
+    "registration_url": "https://www.hokkaido-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "nara-marathon",
+    "name": "Nara Marathon",
+    "country": "Japan",
+    "city": "Nara",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.nara-marathon.jp/",
+    "registration_url": "https://www.nara-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "kumamoto-castle-marathon",
+    "name": "Kumamoto Castle Marathon",
+    "country": "Japan",
+    "city": "Kumamoto",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://kumamotojyo-marathon.jp/",
+    "registration_url": "https://kumamotojyo-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "shizuoka-marathon",
+    "name": "Shizuoka Marathon",
+    "country": "Japan",
+    "city": "Shizuoka",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.shizuoka-marathon.com/",
+    "registration_url": "https://www.shizuoka-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "yokohama-marathon",
+    "name": "Yokohama Marathon",
+    "country": "Japan",
+    "city": "Yokohama",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://yokohamamarathon.jp/",
+    "registration_url": "https://yokohamamarathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "kanazawa-marathon",
+    "name": "Kanazawa Marathon",
+    "country": "Japan",
+    "city": "Kanazawa",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.kanazawa-marathon.jp/",
+    "registration_url": "https://www.kanazawa-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "toyama-marathon",
+    "name": "Toyama Marathon",
+    "country": "Japan",
+    "city": "Toyama",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.toyamamarathon.com/",
+    "registration_url": "https://www.toyamamarathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "okayama-marathon",
+    "name": "Okayama Marathon",
+    "country": "Japan",
+    "city": "Okayama",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.okayama-marathon.jp/",
+    "registration_url": "https://www.okayama-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "matsue-castle-marathon",
+    "name": "Matsue Castle Marathon",
+    "country": "Japan",
+    "city": "Matsue",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.matsuejo-marathon.jp/",
+    "registration_url": "https://www.matsuejo-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "tsukuba-marathon",
+    "name": "Tsukuba Marathon",
+    "country": "Japan",
+    "city": "Tsukuba",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.tsukuba-marathon.com/",
+    "registration_url": "https://www.tsukuba-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "nagano-marathon",
+    "name": "Nagano Marathon",
+    "country": "Japan",
+    "city": "Nagano",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.naganomarathon.gr.jp/",
+    "registration_url": "https://www.naganomarathon.gr.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "sendai-international-half-marathon",
+    "name": "Sendai International Half Marathon",
+    "country": "Japan",
+    "city": "Sendai",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.sendaihalf.com/",
+    "registration_url": "https://www.sendaihalf.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "sapporo-marathon",
+    "name": "Sapporo Marathon",
+    "country": "Japan",
+    "city": "Sapporo",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://satumara.sapporo-sport.jp/",
+    "registration_url": "https://satumara.sapporo-sport.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "kagawa-marugame-international-half-marathon",
+    "name": "Kagawa Marugame International Half Marathon",
+    "country": "Japan",
+    "city": "Marugame",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.km-half.com/",
+    "registration_url": "https://www.km-half.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "osaka-half-marathon",
+    "name": "Osaka Half Marathon",
+    "country": "Japan",
+    "city": "Osaka",
+    "distance": [
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.osaka-half-marathon.com/",
+    "registration_url": "https://www.osaka-half-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "shonan-international-marathon",
+    "name": "Shonan International Marathon",
+    "country": "Japan",
+    "city": "Oiso",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.shonan-kokusai.jp/",
+    "registration_url": "https://www.shonan-kokusai.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "niigata-city-marathon",
+    "name": "Niigata City Marathon",
+    "country": "Japan",
+    "city": "Niigata",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://runfes-niigata.com/",
+    "registration_url": "https://runfes-niigata.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "beppu-oita-mainichi-marathon",
+    "name": "Beppu-Oita Mainichi Marathon",
+    "country": "Japan",
+    "city": "Oita",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.betsudai.com/",
+    "registration_url": "https://www.betsudai.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "lake-biwa-marathon",
+    "name": "Lake Biwa Marathon",
+    "country": "Japan",
+    "city": "Otsu",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://biwako-marathon.com/",
+    "registration_url": "https://biwako-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "okinawa-marathon",
+    "name": "Okinawa Marathon",
+    "country": "Japan",
+    "city": "Okinawa",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.okinawa-marathon.com/",
+    "registration_url": "https://www.okinawa-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "country": "Japan",
+    "city": "Naha",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.naha-marathon.jp/",
+    "registration_url": "https://www.naha-marathon.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "ibusuki-nanohana-marathon",
+    "name": "Ibusuki Nanohana Marathon",
+    "country": "Japan",
+    "city": "Ibusuki",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.ibusuki-nanohana.com/",
+    "registration_url": "https://www.ibusuki-nanohana.com/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "miyazaki-aoshima-taiheiyo-marathon",
+    "name": "Miyazaki Aoshima Taiheiyo Marathon",
+    "country": "Japan",
+    "city": "Miyazaki",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.aotai.gr.jp/",
+    "registration_url": "https://www.aotai.gr.jp/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "auckland-marathon",
+    "name": "Auckland Marathon",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://aucklandmarathon.co.nz/",
+    "registration_url": "https://aucklandmarathon.co.nz/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "christchurch-marathon",
+    "name": "Christchurch Marathon",
+    "country": "New Zealand",
+    "city": "Christchurch",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://christchurchmarathon.co.nz/",
+    "registration_url": "https://christchurchmarathon.co.nz/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "queenstown-marathon",
+    "name": "Queenstown Marathon",
+    "country": "New Zealand",
+    "city": "Queenstown",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://queenstown-marathon.co.nz/",
+    "registration_url": "https://queenstown-marathon.co.nz/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "hawke-s-bay-marathon",
+    "name": "Hawke's Bay Marathon",
+    "country": "New Zealand",
+    "city": "Napier",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://hawkesbaymarathon.co.nz/",
+    "registration_url": "https://hawkesbaymarathon.co.nz/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "taupo-marathon",
+    "name": "Taupo Marathon",
+    "country": "New Zealand",
+    "city": "Taupo",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://taupomarathon.co.nz/",
+    "registration_url": "https://taupomarathon.co.nz/",
+    "registration_page_verified": false,
+    "priority": 2,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "berlin-marathon",
+    "name": "Berlin Marathon",
+    "country": "Other",
+    "city": "Berlin",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.bmw-berlin-marathon.com/",
+    "registration_url": "https://www.bmw-berlin-marathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "london-marathon",
+    "name": "London Marathon",
+    "country": "Other",
+    "city": "London",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.londonmarathonevents.co.uk/london-marathon",
+    "registration_url": "https://www.londonmarathonevents.co.uk/london-marathon",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "chicago-marathon",
+    "name": "Chicago Marathon",
+    "country": "Other",
+    "city": "Chicago",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.chicagomarathon.com/",
+    "registration_url": "https://www.chicagomarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "new-york-city-marathon",
+    "name": "New York City Marathon",
+    "country": "Other",
+    "city": "New York",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.nyrr.org/tcsnycmarathon",
+    "registration_url": "https://www.nyrr.org/tcsnycmarathon",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "boston-marathon",
+    "name": "Boston Marathon",
+    "country": "Other",
+    "city": "Boston",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.baa.org/races/boston-marathon",
+    "registration_url": "https://www.baa.org/races/boston-marathon",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "valencia-marathon",
+    "name": "Valencia Marathon",
+    "country": "Other",
+    "city": "Valencia",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.valenciaciudaddelrunning.com/en/marathon/maraton/",
+    "registration_url": "https://www.valenciaciudaddelrunning.com/en/marathon/maraton/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "singapore-marathon",
+    "name": "Singapore Marathon",
+    "country": "Other",
+    "city": "Singapore",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://singaporemarathon.com/",
+    "registration_url": "https://singaporemarathon.com/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  },
+  {
+    "id": "honolulu-marathon",
+    "name": "Honolulu Marathon",
+    "country": "Other",
+    "city": "Honolulu",
+    "distance": [
+      "Marathon"
+    ],
+    "entry_type": "Unknown / verify",
+    "official_url": "https://www.honolulumarathon.org/",
+    "registration_url": "https://www.honolulumarathon.org/",
+    "registration_page_verified": false,
+    "priority": 3,
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "date_source": null,
+    "date_verified_at": null
+  }
 ]

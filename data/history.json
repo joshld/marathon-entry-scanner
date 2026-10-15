@@ -646,5 +646,29 @@
     "before": "no_signal",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:19:59+00:00",
+    "id": "uta",
+    "name": "Ultra-Trail Australia by UTMB",
+    "before": "conflicting_signals",
+    "after": "conflicting_signals",
+    "dates_changed": true
+  },
+  {
+    "at": "2026-10-15T04:19:59+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T04:19:59+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

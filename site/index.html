@@ -2,7 +2,54 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Race Entry Radar</title>
 <style>
-:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#e8edf5;background:#0c1220}*{box-sizing:border-box}body{margin:0}main{max-width:1140px;padding:30px 20px;margin:auto}h1{font-size:clamp(28px,4vw,48px);margin:8px 0}.sub{color:#a7b4ca}.eyebrow{color:#9cd9bb;font-size:13px;letter-spacing:.12em;text-transform:uppercase}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:26px 0}.stat,.race{border:1px solid #2a374a;background:#151f30;border-radius:16px;padding:18px}.stat strong{display:block;font-size:30px;margin-top:8px}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}input,select{color:#e8edf5;background:#151f30;border:1px solid #354359;padding:12px;border-radius:10px;font:inherit;min-width:160px}input{flex:1}.items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.race h2{font-size:20px;margin:8px 0}.meta{color:#aebcd0;font-size:14px;margin:8px 0}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#28374d;font-size:12px}.possible_open{background:#18493e;color:#a8efcb}.possible_closed{background:#4f3130;color:#f5b7a9}.conflicting_signals{background:#594627;color:#ffe3a5}a{color:#9ad4ff}.footer{margin:28px 0;color:#9aa9bd;font-size:13px}#note{margin-bottom:20px;color:#b9c8db}.empty{padding:32px;border:1px dashed #536078;border-radius:12px}.race a{display:inline-block;margin-top:8px}@media(max-width:700px){.cards,.items{grid-template-columns:1fr}.filters>*{width:100%}}
+:root {
+  color-scheme: dark;
+  --bg: #101216;
+  --surface: #24272d;
+  --surface-raised: #2b2f36;
+  --border: #3b4049;
+  --text: #f5f5f5;
+  --muted: #b1b5bf;
+  --accent: #fb923c;
+  --accent-bright: #fdba74;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1140px; padding: 34px 20px 48px; margin: auto; }
+h1 { font-size: clamp(28px, 4vw, 48px); margin: 8px 0; letter-spacing: -0.035em; }
+.sub { color: var(--muted); line-height: 1.6; }
+.eyebrow { color: var(--accent-bright); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 26px 0; }
+.stat, .race { border: 1px solid var(--border); background: var(--surface); border-radius: 16px; padding: 18px; }
+.stat { border-top: 3px solid var(--accent); }
+.stat strong { display: block; font-size: 30px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.filters { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+input, select { color: var(--text); background: var(--surface); border: 1px solid #535862; padding: 12px; border-radius: 10px; font: inherit; min-width: 160px; }
+input::placeholder { color: #b1b5bf; }
+input:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+input { flex: 1; }
+.items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.race { transition: border-color .15s ease, background .15s ease; }
+.race:hover { border-color: var(--accent); background: var(--surface-raised); }
+.race h2 { font-size: 20px; margin: 12px 0 8px; }
+.meta { color: #d0d3d8; font-size: 14px; margin: 8px 0; line-height: 1.5; }
+.tag { display: inline-block; padding: 5px 9px; border-radius: 999px; background: #414650; color: #e8ebef; font-size: 12px; font-weight: 600; }
+.possible_open { background: #244439; color: #b7f5d6; }
+.possible_closed { background: #513437; color: #ffc3c4; }
+.conflicting_signals { background: #5a4429; color: #ffe2af; }
+a { color: var(--accent-bright); text-underline-offset: 3px; }
+a:hover { color: #ffcf9c; }
+.footer { margin: 28px 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+#note { margin-bottom: 20px; color: #c9cdd4; }
+.empty { padding: 32px; border: 1px dashed #666b75; border-radius: 12px; }
+.race a { display: inline-block; margin-top: 8px; font-weight: 650; }
+@media (max-width: 700px) {
+  .cards, .items { grid-template-columns: 1fr; }
+  .filters > * { width: 100%; }
+}
 </style></head><body><main><div class="eyebrow">Australia · Japan · selected world races</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily checks of official marathon and half-marathon websites. Entry signals are preliminary, not confirmed registration availability.</p>
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Possible open signals</span><strong id="opened">—</strong></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
 <p id="note"></p><div class="filters"><input id="q" aria-label="Search races" placeholder="Search race or city…"><select id="country" aria-label="Country"><option value="">All countries</option></select><select id="distance" aria-label="Distance"><option value="">Both distances</option><option>Marathon</option><option>Half marathon</option></select><select id="type" aria-label="Entry type"><option value="">All entry types</option><option value="Ballot">Ballot / lottery</option><option value="Direct">Direct entry</option></select><select id="status" aria-label="Signal status"><option value="">All statuses</option><option value="possible_open">Possible open</option><option value="possible_closed">Possible closed</option><option value="conflicting_signals">Conflicting</option><option value="no_signal">No signal</option><option value="unknown">Unknown / inaccessible</option></select></div>

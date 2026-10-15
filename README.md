@@ -2,9 +2,9 @@
 
 [Open the dashboard](https://joshld.github.io/marathon-entry-scanner/) · [Run the workflow](https://github.com/joshld/marathon-entry-scanner/actions/workflows/daily.yml)
 
-A GitHub Actions-powered daily worldwide scanner and GitHub Pages dashboard for **marathons (42.2 km), half marathons (21.1 km) and ultramarathons**, with particular attention to Australia and Japan and coverage of Canada, North America, Europe, the Nordic countries, Asia, Oceania and Africa.
+A GitHub Actions-powered daily worldwide scanner and GitHub Pages dashboard for **marathons (42.2 km), half marathons (21.1 km) and ultramarathons**, with particular attention to Australia and Japan and coverage of Canada, North America, Europe, the Nordic countries, Asia, Oceania, Africa and South America.
 
-The watchlist currently contains **187 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
+The watchlist currently contains **207 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
 
 ## Dashboard
 
@@ -20,7 +20,7 @@ The dashboard includes:
 - **Race date range:** Optional inclusive start and end dates. Only **verified** race dates qualify by default; use **Include races without confirmed dates** to include undated events in the date filter.
 - Race cards show race dates, entry opening/closing dates, price categories, qualifying restrictions, and links to original sources when available.
 
-The locations selector currently uses these continents: **Oceania, Asia, Europe, North America and Africa**, including Canada within North America and Norway, Sweden, Finland, Denmark and Iceland within Europe. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
+The locations selector currently uses these continents: **Oceania, Asia, Europe, North America, Africa and South America**, including Canada within North America and Norway, Sweden, Finland, Denmark and Iceland within Europe. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
 
 ## Browser notifications
 

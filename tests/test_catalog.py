@@ -19,6 +19,16 @@ EXPECTED = {
     "vancouver-marathon": ("Canada", "North America"),
     "reykjavik-marathon": ("Iceland", "Europe"),
     "bergen-city-marathon": ("Norway", "Europe"),
+    "rio-de-janeiro-marathon": ("Brazil", "South America"),
+    "santiago-marathon": ("Chile", "South America"),
+    "buenos-aires-marathon": ("Argentina", "South America"),
+    "cape-town-marathon": ("South Africa", "Africa"),
+    "nairobi-marathon": ("Kenya", "Africa"),
+    "tata-mumbai-marathon": ("India", "Asia"),
+    "beijing-marathon": ("China", "Asia"),
+    "dubai-marathon": ("United Arab Emirates", "Asia"),
+    "tarawera-ultra-trail": ("New Zealand", "Oceania"),
+    "run-larapinta": ("Australia", "Oceania"),
 }
 
 class CatalogAndDashboardTests(unittest.TestCase):
@@ -29,13 +39,32 @@ class CatalogAndDashboardTests(unittest.TestCase):
         cls.script = cls.page.find("script").get_text()
 
     def test_catalog_has_unique_ids_and_locations(self):
-        self.assertGreaterEqual(len(self.races), 150)
+        self.assertGreaterEqual(len(self.races), 207)
+        new_ids=["rio-de-janeiro-marathon","santiago-marathon","buenos-aires-marathon","cape-town-marathon","two-oceans-marathon","nairobi-marathon","tata-mumbai-marathon","new-delhi-marathon","beijing-marathon","ultra-trail-kosciuszko","surf-coast-century","blackall100","prague-half-marathon","roma-ostia-half-marathon","zegama-aizkorri","marathon-du-medoc","dubai-marathon","javelina-jundred","tarawera-ultra-trail","run-larapinta"]
+        self.assertTrue(set(new_ids).issubset({race["id"] for race in self.races}))
         self.assertEqual(len({r["id"] for r in self.races}), len(self.races))
         for race in self.races:
             self.assertIn(race["continent"], CONTINENTS, race["name"])
             self.assertNotIn(race["country"], {"Europe","Other","International Ultra",""}, race["name"])
             self.assertTrue(race["city"], race["name"])
             self.assertTrue(race["registration_url"].startswith("https://"), race["name"])
+
+    def test_added_race_metadata_is_honest(self):
+        new_ids=["rio-de-janeiro-marathon","santiago-marathon","buenos-aires-marathon","cape-town-marathon","two-oceans-marathon","nairobi-marathon","tata-mumbai-marathon","new-delhi-marathon","beijing-marathon","ultra-trail-kosciuszko","surf-coast-century","blackall100","prague-half-marathon","roma-ostia-half-marathon","zegama-aizkorri","marathon-du-medoc","dubai-marathon","javelina-jundred","tarawera-ultra-trail","run-larapinta"]
+        tracked={race["id"]:race for race in self.races}
+        for key in new_ids:
+            race=tracked[key]
+            self.assertTrue(race["official_url"].startswith("https://"),key)
+            self.assertTrue(race["registration_url"].startswith("https://"),key)
+            self.assertTrue(set(race["distance"]).issubset({"Marathon","Half marathon","Ultra"}),key)
+            if race.get("race_date"):
+                self.assertTrue(race.get("date_source"),key)
+            if race.get("verified_entry_status"):
+                self.assertTrue(race.get("status_source_url"),key)
+                self.assertTrue(race.get("status_verified_at"),key)
+        self.assertIsNone(tracked["buenos-aires-marathon"]["race_date"])
+        self.assertIn("Four separate stages",tracked["run-larapinta"]["race_date_note"])
+        self.assertIn("ballot",tracked["run-larapinta"]["entry_notes"].lower())
 
     def test_known_country_continent_mapping(self):
         by_id = {r["id"]: r for r in self.races}

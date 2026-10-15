@@ -64,6 +64,25 @@ a:hover { color: #ffcf9c; }
   .filters > * { width: 100%; }
 }
 
+
+/* Continent-first location selector: click the continent checkbox to select
+   its countries, or use the separate arrow to expand individual countries. */
+#country-filter{min-width:168px}
+.location-menu{min-width:300px;max-width:min(360px,calc(100vw - 28px));max-height:min(500px,68vh)}
+.geo-group{padding:3px 0;border-bottom:1px solid var(--border)}
+.geo-group:last-of-type{border-bottom:0}
+.geo-header{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:40px}
+.geo-header .geo-continent{display:flex;align-items:center;gap:9px;min-width:0;flex:1;font-weight:650}
+.geo-count{color:var(--muted);font-weight:400;font-size:12px;white-space:nowrap;margin-left:auto}
+.geo-header .geo-expand{display:flex;align-items:center;justify-content:center;padding:8px;color:var(--muted);border-radius:8px;font-size:19px;min-width:36px;min-height:36px}
+.geo-header .geo-expand:hover{background:var(--surface-raised);color:var(--accent-bright)}
+.geo-children{margin:0 0 6px 20px;padding-left:10px;border-left:1px solid var(--border)}
+.geo-children[hidden]{display:none}
+.geo-children label{font-size:13px;justify-content:space-between;gap:8px}
+.geo-children label input{flex:0 0 auto}
+.geo-children .country-name{flex:1;min-width:0}
+.geo-children .geo-count{margin-left:4px}
+
 /* Compact multi-select filters and race-date window */
 .distance-filter{min-width:150px;max-width:240px}
 .distance-menu{max-height:min(340px,60vh);overflow:auto;overscroll-behavior:contain}
@@ -84,7 +103,7 @@ a:hover { color: #ffcf9c; }
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Open / possible open</span><strong id="opened">—</strong><div id="coverage" class="coverage"></div></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
 <p id="note"></p><div class="filters" id="filter-area">
   <input id="q" aria-label="Search races" placeholder="Search race or city…">
-  <details class="distance-filter" id="country-filter"><summary id="country-summary">All countries</summary><div class="distance-menu" id="country-options"></div></details>
+  <details class="distance-filter" id="country-filter"><summary id="country-summary">All locations</summary><div class="distance-menu location-menu" id="country-options" aria-label="Select continents and countries"></div></details>
   <details class="distance-filter" id="distance-filter"><summary id="distance-summary">All distances</summary><div class="distance-menu" id="distance-options"></div></details>
   <details class="distance-filter" id="type-filter"><summary id="type-summary">All entry types</summary><div class="distance-menu" id="type-options"></div></details>
   <details class="distance-filter" id="status-filter"><summary id="status-summary">All statuses</summary><div class="distance-menu" id="status-options"></div></details>
@@ -121,6 +140,18 @@ const detailsPanel=r=>{
 };
 const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
 const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
+const continentOrder=["Oceania","Asia","Europe","North America","Africa","South America"];
+const countryContinents={
+  "Australia":"Oceania","New Zealand":"Oceania",
+  "Japan":"Asia","Hong Kong":"Asia","Taiwan":"Asia","South Korea":"Asia",
+  "Indonesia":"Asia","Thailand":"Asia","Malaysia":"Asia","Vietnam":"Asia",
+  "Philippines":"Asia","Singapore":"Asia",
+  "United Kingdom":"Europe","France":"Europe","Germany":"Europe","Netherlands":"Europe",
+  "Spain":"Europe","Italy":"Europe","Austria":"Europe","Denmark":"Europe","Czechia":"Europe",
+  "Sweden":"Europe","Greece":"Europe","Portugal":"Europe","Switzerland":"Europe",
+  "Finland":"Europe","Ireland":"Europe",
+  "United States":"North America","South Africa":"Africa"
+};
 const entryTypes=[["Ballot","Ballot / lottery"],["Direct","Direct entry"],["Qualification","Qualification / time"],["Charity","Charity"],["Unverified","Unverified / other"]];
 const typeGroups=r=>{
   const s=(r.entry_type||"").toLowerCase();
@@ -137,13 +168,72 @@ function buildFilter(id,items){
   el.innerHTML=items.map(([value,label])=>`<label><input type="checkbox" name="${esc(id)}" value="${esc(value)}" checked> ${esc(label)}</label>`).join("")+
     `<div class="menu-actions"><button type="button" data-action="all" data-filter="${esc(id)}">Select all</button><button type="button" data-action="none" data-filter="${esc(id)}">Clear</button></div>`;
 }
+
+function buildLocationFilter(){
+  const tally=new Map();
+  for(const race of races){
+    const continent=race.continent||countryContinents[race.country]||"Other locations";
+    if(!tally.has(continent))tally.set(continent,new Map());
+    const countries=tally.get(continent);
+    countries.set(race.country,(countries.get(race.country)||0)+1);
+  }
+  const ordered=[...tally.keys()].sort((a,b)=>{
+    const ia=continentOrder.indexOf(a), ib=continentOrder.indexOf(b);
+    return (ia<0?999:ia)-(ib<0?999:ib)||a.localeCompare(b);
+  });
+  const el=$("country-options");
+  el.innerHTML=ordered.map((continent,i)=>{
+    const countries=[...tally.get(continent).entries()].sort(([a],[b])=>a.localeCompare(b));
+    const racesInRegion=countries.reduce((sum,[,count])=>sum+count,0);
+    const expandByDefault=continent==="Oceania"||continent==="Asia";
+    const target="geo-countries-"+i;
+    return '<div class="geo-group" data-region="'+esc(continent)+'">'+
+      '<div class="geo-header">'+
+      '<label class="geo-continent"><input type="checkbox" class="continent-checkbox" data-continent="'+esc(continent)+'" checked>'+
+      '<span>'+esc(continent)+'</span><span class="geo-count">'+racesInRegion+'</span></label>'+
+      '<button class="geo-expand" type="button" data-expand-continent aria-label="'+(expandByDefault?'Collapse ':'Expand ')+esc(continent)+' countries" aria-expanded="'+String(expandByDefault)+'" aria-controls="'+target+'">'+(expandByDefault?'⌄':'›')+'</button></div>'+
+      '<div class="geo-children" id="'+target+'" '+(expandByDefault?'':'hidden')+'>'+
+      countries.map(([country,count])=>'<label><input type="checkbox" name="country" value="'+esc(country)+'" checked>'+
+        '<span class="country-name">'+esc(country)+'</span><span class="geo-count">'+count+'</span></label>').join("")+
+      '</div></div>';
+  }).join("")+
+  '<div class="menu-actions"><button type="button" data-action="all" data-filter="country">Select all</button>'+
+  '<button type="button" data-action="none" data-filter="country">Clear</button></div>';
+  syncLocationGroups();
+}
+function syncLocationGroups(){
+  document.querySelectorAll(".geo-group").forEach(group=>{
+    const children=[...group.querySelectorAll('input[name="country"]')];
+    const selected=children.filter(input=>input.checked).length;
+    const parent=group.querySelector(".continent-checkbox");
+    parent.checked=children.length>0&&selected===children.length;
+    parent.indeterminate=selected>0&&selected<children.length;
+  });
+}
+function locationSummary(){
+  const checked=new Set(chosen("country"));
+  const all=document.querySelectorAll('input[name="country"]').length;
+  if(checked.size===all)return "All locations";
+  if(!checked.size)return "No locations";
+  if(checked.size===1)return [...checked][0];
+  const complete=[],partial=[];
+  document.querySelectorAll(".geo-group").forEach(group=>{
+    const countries=[...group.querySelectorAll('input[name="country"]')].map(x=>x.value);
+    const selected=countries.filter(x=>checked.has(x)).length;
+    if(selected===countries.length)complete.push(group.dataset.region);
+    else if(selected)partial.push(group.dataset.region);
+  });
+  if(!partial.length&&complete.length>0&&complete.length<=2)return complete.join(" + ");
+  return checked.size+" countries";
+}
+
 function chosen(id){return [...document.querySelectorAll('input[name="'+id+'"]:checked')].map(n=>n.value)}
 function updateSummary(id){
   const all=document.querySelectorAll('input[name="'+id+'"]').length;
   const selected=chosen(id);
   const titles={country:"countries",distance:"distances",type:"entry types",status:"statuses"};
   const title=titles[id];
-  const label=selected.length===all?"All "+title:selected.length===0?"No "+title:selected.length===1?(id==="country"||id==="distance"?selected[0]:id==="status"?(statuses.find(x=>x[0]===selected[0])||[])[1]||selected[0]:(entryTypes.find(x=>x[0]===selected[0])||[])[1]||selected[0]):selected.length+" "+title;
+  const label=id==="country"?locationSummary():selected.length===all?"All "+title:selected.length===0?"No "+title:selected.length===1?(id==="distance"?selected[0]:id==="status"?(statuses.find(x=>x[0]===selected[0])||[])[1]||selected[0]:(entryTypes.find(x=>x[0]===selected[0])||[])[1]||selected[0]):selected.length+" "+title;
   $(id+"-summary").textContent=label;
 }
 function render(){
@@ -182,16 +272,36 @@ try {
   $("coverage").textContent=races.filter(r=>r.status==="unknown").length+" sites could not be checked · "+races.filter(r=>r.status==="no_signal").length+" without clear entry signals · "+races.filter(r=>r.race_date).length+" verified race dates";
   $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
   $("note").textContent=d.disclaimer||"";
-  buildFilter("country",[...new Set(races.map(r=>r.country))].sort().map(v=>[v,v]));
+  buildLocationFilter();
   render();
 } catch(err) {$("note").textContent="Could not load race data: "+err.message}
 })();
-$("filter-area").addEventListener("input",render);
+$("q").addEventListener("input",render);
+$("filter-area").addEventListener("change",e=>{
+  if(e.target.matches(".continent-checkbox")){
+    const group=e.target.closest(".geo-group");
+    group.querySelectorAll('input[name="country"]').forEach(box=>box.checked=e.target.checked);
+  }
+  if(e.target.matches('.continent-checkbox, input[name="country"]'))syncLocationGroups();
+  render();
+});
 $("date-toolbar").addEventListener("input",render);
 $("filter-area").addEventListener("click",e=>{
+  const expand=e.target.closest("button[data-expand-continent]");
+  if(expand){
+    const list=document.getElementById(expand.getAttribute("aria-controls"));
+    const isExpanded=expand.getAttribute("aria-expanded")==="true";
+    list.hidden=isExpanded;
+    expand.setAttribute("aria-expanded",String(!isExpanded));
+    const region=expand.closest(".geo-group").dataset.region;
+    expand.setAttribute("aria-label",(isExpanded?"Expand ":"Collapse ")+region+" countries");
+    expand.textContent=isExpanded?"›":"⌄";
+    return;
+  }
   const btn=e.target.closest("button[data-filter]");
   if(!btn)return;
   document.querySelectorAll('input[name="'+btn.dataset.filter+'"]').forEach(input=>input.checked=btn.dataset.action==="all");
+  if(btn.dataset.filter==="country")syncLocationGroups();
   render();
 });
 $("clear-dates").addEventListener("click",()=>{$("date-from").value="";$("date-to").value="";$("include-undated").checked=false;render()});

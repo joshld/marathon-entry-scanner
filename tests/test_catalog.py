@@ -77,6 +77,15 @@ class CatalogAndDashboardTests(unittest.TestCase):
                          "verifiedOpenCandidates", "renderOpenTicker", "aria-hidden",
                          'tabindex="-1"', "r.entry_open_date"):
             self.assertIn(fragment, self.script)
+        ticker_script=self.script.split("function renderOpenTicker(){",1)[1].split("const statuses=",1)[0]
+        # Tiles (and scrolling clones) must open the existing in-page race card,
+        # never launch the organiser website in another tab.
+        self.assertIn('data-ticker-race-id', ticker_script)
+        self.assertIn('const target="#race-"+encodeURIComponent(r.id)', ticker_script)
+        self.assertIn("revealRaceCard(tile.dataset.tickerRaceId)", ticker_script)
+        self.assertIn("event.preventDefault()", ticker_script)
+        self.assertNotIn("target=\"_blank\"", ticker_script)
+        self.assertNotIn("r.registration_url||r.official_url", ticker_script)
         css = self.page.find("style").get_text()
         self.assertIn("prefers-reduced-motion:reduce", css)
         self.assertIn(".ticker-window:hover .ticker-track", css)

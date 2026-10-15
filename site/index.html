@@ -581,14 +581,22 @@ function renderOpenTicker(){
     top.map(r=>{
       const info=r.entry_open_date?"Opened "+dateText(r.entry_open_date):"Open now · opening date unconfirmed";
       const attr=clone?' tabindex="-1"':'';
-      const target=esc(r.registration_url||r.official_url);
-      return '<a class="ticker-card" href="'+target+'" target="_blank" rel="noopener noreferrer"'+attr+'>'+
+      const target="#race-"+encodeURIComponent(r.id);
+      return '<a class="ticker-card" href="'+esc(target)+'" data-ticker-race-id="'+esc(r.id)+'" aria-label="View '+esc(r.name)+' on Race Entry Radar"'+attr+'>'+
         '<span class="ticker-region">'+esc(r.country)+' · '+esc(safeArr(r.distance).join(" + "))+'</span>'+
         '<strong>'+esc(r.name)+'</strong><span class="ticker-meta">'+esc(info)+'</span></a>';
     }).join("")+'</div>';
   $("ticker-track").className="ticker-track"+(top.length>1?" is-animated":"");
   $("ticker-track").innerHTML=makeGroup(false)+(top.length>1?makeGroup(true):"");
 }
+// Both original tiles and visually cloned carousel tiles navigate to their
+// on-page race cards rather than sending visitors to organiser websites.
+$("ticker-track").addEventListener("click",event=>{
+  const tile=event.target.closest("a[data-ticker-race-id]");
+  if(!tile||!$("ticker-track").contains(tile))return;
+  event.preventDefault();
+  revealRaceCard(tile.dataset.tickerRaceId);
+});
 
 const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["confirmed_closed","Confirmed closed / sold out"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
 const continentOrder=["Oceania","Asia","Europe","North America","Africa","South America"];

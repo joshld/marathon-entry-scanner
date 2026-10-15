@@ -1158,5 +1158,21 @@
     "before": "possible_open",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:15:48+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:15:48+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

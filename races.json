@@ -607,9 +607,9 @@
     "country": "Australia",
     "city": "Margaret River",
     "distance": [
-      "Marathon"
+      "Ultra"
     ],
-    "entry_type": "Unknown / verify",
+    "entry_type": "Ultra trail / verify",
     "official_url": "https://mrun.com.au/",
     "registration_url": "https://mrun.com.au/",
     "registration_page_verified": false,
@@ -629,7 +629,10 @@
       "verification_status": "unverified",
       "source_url": null,
       "verified_at": null
-    }
+    },
+    "ultra_distances_km": [
+      80
+    ]
   },
   {
     "id": "great-ocean-road-running-festival",
@@ -794,36 +797,6 @@
     "entry_type": "Unknown / verify",
     "official_url": "https://morningtonrunningfestival.com.au/",
     "registration_url": "https://morningtonrunningfestival.com.au/",
-    "registration_page_verified": false,
-    "priority": 2,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "entry_options": [],
-    "entry_price_note": null,
-    "eligibility": {
-      "minimum_age": null,
-      "residency": null,
-      "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
-  },
-  {
-    "id": "hobart-run-the-bridge",
-    "name": "Hobart Run The Bridge",
-    "country": "Australia",
-    "city": "Hobart",
-    "distance": [
-      "Half marathon"
-    ],
-    "entry_type": "Unknown / verify",
-    "official_url": "https://www.hobartrunthebridge.com.au/",
-    "registration_url": "https://www.hobartrunthebridge.com.au/",
     "registration_page_verified": false,
     "priority": 2,
     "race_date": null,
@@ -2603,7 +2576,7 @@
     }
   },
   {
-    "race_date": null,
+    "race_date": "2027-05-13",
     "entry_open_date": null,
     "entry_close_date": null,
     "entry_price_note": null,
@@ -2637,9 +2610,10 @@
     ],
     "official_url": "https://uta.utmb.world/",
     "registration_url": "https://uta.utmb.world/runners/entry-info",
-    "race_date_note": "13–16 May 2027; distances run on different days",
+    "race_date_note": "Multi-day festival, 13–16 May 2027; individual race dates vary.",
     "entry_type": "Direct / capacity",
-    "priority": 1
+    "priority": 1,
+    "race_end_date": "2027-05-16"
   },
   {
     "race_date": null,

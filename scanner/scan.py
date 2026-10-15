@@ -76,8 +76,8 @@ def main():
         old=previous.get(r["id"])
         if old and any(old.get(k)!=r.get(k) for k in ("status","entry_open_date","entry_close_date","race_date")):
             history.append({"at":NOW,"id":r["id"],"name":r["name"],"before":old.get("status"),"after":r["status"],"dates_changed":any(old.get(k)!=r.get(k) for k in ("entry_open_date","entry_close_date","race_date"))})
-    (DATA/"races.json").write_text(json.dumps({"generated_at":NOW,"disclaimer":"Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.", "races":results},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
-    (DATA/"history.json").write_text(json.dumps(history[-500:],ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    (DATA/"races.json").write_text(json.dumps({"generated_at":NOW,"disclaimer":"Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.", "races":results},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    (DATA/"history.json").write_text(json.dumps(history[-500:],ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Checked {len(results)} race sites")
     return 0
 

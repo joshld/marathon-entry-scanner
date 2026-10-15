@@ -1110,5 +1110,13 @@
     "before": "unknown",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:01:55+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

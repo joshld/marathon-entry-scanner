@@ -1,8 +1,8 @@
-"""Conservative public-website scanner. Signals are hints, never confirmed availability."""
+"""Check configured event or registration URLs. Never infer dates from generic HTML text."""
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, date, timezone
 from pathlib import Path
 
 import requests
@@ -11,62 +11,75 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 NOW = datetime.now(timezone.utc).isoformat(timespec="seconds")
-HEADERS = {"User-Agent": "MarathonEntryWatch/0.1 (+public event monitoring; contact via GitHub repository)", "Accept-Language": "en-AU,en;q=0.8"}
-OPEN = re.compile(r"\b(?:register now|entries (?:are )?open|registration (?:is )?open|enter now|apply for (?:the )?ballot|ballot (?:is )?open)\b", re.I)
-CLOSED = re.compile(r"\b(?:entries (?:are )?closed|registration (?:is )?closed|ballot (?:is )?closed|sold out|entries (?:have )?sold out)\b", re.I)
+HEADERS = {"User-Agent":"MarathonEntryWatch/0.2 (public race page monitoring)","Accept-Language":"en-AU,en;q=0.8,ja;q=0.6"}
+OPEN = re.compile(r"(?:\\b(?:register now|entries (?:are )?open|registration (?:is )?open|enter now|ballot (?:is )?open)\\b|エントリー受付中|申込受付中|抽選申込受付中)", re.I)
+CLOSED = re.compile(r"(?:\\b(?:entries (?:are )?closed|registration (?:is )?closed|ballot (?:is )?closed|sold out)\\b|受付終了|募集終了|定員に達しました)", re.I)
 
-def load_json(path, default):
+def load(path, default):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return default
 
-def check(race):
-    result = {**race, "checked_at": NOW, "status": "unknown", "http_status": None, "evidence": "", "error": ""}
+def date_status(race):
+    start, end = race.get("entry_open_date"), race.get("entry_close_date")
+    if not start and not end:
+        return "dates_unknown"
+    today = date.today().isoformat()
+    if start and today < start:
+        return "scheduled"
+    if end and today > end:
+        return "window_ended"
+    if start and end and start <= today <= end:
+        return "within_published_window"
+    return "partial_window"
+
+def check(session, race):
+    target = race.get("registration_url") or race["official_url"]
+    result = {**race, "checked_at":NOW,"status":"unknown","http_status":None,
+              "evidence":"","error":"","checked_url":target,"date_window_status":date_status(race)}
     try:
-        r = requests.get(race["official_url"], headers=HEADERS, timeout=18)
-        result["http_status"] = r.status_code
-        r.raise_for_status()
-        if "html" not in r.headers.get("Content-Type", "text/html").lower():
-            result["error"] = "Not an HTML page"
+        resp = session.get(target,headers=HEADERS,timeout=12)
+        result["http_status"] = resp.status_code
+        resp.raise_for_status()
+        if "html" not in resp.headers.get("Content-Type", "text/html").lower():
+            result["error"]="Non-HTML response"
             return result
-        soup = BeautifulSoup(r.text[:1500000], "html.parser")
-        for tag in soup(["script", "style", "footer", "nav", "noscript"]):
+        soup = BeautifulSoup(resp.text[:1200000],"html.parser")
+        for tag in soup(["script","style","footer","nav","noscript"]):
             tag.decompose()
-        text = " ".join(soup.stripped_strings)
-        match_open = OPEN.search(text)
-        match_closed = CLOSED.search(text)
-        if match_open and match_closed:
-            result["status"] = "conflicting_signals"
-            result["evidence"] = f"Open: {match_open.group(0)}; closed: {match_closed.group(0)}"
-        elif match_open:
-            result["status"] = "possible_open"
-            result["evidence"] = match_open.group(0)
-        elif match_closed:
-            result["status"] = "possible_closed"
-            result["evidence"] = match_closed.group(0)
+        txt = " ".join(soup.stripped_strings)
+        op, cl = OPEN.search(txt), CLOSED.search(txt)
+        if op and cl:
+            result["status"]="conflicting_signals"
+            result["evidence"]=f"Open: {op.group(0)}; closed: {cl.group(0)}"
+        elif op:
+            result["status"]="possible_open"
+            result["evidence"]=op.group(0)
+        elif cl:
+            result["status"]="possible_closed"
+            result["evidence"]=cl.group(0)
         else:
-            result["status"] = "no_signal"
+            result["status"]="no_signal"
     except requests.RequestException as exc:
-        result["error"] = str(exc)[:200]
+        result["error"]=str(exc)[:200]
     return result
 
 def main():
     DATA.mkdir(exist_ok=True)
-    races = load_json(ROOT / "races.json", [])
-    previous = {v["id"]: v for v in load_json(DATA / "races.json", {}).get("races", [])}
-    history = load_json(DATA / "history.json", [])
-    results = [check(r) for r in races]
-    for race in results:
-        old = previous.get(race["id"])
-        if old and old.get("status") != race["status"]:
-            history.append({"at": NOW, "id": race["id"], "name": race["name"], "before": old.get("status"), "after": race["status"]})
-    history = history[-500:]
-    payload = {"generated_at": NOW, "disclaimer": "Automated text signals only; always verify eligibility, distance and entry window on the official site.", "races": results}
-    (DATA / "races.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (DATA / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Checked {len(results)} races; {sum(r['status']=='possible_open' for r in results)} possible-open signals")
+    races=load(ROOT/"races.json",[])
+    previous={r["id"]:r for r in load(DATA/"races.json",{}).get("races",[])}
+    history=load(DATA/"history.json",[])
+    with requests.Session() as session:
+        results=[check(session,r) for r in races]
+    for r in results:
+        old=previous.get(r["id"])
+        if old and any(old.get(k)!=r.get(k) for k in ("status","entry_open_date","entry_close_date","race_date")):
+            history.append({"at":NOW,"id":r["id"],"name":r["name"],"before":old.get("status"),"after":r["status"],"dates_changed":any(old.get(k)!=r.get(k) for k in ("entry_open_date","entry_close_date","race_date"))})
+    (DATA/"races.json").write_text(json.dumps({"generated_at":NOW,"disclaimer":"Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.", "races":results},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    (DATA/"history.json").write_text(json.dumps(history[-500:],ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    print(f"Checked {len(results)} race sites")
     return 0
 
-if __name__ == "__main__":
+if __name__=="__main__":
     sys.exit(main())

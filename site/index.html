@@ -63,25 +63,137 @@ a:hover { color: #ffcf9c; }
   .cards, .items { grid-template-columns: 1fr; }
   .filters > * { width: 100%; }
 }
+
+/* Compact multi-select filters and race-date window */
+.distance-filter{min-width:150px;max-width:240px}
+.distance-menu{max-height:min(340px,60vh);overflow:auto;overscroll-behavior:contain}
+.distance-menu .menu-actions{display:flex;justify-content:space-between;gap:8px;position:sticky;bottom:-8px;background:var(--surface);padding-top:6px;border-top:1px solid var(--border)}
+.distance-menu .menu-actions button{cursor:pointer}
+.date-toolbar{display:flex;align-items:end;flex-wrap:wrap;gap:12px;margin:-7px 0 18px}
+.date-toolbar>label{color:var(--muted);font-size:12px;display:flex;flex-direction:column;gap:5px}
+.date-toolbar input[type=date]{min-width:165px;font-size:14px;padding:9px}
+.date-toolbar .unknown-date{flex-direction:row;align-items:center;gap:7px;padding:10px 0;font-size:13px}
+.date-toolbar input[type=checkbox]{min-width:0;width:16px;height:16px;accent-color:var(--accent)}
+.date-toolbar button{border:1px solid var(--border);background:var(--surface);color:var(--accent-bright);padding:10px 12px;border-radius:9px;cursor:pointer}
+.date-toolbar button:hover{border-color:var(--accent)}
+.result-count{color:var(--muted);font-size:13px;margin:0 0 16px}
+.date-cell .candidate{color:var(--accent-bright)}
+.detected-entry{background:#312d26;border:1px solid #705032;border-radius:9px;padding:10px;margin:10px 0;color:#f2d7b2;font-size:13px;line-height:1.5}
+@media(max-width:700px){.distance-filter{max-width:none}.date-toolbar>label{flex:1 1 150px}}
 </style></head><body><main><div class="eyebrow">Australia · Japan · selected world races</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily checks of official marathon and half-marathon websites. Entry signals are preliminary, not confirmed registration availability.</p>
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Open / possible open</span><strong id="opened">—</strong><div id="coverage" class="coverage"></div></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
-<p id="note"></p><div class="filters"><input id="q" aria-label="Search races" placeholder="Search race or city…"><select id="country" aria-label="Country"><option value="">All countries</option></select><details id="distance-filter" class="distance-filter"><summary id="distance-summary">All distances</summary><div class="distance-menu"><label><input type="checkbox" name="distance" value="Marathon" checked> Marathon</label><label><input type="checkbox" name="distance" value="Half marathon" checked> Half marathon</label><label><input type="checkbox" name="distance" value="Ultra" checked> Ultra</label><button id="reset-distances" type="button">Select all</button></div></details><select id="type" aria-label="Entry type"><option value="">All entry types</option><option value="Ballot">Ballot / lottery</option><option value="Direct">Direct entry</option></select><select id="status" aria-label="Signal status"><option value="">All statuses</option><option value="confirmed_open">Confirmed open</option><option value="possible_open">Possible open</option><option value="window_ended">Window ended</option><option value="possible_closed">Possible closed</option><option value="conflicting_signals">Conflicting</option><option value="no_signal">No signal</option><option value="unknown">Unknown / inaccessible</option></select></div>
+<p id="note"></p><div class="filters" id="filter-area">
+  <input id="q" aria-label="Search races" placeholder="Search race or city…">
+  <details class="distance-filter" id="country-filter"><summary id="country-summary">All countries</summary><div class="distance-menu" id="country-options"></div></details>
+  <details class="distance-filter" id="distance-filter"><summary id="distance-summary">All distances</summary><div class="distance-menu" id="distance-options"></div></details>
+  <details class="distance-filter" id="type-filter"><summary id="type-summary">All entry types</summary><div class="distance-menu" id="type-options"></div></details>
+  <details class="distance-filter" id="status-filter"><summary id="status-summary">All statuses</summary><div class="distance-menu" id="status-options"></div></details>
+</div>
+<div class="date-toolbar" id="date-toolbar" role="group" aria-label="Race date range">
+  <label>Race from <input type="date" id="date-from" aria-label="Earliest race date"></label>
+  <label>Race to <input type="date" id="date-to" aria-label="Latest race date"></label>
+  <label class="unknown-date"><input type="checkbox" id="include-undated"> Include races without confirmed dates</label>
+  <button type="button" id="clear-dates">Clear date filter</button>
+</div>
+<p id="result-count" class="result-count" aria-live="polite"></p>
 <section id="races" class="items"></section><p class="footer">A detected phrase may describe a past or different race distance. Always confirm event year, eligibility and registration window before booking travel. Some websites block bots or use JavaScript, so absent signals do not mean entries are closed.</p></main>
 <script>
 let races=[];const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateText=v=>v?new Date(v+"T12:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}):"Not confirmed";
-const datePanel=r=>`<div class="dates"><div class="date-cell"><small>RACE DATE</small><strong>${esc(dateText(r.race_date))}</strong></div><div class="date-cell"><small>ENTRIES OPEN</small><strong>${esc(dateText(r.entry_open_date))}</strong></div><div class="date-cell"><small>ENTRIES CLOSE</small><strong>${esc(dateText(r.entry_close_date))}</strong></div></div><div class="date-note">${r.date_source?'Date source: <a href="'+esc(r.date_source)+'" target="_blank" rel="noopener noreferrer">Official source ↗</a>':'Dates pending verification'}</div>`;
+const escCandidate = v => v ? ' <span class="candidate" title="Automatically detected, not verified">Possible '+esc(dateText(v.value))+' · verify</span>' : "Not confirmed";
+const datePanel=r=>{
+  const detected=r.detected||{};
+  const val=(key)=>r[key]?esc(dateText(r[key])):escCandidate(detected[key]);
+  return `<div class="dates"><div class="date-cell"><small>RACE DATE</small><strong>${val("race_date")}</strong></div><div class="date-cell"><small>ENTRIES OPEN</small><strong>${val("entry_open_date")}</strong></div><div class="date-cell"><small>ENTRIES CLOSE</small><strong>${val("entry_close_date")}</strong></div></div><div class="date-note">${r.date_source?'Date source: <a href="'+esc(r.date_source)+'" target="_blank" rel="noopener noreferrer">Official source ↗</a>':"No verified dates yet"}${!r.race_date&&detected.race_date?' · <a href="'+esc(detected.race_date.source_url)+'" target="_blank" rel="noopener noreferrer">Check detected race date ↗</a>':""}</div>`;
+};
 const safeArr = v => Array.isArray(v) ? v : [];
 const detailsPanel=r=>{
   const opts=safeArr(r.entry_options);
+  const detected=r.detected||{};
   const price=opts.length?opts.map(o=>[o.category||"Entry",o.distance||"",o.amount!=null?(o.currency||"")+" "+o.amount:"Price pending verification"].join(" · ")).join("; "):(r.entry_price_note||"Price not yet verified");
   const e=r.eligibility||{};
   const requirements=[e.minimum_age?"Minimum age: "+e.minimum_age:"",e.residency?"Residency: "+e.residency:"",e.qualifying_time?"Qualifying time: "+e.qualifying_time:"",...safeArr(e.other_requirements)].filter(Boolean);
   const verified=e.verification_status==="verified"?"Verified":e.verification_status==="partially_verified"?"Partially verified":"Not yet verified";
-  return `<details class="details"><summary>Entry prices & eligibility</summary><p><strong>Price:</strong> ${esc(price)}</p><p><strong>Restrictions:</strong> ${esc(requirements.join("; ")||"Not yet verified (do not assume unrestricted entry)")}</p><p><strong>Verification:</strong> ${esc(verified)}${e.source_url?' · <a href="'+esc(e.source_url)+'" rel="noopener noreferrer" target="_blank">Eligibility source ↗</a>':''}</p></details>`;
+  const candidates=safeArr(detected.prices).slice(0,3);
+  const restrictions=safeArr(detected.restrictions).slice(0,3);
+  const candidateDetails=(candidates.length||restrictions.length)?`<div class="detected-entry"><strong>Detected on organiser pages — not verified</strong>${candidates.map(p=>'<p>Possible fee: '+esc(p.text)+' · <a href="'+esc(p.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a></p>').join("")}${restrictions.map(p=>'<p>Possible requirement: '+esc(p.text)+' · <a href="'+esc(p.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a></p>').join("")}</div>`:"";
+  return `<details class="details"><summary>Entry prices & eligibility</summary><p><strong>Price:</strong> ${esc(price)}</p><p><strong>Restrictions:</strong> ${esc(requirements.join("; ")||"Not yet verified (do not assume unrestricted entry)")}</p><p><strong>Verification:</strong> ${esc(verified)}${e.source_url?' · <a href="'+esc(e.source_url)+'" rel="noopener noreferrer" target="_blank">Eligibility source ↗</a>':''}</p>${candidateDetails}</details>`;
 };
 const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
-function updateDistanceSummary(){const values=[...document.querySelectorAll('input[name="distance"]:checked')].map(x=>x.value);$('distance-summary').textContent=values.length===0||values.length===3?'All distances':values.join(' + ')}
-function render(){updateDistanceSummary();const q=$('q').value.toLowerCase(),country=$('country').value,distances=[...document.querySelectorAll('input[name="distance"]:checked')].map(x=>x.value),type=$('type').value,status=$('status').value;const matches=races.filter(r=>(r.name+' '+r.city).toLowerCase().includes(q)&&(!country||r.country===country)&&(distances.length===0||r.distance.some(d=>distances.includes(d)))&&(!type||r.entry_type.toLowerCase().includes(type.toLowerCase()))&&(!status||r.status===status));$('races').innerHTML=matches.map(r=>`<article class="race"><span class="tag ${esc(r.status)}">${esc(labels[r.status]||r.status)}</span><h2>${esc(r.name)}</h2><div class="meta">${esc(r.city)}, ${esc(r.country)} · ${esc(r.distance.join(' + '))}</div><div class="meta">Entry: ${esc(r.entry_type)}</div>${r.ultra_distances_km?.length?'<div class="meta">Ultra distances: '+esc(r.ultra_distances_km.join(", "))+" km</div>":""}${datePanel(r)}${r.race_date_note?'<div class="date-note">'+esc(r.race_date_note)+"</div>":""}${detailsPanel(r)}<div class="meta">${r.evidence?'Detected text: '+esc(r.evidence):r.error?'Scan issue: '+esc(r.error):'No clear evidence detected'}</div><a href="${esc(r.registration_url)}" rel="noopener noreferrer" target="_blank">Check official entry website ↗</a></article>`).join('')||'<p class="empty">No races match these filters.</p>'}
-(async()=>{try{const r=await fetch('./data/races.json?'+Date.now());if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();races=d.races||[];$('tracked').textContent=races.length;$('opened').textContent=races.filter(r=>['possible_open','confirmed_open'].includes(r.status)).length; $('coverage').textContent=races.filter(r=>r.status==='unknown').length+' sites could not be checked · '+races.filter(r=>r.status==='no_signal').length+' without clear entry signals';$('updated').textContent=d.generated_at?new Date(d.generated_at).toLocaleString('en-AU',{timeZone:'Australia/Brisbane',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'}):'Not scanned';$('note').textContent=d.disclaimer||'';const countries=[...new Set(races.map(r=>r.country))].sort();$('country').innerHTML+=countries.map(s=>`<option>${esc(s)}</option>`).join('');render()}catch(e){$('note').textContent='Could not load race data: '+e.message}})();document.querySelectorAll('.filters input,.filters select').forEach(n=>n.addEventListener('input',render));$('reset-distances').addEventListener('click',()=>{document.querySelectorAll('input[name="distance"]').forEach(c=>c.checked=true);render()});document.addEventListener('click',e=>{const d=$('distance-filter');if(!d.contains(e.target))d.open=false});
+const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
+const entryTypes=[["Ballot","Ballot / lottery"],["Direct","Direct entry"],["Qualification","Qualification / time"],["Charity","Charity"],["Unverified","Unverified / other"]];
+const typeGroups=r=>{
+  const s=(r.entry_type||"").toLowerCase();
+  const found=[];
+  if(/ballot|lottery/.test(s))found.push("Ballot");
+  if(/direct|first.come|general entry/.test(s))found.push("Direct");
+  if(/qualif|priority|fast.runner/.test(s))found.push("Qualification");
+  if(/charity/.test(s))found.push("Charity");
+  if(!found.length||/unverified|unknown|verify/.test(s))found.push("Unverified");
+  return found;
+};
+function buildFilter(id,items){
+  const el=$(id+"-options");
+  el.innerHTML=items.map(([value,label])=>`<label><input type="checkbox" name="${esc(id)}" value="${esc(value)}" checked> ${esc(label)}</label>`).join("")+
+    `<div class="menu-actions"><button type="button" data-action="all" data-filter="${esc(id)}">Select all</button><button type="button" data-action="none" data-filter="${esc(id)}">Clear</button></div>`;
+}
+function chosen(id){return [...document.querySelectorAll('input[name="'+id+'"]:checked')].map(n=>n.value)}
+function updateSummary(id){
+  const all=document.querySelectorAll('input[name="'+id+'"]').length;
+  const selected=chosen(id);
+  const titles={country:"countries",distance:"distances",type:"entry types",status:"statuses"};
+  const title=titles[id];
+  const label=selected.length===all?"All "+title:selected.length===0?"No "+title:selected.length===1?(id==="country"||id==="distance"?selected[0]:id==="status"?(statuses.find(x=>x[0]===selected[0])||[])[1]||selected[0]:(entryTypes.find(x=>x[0]===selected[0])||[])[1]||selected[0]):selected.length+" "+title;
+  $(id+"-summary").textContent=label;
+}
+function render(){
+  ["country","distance","type","status"].forEach(updateSummary);
+  const q=$("q").value.toLowerCase();
+  const countries=chosen("country"),distances=chosen("distance"),types=chosen("type"),statusesSelected=chosen("status");
+  const from=$("date-from").value,to=$("date-to").value;
+  const includeUndated=$("include-undated").checked;
+  if(from&&to&&from>to){$("result-count").textContent="Start date must be before end date";$("races").innerHTML="";return}
+  const matches=races.filter(r=>{
+    if(!(r.name+" "+r.city).toLowerCase().includes(q))return false;
+    if(!countries.includes(r.country)||!safeArr(r.distance).some(d=>distances.includes(d)))return false;
+    if(!typeGroups(r).some(t=>types.includes(t))||!statusesSelected.includes(r.status))return false;
+    const raceDate=r.race_date||null; // only verified dates qualify for range searches
+    if(from||to){
+      if(!raceDate)return includeUndated;
+      if(from&&raceDate<from)return false;
+      if(to&&raceDate>to)return false;
+    }
+    return true;
+  }).sort((a,b)=>String(a.race_date||"9999-99-99").localeCompare(String(b.race_date||"9999-99-99"))||a.name.localeCompare(b.name));
+  $("result-count").textContent="Showing "+matches.length+" of "+races.length+" races"+((from||to)?" · Filtered by confirmed race dates":"");
+  $("races").innerHTML=matches.map(r=>`<article class="race"><span class="tag ${esc(r.status)}">${esc(labels[r.status]||r.status)}</span><h2>${esc(r.name)}</h2><div class="meta">${esc(r.city)}, ${esc(r.country)} · ${esc(safeArr(r.distance).join(" + "))}</div><div class="meta">Entry: ${esc(r.entry_type)}</div>${r.ultra_distances_km?.length?'<div class="meta">Ultra distances: '+esc(r.ultra_distances_km.join(", "))+" km</div>":""}${datePanel(r)}${r.race_date_note?'<div class="date-note">'+esc(r.race_date_note)+"</div>":""}${detailsPanel(r)}<div class="meta">${r.evidence?'Detected text: '+esc(r.evidence):r.error?'Scan issue: '+esc(r.error):'No clear evidence detected'}</div><a href="${esc(r.registration_url||r.official_url)}" rel="noopener noreferrer" target="_blank">Check official entry website ↗</a></article>`).join("")||'<p class="empty">No races match these filters. Try selecting more categories or including unconfirmed race dates.</p>';
+}
+buildFilter("distance",[["Marathon","Marathon"],["Half marathon","Half marathon"],["Ultra","Ultra"]]);
+buildFilter("type",entryTypes);
+buildFilter("status",statuses);
+(async()=>{
+try {
+  const r=await fetch("./data/races.json?"+Date.now());
+  if(!r.ok)throw Error("HTTP "+r.status);
+  const d=await r.json();races=d.races||[];
+  $("tracked").textContent=races.length;
+  $("opened").textContent=races.filter(r=>["possible_open","confirmed_open"].includes(r.status)).length;
+  $("coverage").textContent=races.filter(r=>r.status==="unknown").length+" sites could not be checked · "+races.filter(r=>r.status==="no_signal").length+" without clear entry signals";
+  $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
+  $("note").textContent=d.disclaimer||"";
+  buildFilter("country",[...new Set(races.map(r=>r.country))].sort().map(v=>[v,v]));
+  render();
+} catch(err) {$("note").textContent="Could not load race data: "+err.message}
+})();
+$("filter-area").addEventListener("input",render);
+$("date-toolbar").addEventListener("input",render);
+$("filter-area").addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-filter]");
+  if(!btn)return;
+  document.querySelectorAll('input[name="'+btn.dataset.filter+'"]').forEach(input=>input.checked=btn.dataset.action==="all");
+  render();
+});
+$("clear-dates").addEventListener("click",()=>{$("date-from").value="";$("date-to").value="";$("include-undated").checked=false;render()});
+document.addEventListener("click",e=>document.querySelectorAll("details.distance-filter[open]").forEach(d=>{if(!d.contains(e.target))d.open=false}));
+document.querySelectorAll("details.distance-filter").forEach(el=>el.addEventListener("toggle",()=>{if(el.open)document.querySelectorAll("details.distance-filter").forEach(other=>{if(other!==el)other.open=false})}));
 </script></body></html>

@@ -16,7 +16,7 @@ permissions:
   contents: write
 concurrency:
   group: marathon-scanner
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   scan:
     runs-on: ubuntu-latest

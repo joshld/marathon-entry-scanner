@@ -1206,5 +1206,45 @@
     "before": "possible_open",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:41:40+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:41:40+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:41:40+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:41:40+00:00",
+    "id": "amazing-thailand-marathon",
+    "name": "Amazing Thailand Marathon Bangkok",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:41:40+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

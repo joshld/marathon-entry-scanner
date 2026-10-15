@@ -9,25 +9,43 @@
     ],
     "entry_type": "Ballot",
     "official_url": "https://www.tcssydneymarathon.com/marathon",
-    "registration_url": "https://www.tcssydneymarathon.com/marathon",
+    "registration_url": "https://www.tcssydneymarathon.com/sign-up",
     "priority": 1,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "registration_page_verified": false,
-    "entry_options": [],
-    "entry_price_note": null,
+    "race_date": "2027-08-29",
+    "entry_open_date": "2026-09-29",
+    "entry_close_date": "2026-10-19",
+    "date_source": "https://www.tcssydneymarathon.com/sign-up",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": true,
+    "entry_options": [
+      {
+        "category": "General ballot — AU/NZ resident",
+        "distance": "Marathon",
+        "currency": "AUD",
+        "amount": 285
+      },
+      {
+        "category": "General ballot — international",
+        "distance": "Marathon",
+        "currency": "AUD",
+        "amount": 340
+      }
+    ],
+    "entry_price_note": "Plus mandatory carbon levy and optional donations",
     "eligibility": {
       "minimum_age": null,
-      "residency": null,
+      "residency": "Australian/NZ and international general ballot categories",
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "other_requirements": [
+        "2027 general entry is by ballot; separate applications for duo teams and non-elite racing wheelchairs"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.tcssydneymarathon.com/frequently-asked-questions",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_verified_at": "2026-10-15",
+    "status_source_url": "https://www.tcssydneymarathon.com/sign-up"
   },
   {
     "id": "gold-coast",
@@ -71,25 +89,43 @@
     ],
     "entry_type": "Direct",
     "official_url": "https://www.brisbanemarathon.com.au/",
-    "registration_url": "https://www.brisbanemarathon.com.au/",
+    "registration_url": "https://www.brisbanemarathon.com.au/marathon",
     "priority": 1,
-    "race_date": null,
+    "race_date": "2027-06-06",
     "entry_open_date": null,
     "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "registration_page_verified": false,
-    "entry_options": [],
+    "date_source": "https://www.brisbanemarathon.com.au/marathon",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": true,
+    "entry_options": [
+      {
+        "category": "Second release",
+        "distance": "Marathon",
+        "currency": "AUD",
+        "amount": 250
+      },
+      {
+        "category": "Second release",
+        "distance": "Half marathon",
+        "currency": "AUD",
+        "amount": 190
+      }
+    ],
     "entry_price_note": null,
     "eligibility": {
-      "minimum_age": null,
+      "minimum_age": 17,
       "residency": null,
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "other_requirements": [
+        "Marathon cutoff: 6 h 15 min; half marathon cutoff: 3 h 30 min"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://www.brisbanemarathon.com.au/marathon",
+      "verified_at": "2026-10-15"
+    },
+    "verified_entry_status": "open",
+    "status_verified_at": "2026-10-15",
+    "status_source_url": "https://www.brisbanemarathon.com.au/marathon"
   },
   {
     "id": "canberra",

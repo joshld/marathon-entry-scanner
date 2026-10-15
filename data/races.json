@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T04:53:10+00:00",
+  "generated_at": "2026-10-15T05:08:10+00:00",
   "disclaimer": "Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.",
   "races": [
     {
@@ -50,7 +50,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.tcssydneymarathon.com/sign-up",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -97,7 +97,7 @@
       "race_date_note": "Half marathon: 3 July; full marathon: 4 July 2027.",
       "entry_open_note": "Early December 2026 (exact day TBA)",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -159,7 +159,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.brisbanemarathon.com.au/marathon",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -203,7 +203,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -243,7 +243,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -288,7 +288,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -349,7 +349,7 @@
       },
       "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -433,7 +433,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -496,7 +496,7 @@
       },
       "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -554,7 +554,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -599,7 +599,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 Entries Open",
@@ -656,7 +656,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: entries close",
@@ -722,7 +722,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -766,7 +766,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Entries close",
@@ -837,7 +837,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -881,7 +881,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -921,7 +921,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -967,7 +967,7 @@
         80
       ],
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1007,7 +1007,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1060,7 +1060,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1116,7 +1116,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1155,7 +1155,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1194,7 +1194,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1237,7 +1237,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1276,7 +1276,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -1327,7 +1327,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1366,7 +1366,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1405,7 +1405,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -1477,7 +1477,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1517,7 +1517,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1561,7 +1561,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1605,7 +1605,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -1663,7 +1663,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1735,7 +1735,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1775,7 +1775,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1815,7 +1815,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1859,7 +1859,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -1902,7 +1902,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1947,7 +1947,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1991,7 +1991,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2030,7 +2030,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2069,7 +2069,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2122,7 +2122,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2161,7 +2161,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2205,7 +2205,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2255,7 +2255,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2299,7 +2299,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: 受付終了",
@@ -2343,7 +2343,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2382,7 +2382,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2433,7 +2433,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2476,7 +2476,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2539,7 +2539,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2582,7 +2582,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2625,11 +2625,11 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okayama-marathon.jp', port=443) at 0x7f7f08dd0",
+      "error": "HTTPSConnectionPool(host='www.okayama-marathon.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.okayama-marathon.jp', port=443): Failed to res",
       "checked_url": "https://www.okayama-marathon.jp/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -2664,14 +2664,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.matsuejo-marathon.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.matsuejo-marathon.jp', port=443): Failed to es",
+      "error": "",
       "checked_url": "https://www.matsuejo-marathon.jp/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://www.matsuejo-marathon.jp/",
+        "https://www.matsuejo-marathon.jp/entry"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "tsukuba-marathon",
@@ -2703,7 +2708,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 202,
       "evidence": "",
@@ -2746,14 +2751,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.naganomarathon.gr.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.naganomarathon.gr.jp', port=443) at 0x7f7f08f",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "受付終了",
+      "error": "",
       "checked_url": "https://www.naganomarathon.gr.jp/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://www.naganomarathon.gr.jp/",
+        "https://www.naganomarathon.gr.jp/entrant/requirements"
+      ],
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "sendai-international-half-marathon",
@@ -2785,7 +2795,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2836,7 +2846,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2880,7 +2890,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "募集終了",
@@ -2938,7 +2948,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2977,7 +2987,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3021,14 +3031,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='runfes-niigata.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='runfes-niigata.com', port=443) at 0x7f7f089b4770>, 'Con",
+      "error": "",
       "checked_url": "https://runfes-niigata.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://runfes-niigata.com/",
+        "https://runfes-niigata.com/requirements/"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "beppu-oita-mainichi-marathon",
@@ -3060,14 +3075,32 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.betsudai.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.betsudai.com', port=443) at 0x7f7f08e87bf0>, 'Connect",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "エントリー開始",
+      "error": "",
       "checked_url": "https://www.betsudai.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "entry_open_date": {
+          "value": "2026-08-13",
+          "source_url": "https://www.betsudai.com/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        },
+        "restrictions": [
+          {
+            "text": "2001年50回記念大会からは世界選手権の選考レースに。10年59回大会から大分市の高崎山・うみたまご前をスタートし、大分市営陸上競技場にフィニッシュするコースに大幅変更。翌60回大会からは参加資格をマラソン3時間30分以内に緩和し、女子選手にも門戸を開いた。",
+            "source_url": "https://www.betsudai.com/",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.betsudai.com/"
+      ],
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "lake-biwa-marathon",
@@ -3099,14 +3132,28 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='biwako-marathon.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='biwako-marathon.com', port=443) at 0x7f7f08c63e00>, 'C",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "Registration closed",
+      "error": "",
       "checked_url": "https://biwako-marathon.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "prices": [
+          {
+            "text": "r 30",
+            "source_url": "https://biwako-marathon.com/entry/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://biwako-marathon.com/",
+        "https://biwako-marathon.com/entry/"
+      ],
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "okinawa-marathon",
@@ -3138,14 +3185,26 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.okinawa-marathon.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okinawa-marathon.com', port=443) at 0x7f7f08f",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "エントリー開始",
+      "error": "",
       "checked_url": "https://www.okinawa-marathon.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "entry_open_date": {
+          "value": "2026-08-03",
+          "source_url": "https://okinawa-marathon.com/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        }
+      },
+      "scanned_pages": [
+        "https://okinawa-marathon.com/",
+        "https://okinawa-marathon.com/entry/"
+      ],
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "naha-marathon",
@@ -3177,14 +3236,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.naha-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.naha-marathon.jp', port=443) at 0x7f7f08b6c560>, ",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "conflicting_signals",
+      "http_status": 200,
+      "evidence": "Open: エントリー開始; closed: 受付終了",
+      "error": "",
       "checked_url": "https://www.naha-marathon.jp/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://naha-marathon.jp/",
+        "https://naha-marathon.jp/news/%F0%9F%86%95%E3%80%90%E7%AC%AC40%E5%9B%9E%E8%A8%98%E5%BF%B5naha%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E7%94%B3%E8%BE%BC%E5%8F%97%E4%BB%98%E7%B5%82%E4%BA%86%E3%80%91%E5%A4%9A%E6%95%B0%E3%81%AE%E3%81%8A/"
+      ],
+      "registration_evidence_status": "conflicting_signals"
     },
     {
       "id": "ibusuki-nanohana-marathon",
@@ -3216,14 +3280,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.ibusuki-nanohana.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ibusuki-nanohana.com', port=443) at 0x7f7f088",
+      "error": "",
       "checked_url": "https://www.ibusuki-nanohana.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://ibusuki-nanohana.com/",
+        "https://ibusuki-nanohana.com/entry/"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "miyazaki-aoshima-taiheiyo-marathon",
@@ -3255,7 +3324,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -3295,7 +3364,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter now; closed: SOLD OUT",
@@ -3379,7 +3448,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3424,7 +3493,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3502,7 +3571,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3586,7 +3655,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3629,7 +3698,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3674,7 +3743,7 @@
       "race_end_date": "2027-04-25",
       "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "secure your spot",
@@ -3726,7 +3795,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3825,7 +3894,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3868,7 +3937,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3939,7 +4008,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3983,7 +4052,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -4022,7 +4091,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Registration is open",
@@ -4097,7 +4166,7 @@
       "priority": 1,
       "race_end_date": "2027-05-16",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Entries open; closed: sold out",
@@ -4185,7 +4254,7 @@
       "entry_type": "Direct / capacity",
       "priority": 1,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "entries open",
@@ -4261,7 +4330,7 @@
       "entry_type": "Direct",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4343,7 +4412,7 @@
       "entry_type": "Direct / verify",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4437,7 +4506,7 @@
       "entry_type": "Direct / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4493,7 +4562,7 @@
       "entry_type": "Qualifying / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -4545,7 +4614,7 @@
       },
       "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4588,7 +4657,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: sold out",
@@ -4634,7 +4703,7 @@
       },
       "entry_notes": "2027 marathon and half marathon race on 30 May 2027.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -4677,7 +4746,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: Sold Out",
@@ -4721,7 +4790,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4779,7 +4848,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4818,7 +4887,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4857,7 +4926,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -4900,7 +4969,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4943,7 +5012,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4987,7 +5056,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 500,
       "evidence": "",
@@ -5028,7 +5097,7 @@
       },
       "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5093,7 +5162,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: registrations open",
@@ -5146,7 +5215,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5189,7 +5258,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5233,7 +5302,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Secure Your Spot",
@@ -5259,11 +5328,11 @@
       "registration_url": "https://copenhagenmarathon.dk/en/",
       "registration_page_verified": false,
       "priority": 3,
-      "race_date": null,
+      "race_date": "2027-05-09",
       "entry_open_date": null,
       "entry_close_date": null,
-      "date_source": null,
-      "date_verified_at": null,
+      "date_source": "https://copenhagenmarathon.dk/en/",
+      "date_verified_at": "2026-10-15",
       "entry_price_note": null,
       "entry_options": [],
       "eligibility": {
@@ -5276,7 +5345,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: sold out",
@@ -5335,7 +5404,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -5374,7 +5443,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5417,18 +5486,37 @@
       "distance": [
         "Marathon"
       ],
-      "entry_type": "Unverified",
+      "entry_type": "Direct",
       "official_url": "https://www.stockholmmarathon.se/",
       "registration_url": "https://www.stockholmmarathon.se/",
       "registration_page_verified": false,
       "priority": 3,
-      "race_date": null,
+      "race_date": "2027-05-29",
       "entry_open_date": null,
       "entry_close_date": null,
-      "date_source": null,
-      "date_verified_at": null,
-      "entry_price_note": null,
-      "entry_options": [],
+      "date_source": "https://stockholmmarathon.se/eng/eng-lopare/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": "Price increases by entry period; check current pricing at organiser website.",
+      "entry_options": [
+        {
+          "category": "2027 period 1",
+          "distance": "Marathon",
+          "currency": "SEK",
+          "amount": 1295
+        },
+        {
+          "category": "2027 period 2",
+          "distance": "Marathon",
+          "currency": "SEK",
+          "amount": 1495
+        },
+        {
+          "category": "2027 period 3",
+          "distance": "Marathon",
+          "currency": "SEK",
+          "amount": 1795
+        }
+      ],
       "eligibility": {
         "minimum_age": null,
         "residency": null,
@@ -5439,14 +5527,17 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "unknown",
+      "verified_entry_status": "open",
+      "status_source_url": "https://stockholmmarathon.se/eng/eng-lopare/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
       "http_status": 403,
-      "evidence": "",
+      "evidence": "Organiser verified on 2026-10-15",
       "error": "403 Client Error: Forbidden for url: https://www.stockholmmarathon.se/",
       "checked_url": "https://www.stockholmmarathon.se/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "registration_evidence_status": "confirmed_open"
     },
     {
       "id": "athens-authentic-marathon",
@@ -5478,7 +5569,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5521,7 +5612,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5564,7 +5655,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5607,7 +5698,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "SOLD OUT",
@@ -5629,16 +5720,16 @@
         "Marathon",
         "Half marathon"
       ],
-      "entry_type": "Unverified",
+      "entry_type": "Direct",
       "official_url": "https://helsinkicityrunningday.fi/en/",
-      "registration_url": "https://helsinkicityrunningday.fi/en/",
+      "registration_url": "https://www.helsinkimarathon.fi/en/registration/",
       "registration_page_verified": false,
       "priority": 3,
-      "race_date": null,
+      "race_date": "2027-08-28",
       "entry_open_date": null,
       "entry_close_date": null,
-      "date_source": null,
-      "date_verified_at": null,
+      "date_source": "https://www.helsinkimarathon.fi/en/event-info/",
+      "date_verified_at": "2026-10-15",
       "entry_price_note": null,
       "entry_options": [],
       "eligibility": {
@@ -5651,34 +5742,36 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "no_signal",
+      "verified_entry_status": "open",
+      "status_source_url": "https://www.helsinkimarathon.fi/en/event-info/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
       "http_status": 200,
-      "evidence": "",
+      "evidence": "Organiser verified on 2026-10-15",
       "error": "",
-      "checked_url": "https://helsinkicityrunningday.fi/en/",
+      "checked_url": "https://www.helsinkimarathon.fi/en/registration/",
       "date_window_status": "dates_unknown",
       "detected": {
         "prices": [
           {
-            "text": "r 31",
-            "source_url": "https://helsinkicityrun.fi/en/",
+            "text": "r 2026",
+            "source_url": "https://www.helsinkimarathon.fi/en/registration/",
             "method": "Page text",
             "verification": "unverified"
           },
           {
-            "text": "r 3",
-            "source_url": "https://helsinkicityrun.fi/en/registration/",
+            "text": "r 2027",
+            "source_url": "https://www.helsinkimarathon.fi/en/registration/",
             "method": "Page text",
             "verification": "unverified"
           }
         ]
       },
       "scanned_pages": [
-        "https://helsinkicityrun.fi/en/",
-        "https://helsinkicityrun.fi/en/registration/"
+        "https://www.helsinkimarathon.fi/en/registration/"
       ],
-      "registration_evidence_status": "no_signal"
+      "registration_evidence_status": "confirmed_open"
     },
     {
       "id": "dublin-marathon",
@@ -5710,64 +5803,18 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "possible_open",
-      "http_status": 200,
-      "evidence": "Linked entry page: Entries Open",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 202,
+      "evidence": "",
       "error": "",
       "checked_url": "https://irishlifedublinmarathon.ie/",
       "date_window_status": "dates_unknown",
-      "detected": {
-        "race_date": {
-          "value": "2027-10-24",
-          "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-          "method": "Date next to entry/race label",
-          "verification": "unverified"
-        },
-        "entry_open_date": {
-          "value": "2026-11-12",
-          "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-          "method": "Date next to entry/race label",
-          "verification": "unverified"
-        },
-        "entry_close_date": {
-          "value": "2026-11-17",
-          "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-          "method": "Date next to entry/race label",
-          "verification": "unverified"
-        },
-        "prices": [
-          {
-            "text": "€130",
-            "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-            "method": "Page text",
-            "verification": "unverified"
-          },
-          {
-            "text": "r 2026",
-            "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-            "method": "Page text",
-            "verification": "unverified"
-          },
-          {
-            "text": "€4",
-            "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-            "method": "Page text",
-            "verification": "unverified"
-          },
-          {
-            "text": "€20",
-            "source_url": "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/",
-            "method": "Page text",
-            "verification": "unverified"
-          }
-        ]
-      },
+      "detected": {},
       "scanned_pages": [
-        "https://irishlifedublinmarathon.ie/",
-        "https://irishlifedublinmarathon.ie/2027-event-dates-entry-information/"
+        "https://irishlifedublinmarathon.ie/"
       ],
-      "registration_evidence_status": "possible_open"
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "milan-marathon",
@@ -5799,7 +5846,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5843,7 +5890,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5895,7 +5942,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5939,7 +5986,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5982,7 +6029,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6034,7 +6081,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: SOLD OUT",
@@ -6078,7 +6125,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6121,7 +6168,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6173,7 +6220,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6250,7 +6297,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6300,7 +6347,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6343,7 +6390,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER TODAY",
@@ -6387,7 +6434,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6431,7 +6478,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6501,7 +6548,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6578,7 +6625,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: Sold Out",
@@ -6656,7 +6703,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -6700,7 +6747,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6743,7 +6790,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6793,7 +6840,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6843,7 +6890,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6921,7 +6968,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6975,10 +7022,10 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://enter.comrades.com/comrades-2027",
       "continent": "Africa",
-      "checked_at": "2026-10-15T04:53:10+00:00",
-      "status": "possible_closed",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_closed",
       "http_status": 200,
-      "evidence": "Entries closed",
+      "evidence": "Organiser confirmed closed/sold out on 2026-10-15",
       "error": "",
       "checked_url": "https://enter.comrades.com/comrades-2027",
       "date_window_status": "window_ended",
@@ -6993,7 +7040,7 @@
       "scanned_pages": [
         "https://enter.comrades.com/comrades-2027"
       ],
-      "registration_evidence_status": "possible_closed"
+      "registration_evidence_status": "confirmed_closed"
     },
     {
       "id": "spartathlon",
@@ -7025,7 +7072,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7068,7 +7115,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: REGISTRATION OPEN; closed: Registrations closed",
@@ -7164,7 +7211,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7224,7 +7271,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7297,7 +7344,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7374,7 +7421,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7427,7 +7474,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7467,7 +7514,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7511,7 +7558,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -7550,7 +7597,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7593,7 +7640,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7636,7 +7683,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7675,11 +7722,11 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7f7f0879f590>, 'Connection to www",
+      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7f24c4961f10>, 'Connection to www",
       "checked_url": "https://www.kumf.kr/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -7716,7 +7763,7 @@
       },
       "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov",
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7773,7 +7820,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7817,7 +7864,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: Register now",
@@ -7862,7 +7909,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7906,7 +7953,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -7946,7 +7993,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -7998,7 +8045,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -8043,7 +8090,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -8100,7 +8147,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -8144,7 +8191,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T04:53:10+00:00",
+      "checked_at": "2026-10-15T05:08:10+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -8177,6 +8224,1468 @@
         "https://www.sundownmarathon.com/sundownmarathon-singapore.html"
       ],
       "registration_evidence_status": "possible_open"
+    },
+    {
+      "id": "toronto-waterfront-marathon",
+      "name": "TCS Toronto Waterfront Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Toronto",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://www.torontowaterfrontmarathon.com/",
+      "registration_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "conflicting_signals",
+      "http_status": 200,
+      "evidence": "Open: Book Now; closed: SOLD OUT",
+      "error": "",
+      "checked_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "prices": [
+          {
+            "text": "R 18,",
+            "source_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "R 17,",
+            "source_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$30.00",
+            "source_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.torontowaterfrontmarathon.com/event-info/"
+      ],
+      "registration_evidence_status": "conflicting_signals"
+    },
+    {
+      "id": "toronto-marathon",
+      "name": "Toronto Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Toronto",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.torontomarathon.com/",
+      "registration_url": "https://www.torontomarathon.com/races/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-05-02",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.torontomarathon.com/races/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Half marathon minimum age 16; 4-hour half-marathon cutoff"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.torontomarathon.com/races/half-marathon/",
+        "verified_at": "2026-10-15"
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://www.torontomarathon.com/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://www.torontomarathon.com/races/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.torontomarathon.com/races/",
+        "https://www.torontomarathon.com/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "vancouver-marathon",
+      "name": "BMO Vancouver Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Vancouver",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://bmovanmarathon.ca/",
+      "registration_url": "https://bmovanmarathon.ca/run",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-05-02",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.bmovancouvermarathon.com/info",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Half marathon minimum age 16; 3-hour cutoff"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://bmovanmarathon.ca/halfmarathon",
+        "verified_at": "2026-10-15"
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://bmovanmarathon.ca/halfmarathon",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://bmovanmarathon.ca/run",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://bmovanmarathon.ca/run",
+        "https://bmovanmarathon.ca/register"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "ottawa-marathon-weekend",
+      "name": "Tamarack Ottawa Race Weekend",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Ottawa",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.runottawa.ca/",
+      "registration_url": "https://www.runottawa.ca/races-and-events/ottawa-marathon/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-05-30",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.runottawa.ca/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Half marathon minimum age 16; age requirements differ by distance"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.runottawa.ca/races-and-events/half-marathon/",
+        "verified_at": "2026-10-15"
+      },
+      "race_date_note": "Weekend 29–30 May; marathon and half marathon take place Sunday 30 May.",
+      "verified_entry_status": "open",
+      "status_source_url": "https://www.runottawa.ca/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://www.runottawa.ca/races-and-events/ottawa-marathon/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "prices": [
+          {
+            "text": "$180.00",
+            "source_url": "https://www.runottawa.ca/races-and-events/ottawa-marathon/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "r 2026",
+            "source_url": "https://www.runottawa.ca/torw/runners/faq/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "r 2027",
+            "source_url": "https://www.runottawa.ca/torw/runners/faq/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$25",
+            "source_url": "https://www.runottawa.ca/torw/runners/faq/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.runottawa.ca/races-and-events/ottawa-marathon/",
+        "https://www.runottawa.ca/torw/runners/faq/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "calgary-marathon",
+      "name": "Beneva Calgary Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Calgary",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://calgarymarathon.com/",
+      "registration_url": "https://calgarymarathon.com/races/marathon/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-05-30",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://calgarymarathon.com/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": 16,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Full marathon cutoff 6h30; half marathon cutoff 4h30; race-day age 16+ for full and 14+ for half"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://calgarymarathon.com/races/marathon/",
+        "verified_at": "2026-10-15"
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://calgarymarathon.com/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 202,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://calgarymarathon.com/races/marathon/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://calgarymarathon.com/races/marathon/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "victoria-marathon",
+      "name": "Royal Victoria Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Victoria",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.runvictoriamarathon.com/",
+      "registration_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": "2026-11-16",
+      "entry_close_date": null,
+      "date_source": "https://www.runvictoriamarathon.com/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "race_date_note": "2027 weekend is 8–10 October. Organiser's race-day text appears to reuse 2026 weekday/date; exact marathon day needs confirmation.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "SOLD OUT",
+      "error": "",
+      "checked_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
+      "date_window_status": "scheduled",
+      "detected": {
+        "entry_open_date": {
+          "value": "2026-11-16",
+          "source_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        },
+        "prices": [
+          {
+            "text": "r 16,",
+            "source_url": "https://www.runvictoriamarathon.com/royal-victoria-marathon",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.runvictoriamarathon.com/royal-victoria-marathon"
+      ],
+      "registration_evidence_status": "possible_closed"
+    },
+    {
+      "id": "manitoba-marathon",
+      "name": "Manitoba Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Winnipeg",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://manitobamarathon.mb.ca/",
+      "registration_url": "https://manitobamarathon.mb.ca/marathon/half-marathon/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-06-20",
+      "entry_open_date": "2026-12-01",
+      "entry_close_date": null,
+      "date_source": "https://manitobamarathon.mb.ca/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://manitobamarathon.mb.ca/marathon/half-marathon/",
+      "date_window_status": "scheduled",
+      "detected": {
+        "restrictions": [
+          {
+            "text": "Please note: the age restriction for the Half Marathon is 13 years of age or older on race day.",
+            "source_url": "https://manitobamarathon.mb.ca/marathon/half-marathon/",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://manitobamarathon.mb.ca/marathon/half-marathon/"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "edmonton-marathon",
+      "name": "Edmonton Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Edmonton",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://www.edmontonmarathon.ca/",
+      "registration_url": "https://www.edmontonmarathon.ca/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.edmontonmarathon.ca/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.edmontonmarathon.ca/"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "niagara-falls-marathon",
+      "name": "Niagara Falls International Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Niagara Falls",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://niagarafallsmarathon.com/",
+      "registration_url": "https://niagarafallsmarathon.com/marathon-event.html",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://niagarafallsmarathon.com/marathon-event.html",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://niagarafallsmarathon.com/marathon-event.html"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "banff-half-marathon",
+      "name": "Banff Half Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Banff",
+      "distance": [
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.banffhalf.com/",
+      "registration_url": "https://www.banffhalf.com/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-06-20",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.banffhalf.com/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://www.banffhalf.com/",
+      "entry_notes": "Organiser reports 2027 half marathon is 85% sold out.",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://www.banffhalf.com/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.banffhalf.com/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "whistler-half-marathon",
+      "name": "Whistler Half Marathon",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Whistler",
+      "distance": [
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.whistlerhalfmarathon.com/",
+      "registration_url": "https://www.whistlerhalfmarathon.com/registration/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-06-05",
+      "entry_open_date": "2027-01-01",
+      "entry_close_date": null,
+      "date_source": "https://www.whistlerhalfmarathon.com/whistler-half-marathon/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": 16,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Recommended minimum age 16; half-marathon 4.5-hour finish cutoff"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.whistlerhalfmarathon.com/whistler-half-marathon/",
+        "verified_at": "2026-10-15"
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.whistlerhalfmarathon.com/registration/",
+      "date_window_status": "scheduled",
+      "detected": {
+        "prices": [
+          {
+            "text": "$55",
+            "source_url": "https://www.whistlerhalfmarathon.com/registration/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$5",
+            "source_url": "https://www.whistlerhalfmarathon.com/registration/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.whistlerhalfmarathon.com/registration/"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "quebec-mega-trail",
+      "name": "Québec Mega Trail",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Mont-Sainte-Anne",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Direct / qualifying",
+      "official_url": "https://ultratrailcanada.com/en/",
+      "registration_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-07-01",
+      "entry_open_date": "2026-08-01",
+      "entry_close_date": null,
+      "date_source": "https://ultratrailcanada.com/en/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "QMT135 qualification: prior trail race with 75 points (1 point per km plus 1 per 100m climb)"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://ultratrailcanada.com/en/ultra-trail-races/qmt-135/",
+        "verified_at": "2026-10-15"
+      },
+      "race_end_date": "2027-07-04",
+      "verified_entry_status": "open",
+      "ultra_distances_km": [
+        51,
+        77,
+        134
+      ],
+      "entry_notes": "Individual start dates differ by distance, July 2 for QMT50/QMT135 and July 3 for QMT80.",
+      "status_source_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
+      "date_window_status": "partial_window",
+      "detected": {},
+      "scanned_pages": [
+        "https://ultratrailcanada.com/en/ultra-trail-races/registration/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "golden-ultra",
+      "name": "Golden Ultra",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Golden",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.goldenultra.com/",
+      "registration_url": "https://www.goldenultra.com/registration",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-09-10",
+      "entry_open_date": "2026-11-25",
+      "entry_close_date": null,
+      "date_source": "https://www.goldenultra.com/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "race_end_date": "2027-09-12",
+      "race_date_note": "Three-day ultra and single-day trail events; individual distances vary by day.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "conflicting_signals",
+      "http_status": 200,
+      "evidence": "Open: REGISTER NOW; closed: SOLD OUT",
+      "error": "",
+      "checked_url": "https://www.goldenultra.com/registration",
+      "date_window_status": "scheduled",
+      "detected": {
+        "prices": [
+          {
+            "text": "r 10",
+            "source_url": "https://www.goldenultra.com/registration",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$599",
+            "source_url": "https://www.goldenultra.com/registration",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$199",
+            "source_url": "https://www.goldenultra.com/registration",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "$99",
+            "source_url": "https://www.goldenultra.com/registration",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.goldenultra.com/registration"
+      ],
+      "registration_evidence_status": "conflicting_signals"
+    },
+    {
+      "id": "canadian-death-race",
+      "name": "Canadian Death Race",
+      "country": "Canada",
+      "continent": "North America",
+      "city": "Grande Cache",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Direct / qualifying",
+      "official_url": "https://www.sinistersports.ca/deathrace/",
+      "registration_url": "https://www.sinistersports.ca/deathrace/course",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Technical mountain terrain with ~5,180 m climbing on the full course"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.sinistersports.ca/deathrace/course",
+        "verified_at": "2026-10-15"
+      },
+      "ultra_distances_km": [
+        118
+      ],
+      "entry_notes": "Event includes 118 km ultra; smaller 41.3 km race is not an official 42.195 km marathon.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.sinistersports.ca/deathrace/course",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.sinistersports.ca/deathrace/course",
+        "https://www.sinistersports.ca/register_home"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "oslo-marathon",
+      "name": "Oslo Marathon",
+      "country": "Norway",
+      "continent": "Europe",
+      "city": "Oslo",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://oslomaraton.no/en/",
+      "registration_url": "https://oslomaraton.no/en/distanser/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "Sold out",
+      "error": "",
+      "checked_url": "https://oslomaraton.no/en/distanser/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "restrictions": [
+          {
+            "text": "Age limit",
+            "source_url": "https://oslomaraton.no/en/distanser/",
+            "verification": "unverified"
+          },
+          {
+            "text": "You must be 13 years of age to participate in 10 km wheelchair racing during the DNB Oslo Marathon.",
+            "source_url": "https://oslomaraton.no/en/distanser/",
+            "verification": "unverified"
+          },
+          {
+            "text": "You must be 18 years of age or older to run the marathon distance during the DNB Oslo Marathon.",
+            "source_url": "https://oslomaraton.no/en/distanser/",
+            "verification": "unverified"
+          },
+          {
+            "text": "Any athlete who achieves the automatic qualifying time for their age group will receive an immediate invitation to the AbbottWMM Wanda Age Group World Championships in 2027.",
+            "source_url": "https://oslomaraton.no/en/distanser/",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://oslomaraton.no/en/distanser/"
+      ],
+      "registration_evidence_status": "possible_closed"
+    },
+    {
+      "id": "bergen-city-marathon",
+      "name": "Bergen City Marathon",
+      "country": "Norway",
+      "continent": "Europe",
+      "city": "Bergen",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.bergencitymarathon.no/",
+      "registration_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-04-24",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.bergencitymarathon.no/velkommen/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Marathon cutoff 6 h, half marathon cutoff 4 h"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.bergencitymarathon.no/en/18794-2/",
+        "verified_at": "2026-10-15"
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://secure.onreg.com/onreg2/front/step1.php?id=7748"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "tromso-midnight-sun-marathon",
+      "name": "Tromsø Midnight Sun Marathon",
+      "country": "Norway",
+      "continent": "Europe",
+      "city": "Tromsø",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://msm.no/en/",
+      "registration_url": "https://msm.no/en/midnight-sun-marathon/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-06-19",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://msm.no/en/midnight-sun-marathon/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://msm.no/en/midnight-sun-marathon/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://msm.no/en/midnight-sun-marathon/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://msm.no/en/midnight-sun-marathon/",
+        "https://msm.no/en/midnight-sun-marathon/pamelding-msm/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "stavanger-marathon",
+      "name": "Stavanger Marathon",
+      "country": "Norway",
+      "continent": "Europe",
+      "city": "Stavanger",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://stavangermarathon.no/",
+      "registration_url": "https://stavangermarathon.no/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-08-28",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://stavangermarathon.no/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Marathon cutoff 6 h; half marathon cutoff 3 h 30 min"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://stavangermarathon.no/en/home/participant-information/",
+        "verified_at": "2026-10-15"
+      },
+      "entry_open_note": "February 2027; exact date TBA",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://stavangermarathon.no/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://stavangermarathon.no/"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "reykjavik-marathon",
+      "name": "Reykjavík Marathon",
+      "country": "Iceland",
+      "continent": "Europe",
+      "city": "Reykjavík",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.rmi.is/en/",
+      "registration_url": "https://www.rmi.is/en/registration",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-08-21",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.rmi.is/en/registration",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [
+          "Marathon minimum age 18; half marathon minimum age 15; general and competition tickets are different categories"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.rmi.is/en/faq",
+        "verified_at": "2026-10-15"
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://www.rmi.is/en/registration",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://www.rmi.is/en/registration",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.rmi.is/en/registration"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "laugavegur-ultramarathon",
+      "name": "Laugavegur Ultra Marathon",
+      "country": "Iceland",
+      "continent": "Europe",
+      "city": "Landmannalaugar–Þórsmörk",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Ballot / qualifying",
+      "official_url": "https://www.laugavegshlaup.is/en",
+      "registration_url": "https://www.laugavegshlaup.is/en/race-for-you",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-07-17",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.laugavegshlaup.is/en",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": 18,
+        "residency": null,
+        "qualifying_time": "ITRA performance index 370 or higher for eligibility",
+        "other_requirements": [
+          "Highest-rated eligible entrants receive secured places; other eligible runners enter the lottery",
+          "Required gear includes space blanket, whistle and phone"
+        ],
+        "verification_status": "partially_verified",
+        "source_url": "https://www.laugavegshlaup.is/en/race-for-you",
+        "verified_at": "2026-10-15"
+      },
+      "ultra_distances_km": [
+        55
+      ],
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://www.laugavegshlaup.is/en/race-for-you",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.laugavegshlaup.is/en/race-for-you"
+      ],
+      "registration_evidence_status": "no_signal"
+    },
+    {
+      "id": "fire-and-ice-ultra",
+      "name": "Fire + Ice Ultra",
+      "country": "Iceland",
+      "continent": "Europe",
+      "city": "Central Iceland",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://fireandiceultra.com/",
+      "registration_url": "https://fireandiceultra.com/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-08-30",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://fireandiceultra.com/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": "£700 deposit; remaining payments per organiser schedule.",
+      "entry_options": [
+        {
+          "category": "2027 6-day self-supported stage race",
+          "distance": "Ultra",
+          "currency": "GBP",
+          "amount": 2800
+        }
+      ],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "race_end_date": "2027-09-04",
+      "ultra_distances_km": [
+        250
+      ],
+      "verified_entry_status": "open",
+      "status_source_url": "https://fireandiceultra.com/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://fireandiceultra.com/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "prices": [
+          {
+            "text": "£2,800",
+            "source_url": "https://fireandiceultra.com/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "£ 2,800",
+            "source_url": "https://fireandiceultra.com/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "£700",
+            "source_url": "https://fireandiceultra.com/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "r 2027",
+            "source_url": "https://fireandiceultra.com/download-the-race-pack/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ],
+        "entry_open_date": {
+          "value": "2027-09-04",
+          "source_url": "https://fireandiceultra.com/download-the-race-pack/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        }
+      },
+      "scanned_pages": [
+        "https://fireandiceultra.com/",
+        "https://fireandiceultra.com/download-the-race-pack/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "goteborgsvarvet-half-marathon",
+      "name": "Göteborgsvarvet Half Marathon",
+      "country": "Sweden",
+      "continent": "Europe",
+      "city": "Gothenburg",
+      "distance": [
+        "Half marathon"
+      ],
+      "entry_type": "Sold out / waiting list",
+      "official_url": "https://www.goteborgsvarvet.se/en/",
+      "registration_url": "https://www.goteborgsvarvet.se/en/start-list-results/register-for-a-race-2",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-05-22",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://www.goteborgsvarvet.se/en/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "verified_entry_status": "closed",
+      "status_source_url": "https://www.goteborgsvarvet.se/en/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_closed",
+      "http_status": 200,
+      "evidence": "Organiser confirmed closed/sold out on 2026-10-15",
+      "error": "",
+      "checked_url": "https://www.goteborgsvarvet.se/en/start-list-results/register-for-a-race-2",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.goteborgsvarvet.se/en/start-list-results/register-for-a-race-2",
+        "https://www.goteborgsvarvet.se/en/start-list-results"
+      ],
+      "registration_evidence_status": "confirmed_closed"
+    },
+    {
+      "id": "uppsala-marathon",
+      "name": "Uppsala Marathon",
+      "country": "Sweden",
+      "continent": "Europe",
+      "city": "Uppsala",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.uppsalamarathon.se/en/",
+      "registration_url": "https://www.uppsalamarathon.se/en/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": "2026-10-18",
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "entry_notes": "Official site advertises opening for 2027 on 18 October 2026; exact 2027 race date not yet verified.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "unknown",
+      "http_status": null,
+      "evidence": "",
+      "error": "HTTPSConnectionPool(host='www.uppsalamarathon.se', port=443): Max retries exceeded with url: /en/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.uppsalamarathon.se', port=443): Failed to est",
+      "checked_url": "https://www.uppsalamarathon.se/en/",
+      "date_window_status": "scheduled",
+      "registration_evidence_status": "unknown"
+    },
+    {
+      "id": "kullamannen-utmb",
+      "name": "Kullamannen by UTMB",
+      "country": "Sweden",
+      "continent": "Europe",
+      "city": "Kullaberg",
+      "distance": [
+        "Ultra"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://kullamannen.utmb.world/",
+      "registration_url": "https://kullamannen.utmb.world/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "ultra_distances_km": [
+        53,
+        108,
+        173
+      ],
+      "entry_notes": "Official site currently shows 2026 race editions; do not assume registration dates apply to 2027.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "Registrations open",
+      "error": "",
+      "checked_url": "https://kullamannen.utmb.world/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "race_date": {
+          "value": "2026-10-30",
+          "source_url": "https://kullamannen.utmb.world/",
+          "method": "JSON-LD Event.startDate",
+          "verification": "unverified"
+        },
+        "entry_open_date": {
+          "value": "2026-10-31",
+          "source_url": "https://kullamannen.utmb.world/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        },
+        "prices": [
+          {
+            "text": "r 2026",
+            "source_url": "https://kullamannen.utmb.world/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "r 10",
+            "source_url": "https://kullamannen.utmb.world/registration",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ],
+        "restrictions": [
+          {
+            "text": "Minimum age:",
+            "source_url": "https://kullamannen.utmb.world/registration",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://kullamannen.utmb.world/",
+        "https://kullamannen.utmb.world/registration"
+      ],
+      "registration_evidence_status": "possible_open"
+    },
+    {
+      "id": "helsinki-half-marathon",
+      "name": "Helsinki Half Marathon",
+      "country": "Finland",
+      "continent": "Europe",
+      "city": "Helsinki",
+      "distance": [
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://helsinkihalfmarathon.fi/en/",
+      "registration_url": "https://helsinkihalfmarathon.fi/en/event-info/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": "2027-06-12",
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": "https://helsinkihalfmarathon.fi/en/",
+      "date_verified_at": "2026-10-15",
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "verified_entry_status": "open",
+      "status_source_url": "https://helsinkihalfmarathon.fi/en/",
+      "status_verified_at": "2026-10-15",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "confirmed_open",
+      "http_status": 200,
+      "evidence": "Organiser verified on 2026-10-15",
+      "error": "",
+      "checked_url": "https://helsinkihalfmarathon.fi/en/event-info/",
+      "date_window_status": "dates_unknown",
+      "detected": {
+        "prices": [
+          {
+            "text": "r 2027",
+            "source_url": "https://helsinkihalfmarathon.fi/en/event-info/",
+            "method": "Page text",
+            "verification": "unverified"
+          },
+          {
+            "text": "€ 3.5",
+            "source_url": "https://helsinkihalfmarathon.fi/en/registration/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ],
+        "restrictions": [
+          {
+            "text": "with details about your qualifying result (name of event, your time, link to results). The result must be from",
+            "source_url": "https://helsinkihalfmarathon.fi/en/event-info/",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://helsinkihalfmarathon.fi/en/event-info/",
+        "https://helsinkihalfmarathon.fi/en/registration/"
+      ],
+      "registration_evidence_status": "confirmed_open"
+    },
+    {
+      "id": "paavo-nurmi-marathon",
+      "name": "Paavo Nurmi Marathon",
+      "country": "Finland",
+      "continent": "Europe",
+      "city": "Turku",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / verify",
+      "official_url": "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/",
+      "registration_url": "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/",
+      "registration_page_verified": false,
+      "priority": 2,
+      "race_date": null,
+      "entry_open_date": null,
+      "entry_close_date": null,
+      "date_source": null,
+      "date_verified_at": null,
+      "entry_price_note": null,
+      "entry_options": [],
+      "eligibility": {
+        "minimum_age": null,
+        "residency": null,
+        "qualifying_time": null,
+        "other_requirements": [],
+        "verification_status": "unverified",
+        "source_url": null,
+        "verified_at": null
+      },
+      "entry_notes": "2026 race confirmed, 2027 event date and registration window to be verified.",
+      "checked_at": "2026-10-15T05:08:10+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": "",
+      "checked_url": "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/",
+      "date_window_status": "dates_unknown",
+      "detected": {},
+      "scanned_pages": [
+        "https://paavonurmigames.fi/en/paavo-nurmi-festival/marathon/"
+      ],
+      "registration_evidence_status": "no_signal"
     }
   ]
 }

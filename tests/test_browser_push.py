@@ -73,7 +73,11 @@ class BrowserPushTests(unittest.TestCase):
         self.assertIn("raceUpdatesSeen.add(row.dataset.updateKey)",html)
         self.assertIn("card.scrollIntoView(",html)
         self.assertIn("card.focus({preventScroll:true})",html)
-        self.assertIn("syncLocationGroups();",html)
+        self.assertIn("if(r.id===selectedRaceId)return true;",html)
+        self.assertIn("selectedRaceId=id;",html)
+        self.assertIn('id="selected-race-bar"',html)
+        self.assertIn("requestAnimationFrame(",html)
+        self.assertIn("clearSelectedRace();",html)
         self.assertIn("revealRaceFromHash();",html)
 
     def test_service_worker_and_disabled_config(self):

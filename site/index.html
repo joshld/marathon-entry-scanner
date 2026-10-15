@@ -47,6 +47,10 @@ input#q { flex: 1; }
 .race{scroll-margin-top:20px}
 .race:focus{outline:none}
 .race.race-focused{border:2px solid #22c55e;box-shadow:0 0 0 3px #22c55e24}
+.selected-race-bar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:12px 0;padding:12px 14px;border:1px solid #3b6650;border-radius:10px;background:#173128;color:#dbffe6;font-size:13px}
+.selected-race-bar[hidden]{display:none}
+.selected-race-bar button{border:1px solid #6bb98b;background:transparent;border-radius:8px;color:#dbffe6;padding:7px 10px;cursor:pointer;font:inherit;font-size:12px}
+.selected-race-bar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .race.race-focused:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .race:hover { border-color: var(--accent); background: var(--surface-raised); }
 .race h2 { font-size: 20px; margin: 12px 0 8px; }
@@ -298,10 +302,11 @@ a:hover { color: #ffcf9c; }
   <label class="unknown-date"><input type="checkbox" id="include-undated"> Include races without confirmed dates</label>
   <button type="button" id="clear-dates">Clear date filter</button>
 </div>
+<div id="selected-race-bar" class="selected-race-bar" hidden><span id="selected-race-text"></span><button id="clear-selected-race" type="button">Back to filtered results</button></div>
 <p id="result-count" class="result-count" aria-live="polite"></p>
 <section id="races" class="items"></section><p class="footer">A detected phrase may describe a past or different race distance. Always confirm event year, eligibility and registration window before booking travel. Some websites block bots or use JavaScript, so absent signals do not mean entries are closed.</p></main>
 <script>
-let races=[];const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let races=[],selectedRaceId=null;const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateText=v=>v?new Date(v+"T12:00:00").toLocaleDateString("en-AU",{day:"numeric",month:"short",year:"numeric"}):"Not confirmed";
 const escCandidate = v => v ? ' <span class="candidate" title="Automatically detected, not verified">Possible '+esc(dateText(v.value))+' · verify</span>' : "Not confirmed";
 const datePanel=r=>{
@@ -451,7 +456,7 @@ function buildRaceUpdates(published,items,today){
         (!r.entry_close_date||r.entry_close_date>=today)){
       const when=r.entry_open_date||r.status_verified_at;
       if(when&&when>=earliest&&when<=today){
-        const key="current-open:"+r.id+":"+(r.entry_open_date||r.race_date||when);
+        const key="current-open:"+r.id+":"+(r.entry_open_date||r.race_date||"date-not-published");
         if(![...result.values()].some(x=>x.id===r.id&&x.type==="open"))
           result.set(key,{key,type:"open",title:"Entries confirmed open",when,
             name:r.name,country:r.country,distance:safeArr(r.distance),
@@ -475,7 +480,8 @@ function buildRaceUpdates(published,items,today){
 }
 function relevantRaceUpdates(){
   const countries=new Set(chosen("country")),distances=new Set(chosen("distance"));
-  return raceUpdates.filter(e=>countries.has(e.country)&&safeArr(e.distance).some(d=>distances.has(d)));
+  const tracked=new Set(races.map(r=>r.id));
+  return raceUpdates.filter(e=>tracked.has(e.id)&&countries.has(e.country)&&safeArr(e.distance).some(d=>distances.has(d)));
 }
 function renderRaceUpdates(){
   const relevant=relevantRaceUpdates(),unread=relevant.filter(e=>!raceUpdatesSeen.has(e.key));
@@ -521,10 +527,9 @@ $("updates-list").addEventListener("click",event=>{
   if(!row)return;
   event.preventDefault();
   const raceId=row.dataset.raceId;
+  if(!revealRaceCard(raceId))return;
   raceUpdatesSeen.add(row.dataset.updateKey);
   saveUpdateSeen();
-  openRaceUpdates(false);
-  revealRaceCard(raceId);
   renderRaceUpdates();
 });
 document.addEventListener("click",event=>{
@@ -683,8 +688,11 @@ function render(){
   const countries=chosen("country"),distances=chosen("distance"),types=chosen("type"),statusesSelected=chosen("status");
   const from=$("date-from").value,to=$("date-to").value;
   const includeUndated=$("include-undated").checked;
-  if(from&&to&&from>to){$("result-count").textContent="Start date must be before end date";$("races").innerHTML="";return}
+  if(from&&to&&from>to&&!selectedRaceId){$("result-count").textContent="Start date must be before end date";$("races").innerHTML="";return}
   const matches=races.filter(r=>{
+    // When a notification is selected, guarantee that its card is rendered
+    // even if search, location, distance, status or date filters exclude it.
+    if(r.id===selectedRaceId)return true;
     if(!(r.name+" "+r.city).toLowerCase().includes(q))return false;
     if(!countries.includes(r.country)||!safeArr(r.distance).some(d=>distances.includes(d)))return false;
     if(!typeGroups(r).some(t=>types.includes(t))||!statusesSelected.includes(r.status))return false;
@@ -696,58 +704,51 @@ function render(){
       if(to&&raceDate>to)return false;
     }
     return true;
-  }).sort((a,b)=>String(a.race_date||"9999-99-99").localeCompare(String(b.race_date||"9999-99-99"))||a.name.localeCompare(b.name));
+  }).sort((a,b)=>Number(b.id===selectedRaceId)-Number(a.id===selectedRaceId)||
+    String(a.race_date||"9999-99-99").localeCompare(String(b.race_date||"9999-99-99"))||a.name.localeCompare(b.name));
+  $("selected-race-bar").hidden=!selectedRaceId;
+  if(selectedRaceId){
+    const selected=races.find(r=>r.id===selectedRaceId);
+    $("selected-race-text").textContent=selected?"Showing selected race: "+selected.name:"";
+  }
   $("result-count").textContent="Showing "+matches.length+" of "+races.length+" races"+((from||to)?" · Filtered by confirmed race dates":"");
   $("races").innerHTML=matches.map(r=>`<article class="race" id="race-${esc(encodeURIComponent(r.id))}" data-race-id="${esc(r.id)}" tabindex="-1"><span class="tag ${esc(r.status)}">${esc(labels[r.status]||r.status)}</span><h2>${esc(r.name)}</h2><div class="meta">${esc(r.city)}, ${esc(r.country)} · ${esc(safeArr(r.distance).join(" + "))}</div><div class="meta">Entry: ${esc(r.entry_type)}</div>${r.ultra_distances_km?.length?'<div class="meta">Ultra distances: '+esc(r.ultra_distances_km.join(", "))+" km</div>":""}${datePanel(r)}${r.race_date_note?'<div class="date-note">'+esc(r.race_date_note)+"</div>":""}${detailsPanel(r)}<div class="meta">${r.evidence?'Detected text: '+esc(r.evidence):r.error?'Scan issue: '+esc(r.error):'No clear evidence detected'}</div><a href="${esc(r.registration_url||r.official_url)}" rel="noopener noreferrer" target="_blank">Check official entry website ↗</a></article>`).join("")||'<p class="empty">No races match these filters. Try selecting more categories or including unconfirmed race dates.</p>';
 }
-/* Open the dashboard card instead of leaving for the organiser website.
-   Only loosen filters when necessary; preserve existing selections otherwise. */
+/* Guaranteed in-page notification navigation. Pins the target card into results
+   without silently modifying the visitor's search/filter preferences. */
 function revealRaceCard(id){
   const race=races.find(r=>r.id===id);
   if(!race)return false;
+  selectedRaceId=id;
+  render();
   const selectorId="race-"+encodeURIComponent(id);
-  let card=document.getElementById(selectorId);
-  if(!card){
-    if(!$("q").value.toLowerCase().trim() || !(race.name+" "+race.city).toLowerCase().includes($("q").value.toLowerCase())){
-      $("q").value="";
-    }
-    const includeOne=(filter,value)=>{
-      const inputs=[...document.querySelectorAll('input[name="'+filter+'"]')];
-      if(!inputs.some(x=>x.checked&&x.value===value)){
-        const match=inputs.find(x=>x.value===value);
-        if(match)match.checked=true;
-      }
-    };
-    includeOne("country",race.country);
-    if(!safeArr(race.distance).some(d=>chosen("distance").includes(d))&&race.distance?.length){
-      includeOne("distance",race.distance[0]);
-    }
-    if(!typeGroups(race).some(t=>chosen("type").includes(t))){
-      includeOne("type",typeGroups(race)[0]);
-    }
-    includeOne("status",race.status);
-    const from=$("date-from").value,to=$("date-to").value;
-    const first=race.race_date,last=race.race_end_date||first;
-    if(from||to){
-      if((!first&&!$("include-undated").checked)||(first&&((from&&last<from)||(to&&first>to)))||(from&&to&&from>to)){
-        $("date-from").value="";
-        $("date-to").value="";
-      }
-    }
-    syncLocationGroups();
-    render();
-    renderRaceUpdates();
-    card=document.getElementById(selectorId);
-  }
+  const card=document.getElementById(selectorId);
   if(!card)return false;
-  document.querySelectorAll("details.distance-filter[open]").forEach(el=>el.open=false);
+  openRaceUpdates(false);
   history.replaceState(null,"","#"+selectorId);
-  document.querySelectorAll(".race-focused").forEach(el=>el.classList.remove("race-focused"));
-  card.classList.add("race-focused");
-  card.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
-  card.focus({preventScroll:true});
+  // Scroll after the overlay closes and the target card has been laid out.
+  // Re-finding the node avoids scrolling a card from an obsolete render.
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      const current=document.getElementById(selectorId);
+      if(!current)return;
+      document.querySelectorAll(".race-focused").forEach(el=>el.classList.remove("race-focused"));
+      current.classList.add("race-focused");
+      current.scrollIntoView({behavior:"auto",block:"start"});
+      current.focus({preventScroll:true});
+    });
+  });
   return true;
 }
+function clearSelectedRace(){
+  if(!selectedRaceId)return;
+  selectedRaceId=null;
+  if(location.hash.startsWith("#race-")){
+    history.replaceState(null,"",location.pathname+location.search);
+  }
+  render();
+}
+$("clear-selected-race").addEventListener("click",clearSelectedRace);
 function revealRaceFromHash(){
   if(!location.hash.startsWith("#race-")||!races.length)return;
   try{revealRaceCard(decodeURIComponent(location.hash.slice(6)))}catch{}
@@ -776,8 +777,9 @@ try {
   revealRaceFromHash();
 } catch(err) {$("note").textContent="Could not load race data: "+err.message}
 })();
-$("q").addEventListener("input",render);
+$("q").addEventListener("input",()=>{clearSelectedRace();render()});
 $("filter-area").addEventListener("change",e=>{
+  clearSelectedRace();
   if(e.target.matches(".continent-checkbox")){
     const group=e.target.closest(".geo-group");
     group.querySelectorAll('input[name="country"]').forEach(box=>box.checked=e.target.checked);
@@ -786,7 +788,7 @@ $("filter-area").addEventListener("change",e=>{
   render();
   renderRaceUpdates();
 });
-$("date-toolbar").addEventListener("input",render);
+$("date-toolbar").addEventListener("input",()=>{clearSelectedRace();render()});
 $("filter-area").addEventListener("click",e=>{
   const expand=e.target.closest("button[data-expand-continent]");
   if(expand){
@@ -801,12 +803,13 @@ $("filter-area").addEventListener("click",e=>{
   }
   const btn=e.target.closest("button[data-filter]");
   if(!btn)return;
+  clearSelectedRace();
   document.querySelectorAll('input[name="'+btn.dataset.filter+'"]').forEach(input=>input.checked=btn.dataset.action==="all");
   if(btn.dataset.filter==="country")syncLocationGroups();
   render();
   renderRaceUpdates();
 });
-$("clear-dates").addEventListener("click",()=>{$("date-from").value="";$("date-to").value="";$("include-undated").checked=false;render()});
+$("clear-dates").addEventListener("click",()=>{clearSelectedRace();$("date-from").value="";$("date-to").value="";$("include-undated").checked=false;render()});
 document.addEventListener("click",e=>document.querySelectorAll("details.distance-filter[open]").forEach(d=>{if(!d.contains(e.target))d.open=false}));
 document.querySelectorAll("details.distance-filter").forEach(el=>el.addEventListener("toggle",()=>{if(el.open)document.querySelectorAll("details.distance-filter").forEach(other=>{if(other!==el)other.open=false})}));
 </script></body></html>

@@ -103,8 +103,8 @@ const dateText=v=>v?new Date(v+"T12:00:00").toLocaleDateString("en-AU",{day:"num
 const escCandidate = v => v ? ' <span class="candidate" title="Automatically detected, not verified">Possible '+esc(dateText(v.value))+' · verify</span>' : "Not confirmed";
 const datePanel=r=>{
   const detected=r.detected||{};
-  const val=(key)=>r[key]?esc(dateText(r[key])):escCandidate(detected[key]);
-  return `<div class="dates"><div class="date-cell"><small>RACE DATE</small><strong>${val("race_date")}</strong></div><div class="date-cell"><small>ENTRIES OPEN</small><strong>${val("entry_open_date")}</strong></div><div class="date-cell"><small>ENTRIES CLOSE</small><strong>${val("entry_close_date")}</strong></div></div><div class="date-note">${r.date_source?'Date source: <a href="'+esc(r.date_source)+'" target="_blank" rel="noopener noreferrer">Official source ↗</a>':"No verified dates yet"}${!r.race_date&&detected.race_date?' · <a href="'+esc(detected.race_date.source_url)+'" target="_blank" rel="noopener noreferrer">Check detected race date ↗</a>':""}</div>`;
+  const val=(key)=>r[key]?esc(dateText(r[key])):r[key+"_note"]?esc(r[key+"_note"]+" · date TBA"):escCandidate(detected[key]);
+  return `<div class="dates"><div class="date-cell"><small>RACE DATE</small><strong>${val("race_date")}${r.race_date&&r.race_end_date?" – "+esc(dateText(r.race_end_date)):""}</strong></div><div class="date-cell"><small>ENTRIES OPEN</small><strong>${val("entry_open_date")}</strong></div><div class="date-cell"><small>ENTRIES CLOSE</small><strong>${val("entry_close_date")}</strong></div></div><div class="date-note">${r.date_source?'Date source: <a href="'+esc(r.date_source)+'" target="_blank" rel="noopener noreferrer">Official source ↗</a>':"No verified dates yet"}${!r.race_date&&detected.race_date?' · <a href="'+esc(detected.race_date.source_url)+'" target="_blank" rel="noopener noreferrer">Check detected race date ↗</a>':""}</div>`;
 };
 const safeArr = v => Array.isArray(v) ? v : [];
 const detailsPanel=r=>{
@@ -158,9 +158,10 @@ function render(){
     if(!countries.includes(r.country)||!safeArr(r.distance).some(d=>distances.includes(d)))return false;
     if(!typeGroups(r).some(t=>types.includes(t))||!statusesSelected.includes(r.status))return false;
     const raceDate=r.race_date||null; // only verified dates qualify for range searches
+    const lastRaceDate=r.race_end_date||raceDate;
     if(from||to){
       if(!raceDate)return includeUndated;
-      if(from&&raceDate<from)return false;
+      if(from&&lastRaceDate<from)return false;
       if(to&&raceDate>to)return false;
     }
     return true;
@@ -178,7 +179,7 @@ try {
   const d=await r.json();races=d.races||[];
   $("tracked").textContent=races.length;
   $("opened").textContent=races.filter(r=>["possible_open","confirmed_open"].includes(r.status)).length;
-  $("coverage").textContent=races.filter(r=>r.status==="unknown").length+" sites could not be checked · "+races.filter(r=>r.status==="no_signal").length+" without clear entry signals";
+  $("coverage").textContent=races.filter(r=>r.status==="unknown").length+" sites could not be checked · "+races.filter(r=>r.status==="no_signal").length+" without clear entry signals · "+races.filter(r=>r.race_date).length+" verified race dates";
   $("updated").textContent=d.generated_at?new Date(d.generated_at).toLocaleString("en-AU",{timeZone:"Australia/Brisbane",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}):"Not scanned";
   $("note").textContent=d.disclaimer||"";
   buildFilter("country",[...new Set(races.map(r=>r.country))].sort().map(v=>[v,v]));

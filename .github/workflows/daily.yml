@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'scanner/**'
+      - 'notifications/**'
+      - 'subscriptions/**'
       - 'tests/**'
       - 'site/**'
       - 'races.json'
@@ -40,6 +42,8 @@ jobs:
           Path("/tmp/race-entry-dashboard.js").write_text(scripts[0], encoding="utf-8")
           PY
           node --check /tmp/race-entry-dashboard.js
+          cp subscriptions/worker.js /tmp/race-alerts-worker.mjs
+          node --check /tmp/race-alerts-worker.mjs
       - name: Scan and commit with conflict retry
         shell: bash
         run: |
@@ -51,8 +55,10 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git checkout -B main origin/main
+            cp data/races.json /tmp/race-entry-before.json
             python scanner/scan.py
-            git add data/races.json data/history.json
+            python notifications/events.py /tmp/race-entry-before.json data/races.json
+            git add data/races.json data/history.json data/alert-events.json
             if git diff --cached --quiet; then
               echo "No scan-data changes."
               exit 0
@@ -67,6 +73,16 @@ jobs:
           done
           echo "Could not publish scan data after four attempts" >&2
           exit 1
+      - name: Send personalised alerts (scheduled runs only)
+        if: github.event_name == 'schedule'
+        env:
+          EMAIL_ALERTS_ENABLED: ${{ vars.EMAIL_ALERTS_ENABLED }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          BREVO_UNSUBSCRIBE_BASE: ${{ vars.BREVO_UNSUBSCRIBE_BASE }}
+          UNSUBSCRIBE_SECRET: ${{ secrets.UNSUBSCRIBE_SECRET }}
+        run: python notifications/dispatch.py --send
   publish:
     needs: scan
     runs-on: ubuntu-latest
@@ -89,7 +105,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site/data
-          cp site/index.html _site/index.html
+          cp site/index.html site/alerts-config.json _site/
           cp data/races.json data/history.json _site/data/
       - uses: actions/upload-pages-artifact@v4
         with:

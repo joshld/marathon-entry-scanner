@@ -4,6 +4,7 @@ Persist *race events*, never subscriber email addresses, in the public repo.
 """
 import json
 from datetime import date, datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,7 +25,7 @@ def make_event(kind, race, today):
     }
 
 def events_from_scan(previous, current, old_events, today=None):
-    today = today or date.today()
+    today = today or datetime.now(ZoneInfo("Australia/Brisbane")).date()
     before = {r["id"]: r for r in previous}
     known = {x["key"] for x in old_events}
     new = []

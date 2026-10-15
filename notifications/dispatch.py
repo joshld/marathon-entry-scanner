@@ -11,6 +11,7 @@ import json
 import os
 import sys
 from datetime import datetime, date, timezone, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urlencode
 import requests
@@ -59,7 +60,7 @@ def select_events(events, preference, last_sent, today):
     out=[]
     for event in events:
         try:
-            when=datetime.fromisoformat(event["at"]).date()
+            when=datetime.fromisoformat(event["at"]).astimezone(ZoneInfo("Australia/Brisbane")).date()
         except (ValueError,TypeError,KeyError):
             continue
         if cutoff < when <= today and matches(event,preference):
@@ -168,7 +169,7 @@ def main():
     args=parser.parse_args()
     source=ROOT/"data"/"alert-events.json"
     events=json.loads(source.read_text()) if source.exists() else []
-    today=datetime.now(timezone.utc).date()
+    today=datetime.now(ZoneInfo("Australia/Brisbane")).date()
     return deliver(events,today,dry_run=not args.send)
 
 if __name__=="__main__":

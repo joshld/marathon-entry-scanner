@@ -10,7 +10,7 @@ The watchlist currently contains **187 events** across Asia, Oceania, Europe, No
 
 The dashboard includes:
 
-- **Race updates bell:** Free, no-account in-dashboard updates for confirmed new entry openings, approaching published entry dates and newly listed races. The bell shows unread counts, opens official race pages and remembers read items in local browser storage. It respects the selected countries and distances and works with no setup. An optional **browser push** button can deliver native system notifications when the site is closed once a private push endpoint is configured. See [browser notifications setup](push/README.md).
+- **Race updates bell:** Free, no-account in-dashboard updates for confirmed new entry openings, approaching published entry dates and newly listed races. The bell shows unread counts, jumps to the matching race card on this dashboard (adjusting filters only if the card is hidden), and remembers read items in local browser storage. It respects the selected countries and distances and works with no setup. Background push is not offered on the public site; no setup or permissions are required for the on-site bell.
 - **Entries open banner:** A scrolling shortlist of **up to six** organiser-verified open races appears near the top. Races with a verified entry-opening date are ranked newest first; other confirmed-open races fill remaining spaces, clearly marked with opening date unconfirmed. Clicking a tile opens official registration. The marquee pauses on hover or keyboard focus, and becomes a horizontally swipeable row on mobile / reduced-motion settings. Possible-open text matches are **excluded**.
 - **Locations:** One multi-select dropdown grouped by **continent → country**. Select a continent to include all its countries, or use the arrow beside its name to expand the country list and make individual selections. A partially selected continent is shown as partially checked. **Select all** and **Clear** apply to all countries. Multiple continents and countries can be selected at once.
 - **Distances:** Multi-select for marathon, half marathon and ultra.
@@ -24,7 +24,9 @@ The locations selector currently uses these continents: **Oceania, Asia, Europe,
 
 ## Browser notifications
 
-Browser notifications are the recommended alternative to email: **the on-site bell is enabled automatically** and doesn't require permissions, while background push requires one-time [Cloudflare Worker and VAPID setup](push/README.md). Public push configuration remains empty until that setup has been tested. No device push subscriptions are stored in the public GitHub repository.
+**The notification bell works automatically on the dashboard** and requires no account, email address, browser notification permission or service configuration. Clicking a notification keeps you on Race Entry Radar and scrolls to the race card. If your filters hide that race, the dashboard adjusts the conflicting filters to show it. The card still offers a link to the organiser's website if you want to register.
+
+Background notifications when the browser is closed are **not offered**. The experimental push integration is inactive and hidden; you do not need to set up Cloudflare, VAPID or anything else.
 
 ## Email subscriptions (optional, not yet active)
 

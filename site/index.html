@@ -44,6 +44,10 @@ input#q { flex: 1; }
 .distance-filter summary:focus-visible,.distance-menu button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .race { transition: border-color .15s ease, background .15s ease; }
+.race{scroll-margin-top:20px}
+.race:focus{outline:none}
+.race.race-focused{border:2px solid #22c55e;box-shadow:0 0 0 3px #22c55e24}
+.race.race-focused:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .race:hover { border-color: var(--accent); background: var(--surface-raised); }
 .race h2 { font-size: 20px; margin: 12px 0 8px; }
 .meta { color: #d0d3d8; font-size: 14px; margin: 8px 0; line-height: 1.5; }
@@ -234,10 +238,6 @@ a:hover { color: #ffcf9c; }
    <div class="updates-panel-head"><strong>Race updates</strong><button id="updates-mark-read" type="button">Mark all read</button></div>
    <div class="updates-help">Verified openings, upcoming entry dates and newly tracked races. Uses your current location and distance filters.</div>
    <div class="updates-list" id="updates-list" aria-live="polite"><p class="updates-empty">Loading updates…</p></div>
-   <div class="push-controls" id="push-controls" hidden>
-    <button type="button" id="push-toggle">Enable browser notifications</button><button type="button" id="push-disable" hidden>Disable notifications</button>
-    <small id="push-info" role="status">Receive alerts even when the website is closed.</small>
-   </div>
   </section>
  </div>
 </div><p class="sub">Daily monitoring of marathon, half-marathon and ultramarathon entries around the world. Follow race dates, registration windows, fees and eligibility—verified information is distinguished from unconfirmed signals.</p>
@@ -419,100 +419,6 @@ $("alerts-form").addEventListener("submit",async event=>{
 });
 
 
-/* Optional Web Push; gracefully disabled until configured and tested. */
-let pushConfig=null,pushRegistration=null;
-function pushSupported(){
-  return location.protocol==="https:"&&"serviceWorker" in navigator&&
-    "PushManager" in window&&"Notification" in window;
-}
-function vapidKeyBytes(base64){
-  const padded=base64.replace(/-/g,"+").replace(/_/g,"/");
-  const bytes=atob(padded+"=".repeat((4-padded.length%4)%4));
-  return Uint8Array.from(bytes,x=>x.charCodeAt(0));
-}
-function pushAlertPreferences(){
-  return {countries:chosen("country"),distances:chosen("distance"),types:["open","soon","new"]};
-}
-async function pushApi(path,method,body){
-  const response=await fetch(pushConfig.worker_url.replace(/\/$/,"")+path,{
-    method,headers:{"Content-Type":"application/json"},
-    body:JSON.stringify(body)
-  });
-  if(!response.ok)throw Error("Push service is unavailable ("+response.status+")");
-  return response.json();
-}
-async function refreshPushButton(){
-  if(!pushRegistration||!pushConfig)return;
-  const existing=await pushRegistration.pushManager.getSubscription();
-  $("push-toggle").textContent=existing?"Update browser notification preferences":"Enable browser notifications";
-  $("push-disable").hidden=!existing;
-  $("push-info").textContent=existing?
-    "Enabled on this browser. Click Update after changing your location or distance filters.":
-    "Allow notifications for this website to receive race updates when it's closed.";
-}
-async function initBrowserPush(){
-  $("push-controls").hidden=false;
-  $("push-disable").hidden=true;
-  if(!pushSupported()){
-    $("push-toggle").disabled=true;
-    $("push-info").textContent="This browser does not support background web push. The notification bell still works.";
-    return;
-  }
-  try{
-    const response=await fetch("./push-config.json?"+Date.now());
-    if(!response.ok)throw Error("Not configured");
-    const config=await response.json();
-    if(!/^https:\/\/[^/]+/.test(config.worker_url||"")||
-        !/^[A-Za-z0-9_-]{80,100}$/.test(config.vapid_public_key||"")){
-      $("push-toggle").disabled=true;
-      $("push-info").textContent="Background alerts are not activated yet; on-site updates work without setup.";
-      return;
-    }
-    pushConfig=config;
-    pushRegistration=await navigator.serviceWorker.register("./push-sw.js",{scope:"./"});
-    await refreshPushButton();
-  }catch{
-    $("push-toggle").disabled=true;
-    $("push-info").textContent="Background alerts are not available right now. The notification bell still works.";
-  }
-}
-$("push-toggle").addEventListener("click",async()=>{
-  if(!pushConfig||!pushRegistration)return;
-  const button=$("push-toggle");button.disabled=true;
-  $("push-info").textContent="Setting up notifications…";
-  try {
-    // Permission is requested only following an explicit user interaction.
-    if(Notification.permission!=="granted"){
-      const permission=await Notification.requestPermission();
-      if(permission!=="granted")throw Error("Permission not granted. You can continue using the on-site bell.");
-    }
-    let subscription=await pushRegistration.pushManager.getSubscription();
-    if(!subscription){
-      subscription=await pushRegistration.pushManager.subscribe({
-        userVisibleOnly:true,applicationServerKey:vapidKeyBytes(pushConfig.vapid_public_key)
-      });
-    }
-    await pushApi("/subscribe","POST",{subscription:subscription.toJSON(),preferences:pushAlertPreferences()});
-    await refreshPushButton();
-  }catch(error){
-    $("push-info").textContent=error.message||"Could not enable notifications.";
-  }finally{button.disabled=false}
-});
-$("push-disable").addEventListener("click",async()=>{
-  if(!pushConfig||!pushRegistration)return;
-  const button=$("push-disable");button.disabled=true;
-  try{
-    const subscription=await pushRegistration.pushManager.getSubscription();
-    if(subscription){
-      await pushApi("/unsubscribe","POST",{endpoint:subscription.endpoint});
-      await subscription.unsubscribe();
-    }
-    await refreshPushButton();
-  }catch{
-    $("push-info").textContent="Could not disable notifications. Try again.";
-  }finally{button.disabled=false}
-});
-
 /* No-account inbox: locally remembered unread state, verified events only. */
 const RACE_UPDATE_SEEN_KEY="race-entry-radar:seen:v1";
 const RACE_UPDATE_LIMIT=40;
@@ -532,7 +438,7 @@ function buildRaceUpdates(published,items,today){
   const earliest=cutoff.toISOString().slice(0,10);
   const result=new Map();
   for(const x of published){
-    if(!["open","soon","new"].includes(x.type)||!x.key||!x.at)continue;
+    if(!["open","soon","new"].includes(x.type)||!x.key||!x.at||!x.id)continue;
     const at=x.at.slice(0,10);
     if(at<earliest||at>today)continue;
     const event={...x,when:at,title:x.type==="new"?"New race added":x.type==="soon"?"Entries opening soon":"Entries confirmed open"};
@@ -580,10 +486,10 @@ function renderRaceUpdates(){
   $("updates-list").innerHTML=relevant.length?relevant.slice(0,30).map(e=>{
     const date=e.entry_open_date&&(e.type==="soon")?" · opens "+dateText(e.entry_open_date):
       e.entry_open_date&&(e.type==="open")?" · opened "+dateText(e.entry_open_date):"";
-    const url=typeof e.url==="string"&&e.url.startsWith("https://")?e.url:"#";
+    const target="#race-"+encodeURIComponent(e.id);
     const unread=!raceUpdatesSeen.has(e.key);
-    return '<a class="updates-item'+(unread?' unread':'')+'" data-update-key="'+esc(e.key)+'" href="'+esc(url)+
-      '" target="_blank" rel="noopener noreferrer"><span class="updates-item-top"><span>'+esc(e.title)+
+    return '<a class="updates-item'+(unread?' unread':'')+'" data-update-key="'+esc(e.key)+'" data-race-id="'+esc(e.id)+'" href="'+esc(target)+
+      '"><span class="updates-item-top"><span>'+esc(e.title)+
       '</span>'+(unread?'<span class="is-new">NEW</span>':"")+'</span><strong>'+esc(e.name)+'</strong>'+
       '<small>'+esc(e.country)+" · "+esc(safeArr(e.distance).join(" + "))+esc(date)+'</small></a>';
   }).join(""):'<p class="updates-empty">No recent verified updates match your selected locations and distances. Try broadening your filters.</p>';
@@ -601,7 +507,7 @@ async function initRaceUpdates(){
   }catch{}
   raceUpdates=buildRaceUpdates(published,races,brisbaneDay());
   renderRaceUpdates();
-  await initBrowserPush();
+
 }
 $("updates-toggle").addEventListener("click",()=>{
   openRaceUpdates($("updates-panel").hidden);
@@ -613,7 +519,13 @@ $("updates-mark-read").addEventListener("click",()=>{
 $("updates-list").addEventListener("click",event=>{
   const row=event.target.closest("[data-update-key]");
   if(!row)return;
-  raceUpdatesSeen.add(row.dataset.updateKey);saveUpdateSeen();renderRaceUpdates();
+  event.preventDefault();
+  const raceId=row.dataset.raceId;
+  raceUpdatesSeen.add(row.dataset.updateKey);
+  saveUpdateSeen();
+  openRaceUpdates(false);
+  revealRaceCard(raceId);
+  renderRaceUpdates();
 });
 document.addEventListener("click",event=>{
   if(!$("updates-control").contains(event.target))openRaceUpdates(false);
@@ -786,8 +698,62 @@ function render(){
     return true;
   }).sort((a,b)=>String(a.race_date||"9999-99-99").localeCompare(String(b.race_date||"9999-99-99"))||a.name.localeCompare(b.name));
   $("result-count").textContent="Showing "+matches.length+" of "+races.length+" races"+((from||to)?" · Filtered by confirmed race dates":"");
-  $("races").innerHTML=matches.map(r=>`<article class="race"><span class="tag ${esc(r.status)}">${esc(labels[r.status]||r.status)}</span><h2>${esc(r.name)}</h2><div class="meta">${esc(r.city)}, ${esc(r.country)} · ${esc(safeArr(r.distance).join(" + "))}</div><div class="meta">Entry: ${esc(r.entry_type)}</div>${r.ultra_distances_km?.length?'<div class="meta">Ultra distances: '+esc(r.ultra_distances_km.join(", "))+" km</div>":""}${datePanel(r)}${r.race_date_note?'<div class="date-note">'+esc(r.race_date_note)+"</div>":""}${detailsPanel(r)}<div class="meta">${r.evidence?'Detected text: '+esc(r.evidence):r.error?'Scan issue: '+esc(r.error):'No clear evidence detected'}</div><a href="${esc(r.registration_url||r.official_url)}" rel="noopener noreferrer" target="_blank">Check official entry website ↗</a></article>`).join("")||'<p class="empty">No races match these filters. Try selecting more categories or including unconfirmed race dates.</p>';
+  $("races").innerHTML=matches.map(r=>`<article class="race" id="race-${esc(encodeURIComponent(r.id))}" data-race-id="${esc(r.id)}" tabindex="-1"><span class="tag ${esc(r.status)}">${esc(labels[r.status]||r.status)}</span><h2>${esc(r.name)}</h2><div class="meta">${esc(r.city)}, ${esc(r.country)} · ${esc(safeArr(r.distance).join(" + "))}</div><div class="meta">Entry: ${esc(r.entry_type)}</div>${r.ultra_distances_km?.length?'<div class="meta">Ultra distances: '+esc(r.ultra_distances_km.join(", "))+" km</div>":""}${datePanel(r)}${r.race_date_note?'<div class="date-note">'+esc(r.race_date_note)+"</div>":""}${detailsPanel(r)}<div class="meta">${r.evidence?'Detected text: '+esc(r.evidence):r.error?'Scan issue: '+esc(r.error):'No clear evidence detected'}</div><a href="${esc(r.registration_url||r.official_url)}" rel="noopener noreferrer" target="_blank">Check official entry website ↗</a></article>`).join("")||'<p class="empty">No races match these filters. Try selecting more categories or including unconfirmed race dates.</p>';
 }
+/* Open the dashboard card instead of leaving for the organiser website.
+   Only loosen filters when necessary; preserve existing selections otherwise. */
+function revealRaceCard(id){
+  const race=races.find(r=>r.id===id);
+  if(!race)return false;
+  const selectorId="race-"+encodeURIComponent(id);
+  let card=document.getElementById(selectorId);
+  if(!card){
+    if(!$("q").value.toLowerCase().trim() || !(race.name+" "+race.city).toLowerCase().includes($("q").value.toLowerCase())){
+      $("q").value="";
+    }
+    const includeOne=(filter,value)=>{
+      const inputs=[...document.querySelectorAll('input[name="'+filter+'"]')];
+      if(!inputs.some(x=>x.checked&&x.value===value)){
+        const match=inputs.find(x=>x.value===value);
+        if(match)match.checked=true;
+      }
+    };
+    includeOne("country",race.country);
+    if(!safeArr(race.distance).some(d=>chosen("distance").includes(d))&&race.distance?.length){
+      includeOne("distance",race.distance[0]);
+    }
+    if(!typeGroups(race).some(t=>chosen("type").includes(t))){
+      includeOne("type",typeGroups(race)[0]);
+    }
+    includeOne("status",race.status);
+    const from=$("date-from").value,to=$("date-to").value;
+    const first=race.race_date,last=race.race_end_date||first;
+    if(from||to){
+      if((!first&&!$("include-undated").checked)||(first&&((from&&last<from)||(to&&first>to)))||(from&&to&&from>to)){
+        $("date-from").value="";
+        $("date-to").value="";
+      }
+    }
+    syncLocationGroups();
+    render();
+    renderRaceUpdates();
+    card=document.getElementById(selectorId);
+  }
+  if(!card)return false;
+  document.querySelectorAll("details.distance-filter[open]").forEach(el=>el.open=false);
+  history.replaceState(null,"","#"+selectorId);
+  document.querySelectorAll(".race-focused").forEach(el=>el.classList.remove("race-focused"));
+  card.classList.add("race-focused");
+  card.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+  card.focus({preventScroll:true});
+  return true;
+}
+function revealRaceFromHash(){
+  if(!location.hash.startsWith("#race-")||!races.length)return;
+  try{revealRaceCard(decodeURIComponent(location.hash.slice(6)))}catch{}
+}
+window.addEventListener("hashchange",revealRaceFromHash);
+
 buildFilter("distance",[["Marathon","Marathon"],["Half marathon","Half marathon"],["Ultra","Ultra"]]);
 buildFilter("type",entryTypes);
 buildFilter("status",statuses);
@@ -807,6 +773,7 @@ try {
   initAlertSignup();
   renderOpenTicker();
   render();
+  revealRaceFromHash();
 } catch(err) {$("note").textContent="Could not load race data: "+err.message}
 })();
 $("q").addEventListener("input",render);

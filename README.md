@@ -2,9 +2,9 @@
 
 [Open the dashboard](https://joshld.github.io/marathon-entry-scanner/) · [Run the workflow](https://github.com/joshld/marathon-entry-scanner/actions/workflows/daily.yml)
 
-A GitHub Actions-powered daily scanner and GitHub Pages dashboard for **marathons (42.2 km), half marathons (21.1 km) and ultramarathons**, covering Australia, Japan and selected international races.
+A GitHub Actions-powered daily worldwide scanner and GitHub Pages dashboard for **marathons (42.2 km), half marathons (21.1 km) and ultramarathons**, with particular attention to Australia and Japan and coverage of Canada, North America, Europe, the Nordic countries, Asia, Oceania and Africa.
 
-The watchlist currently contains around **160 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
+The watchlist currently contains **186 events** across Asia, Oceania, Europe, North America and Africa. It can be expanded by editing [`races.json`](races.json).
 
 ## Dashboard
 
@@ -13,11 +13,11 @@ The dashboard includes:
 - **Locations:** One multi-select dropdown grouped by **continent → country**. Select a continent to include all its countries, or use the arrow beside its name to expand the country list and make individual selections. A partially selected continent is shown as partially checked. **Select all** and **Clear** apply to all countries. Multiple continents and countries can be selected at once.
 - **Distances:** Multi-select for marathon, half marathon and ultra.
 - **Entry types:** Multi-select for ballot/lottery, direct entry, qualification, charity and unverified/other. A race may match more than one entry type.
-- **Entry status:** Multi-select for confirmed open, possible open, closing/closed indicators, conflicting signals and inaccessible websites.
+- **Entry status:** Multi-select for confirmed open, confirmed closed/sold-out, possible open, closing/closed indicators, conflicting signals and inaccessible websites.
 - **Race date range:** Optional inclusive start and end dates. Only **verified** race dates qualify by default; use **Include races without confirmed dates** to include undated events in the date filter.
 - Race cards show race dates, entry opening/closing dates, price categories, qualifying restrictions, and links to original sources when available.
 
-The locations selector currently uses these continents: **Oceania, Asia, Europe, North America and Africa**. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
+The locations selector currently uses these continents: **Oceania, Asia, Europe, North America and Africa**, including Canada within North America and Norway, Sweden, Finland, Denmark and Iceland within Europe. Continent and country names are descriptive geographic fields; ultramarathon is a *distance*, not a geographic category.
 
 ## Data format
 

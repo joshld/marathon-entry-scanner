@@ -48,7 +48,7 @@ input#q { flex: 1; }
 .race h2 { font-size: 20px; margin: 12px 0 8px; }
 .meta { color: #d0d3d8; font-size: 14px; margin: 8px 0; line-height: 1.5; }
 .tag { display: inline-block; padding: 5px 9px; border-radius: 999px; background: #414650; color: #e8ebef; font-size: 12px; font-weight: 600; }
-.confirmed_open {background:#175443;color:#cbffe5}.window_ended {background:#513437;color:#ffc3c4}.possible_open { background: #244439; color: #b7f5d6; }
+.confirmed_open {background:#175443;color:#cbffe5}.confirmed_closed {background:#513437;color:#ffc3c4}.window_ended {background:#513437;color:#ffc3c4}.possible_open { background: #244439; color: #b7f5d6; }
 .possible_closed { background: #513437; color: #ffc3c4; }
 .conflicting_signals { background: #5a4429; color: #ffe2af; }
 a { color: var(--accent-bright); text-underline-offset: 3px; }
@@ -125,7 +125,7 @@ a:hover { color: #ffcf9c; }
 .date-cell .candidate{color:var(--accent-bright)}
 .detected-entry{background:#312d26;border:1px solid #705032;border-radius:9px;padding:10px;margin:10px 0;color:#f2d7b2;font-size:13px;line-height:1.5}
 @media(max-width:700px){.distance-filter{max-width:none}.date-toolbar>label{flex:1 1 150px}}
-</style></head><body><main><div class="eyebrow">Australia · Japan · selected world races</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily checks of official marathon and half-marathon websites. Entry signals are preliminary, not confirmed registration availability.</p>
+</style></head><body><main><div class="eyebrow">Marathons · Half Marathons · Ultras · Worldwide</div><h1>Race Entry Radar 🏃</h1><p class="sub">Daily monitoring of marathon, half-marathon and ultramarathon entries around the world. Follow race dates, registration windows, fees and eligibility—verified information is distinguished from unconfirmed signals.</p>
 <div class="cards"><div class="stat"><span class="sub">Tracked races</span><strong id="tracked">—</strong></div><div class="stat"><span class="sub">Open / possible open</span><strong id="opened">—</strong><div id="coverage" class="coverage"></div></div><div class="stat"><span class="sub">Last scan (Brisbane)</span><strong id="updated" style="font-size:16px">Not scanned</strong></div></div>
 <p id="note"></p><div class="filters" id="filter-area">
   <input id="q" aria-label="Search races" placeholder="Search race or city…">
@@ -164,8 +164,8 @@ const detailsPanel=r=>{
   const candidateDetails=(candidates.length||restrictions.length)?`<div class="detected-entry"><strong>Detected on organiser pages — not verified</strong>${candidates.map(p=>'<p>Possible fee: '+esc(p.text)+' · <a href="'+esc(p.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a></p>').join("")}${restrictions.map(p=>'<p>Possible requirement: '+esc(p.text)+' · <a href="'+esc(p.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a></p>').join("")}</div>`:"";
   return `<details class="details"><summary>Entry prices & eligibility</summary><p><strong>Price:</strong> ${esc(price)}</p><p><strong>Restrictions:</strong> ${esc(requirements.join("; ")||"Not yet verified (do not assume unrestricted entry)")}</p><p><strong>Verification:</strong> ${esc(verified)}${e.source_url?' · <a href="'+esc(e.source_url)+'" rel="noopener noreferrer" target="_blank">Eligibility source ↗</a>':''}</p>${candidateDetails}</details>`;
 };
-const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
-const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
+const labels={confirmed_open:'Confirmed open',window_ended:'Entry window ended',confirmed_closed:'Confirmed closed / sold out',possible_open:'Possible open · verify',possible_closed:'Possible closed · verify',conflicting_signals:'Conflicting signals',no_signal:'No explicit entry signal',unknown:'Could not verify'};
+const statuses=[["confirmed_open","Confirmed open"],["possible_open","Possible open"],["window_ended","Window ended"],["confirmed_closed","Confirmed closed / sold out"],["possible_closed","Possible closed"],["conflicting_signals","Conflicting signals"],["no_signal","No signal"],["unknown","Unknown / inaccessible"]];
 const continentOrder=["Oceania","Asia","Europe","North America","Africa","South America"];
 const countryContinents={
   "Australia":"Oceania","New Zealand":"Oceania",
@@ -175,8 +175,8 @@ const countryContinents={
   "United Kingdom":"Europe","France":"Europe","Germany":"Europe","Netherlands":"Europe",
   "Spain":"Europe","Italy":"Europe","Austria":"Europe","Denmark":"Europe","Czechia":"Europe",
   "Sweden":"Europe","Greece":"Europe","Portugal":"Europe","Switzerland":"Europe",
-  "Finland":"Europe","Ireland":"Europe",
-  "United States":"North America","South Africa":"Africa"
+  "Finland":"Europe","Ireland":"Europe","Norway":"Europe","Iceland":"Europe",
+  "United States":"North America","Canada":"North America","South Africa":"Africa"
 };
 const entryTypes=[["Ballot","Ballot / lottery"],["Direct","Direct entry"],["Qualification","Qualification / time"],["Charity","Charity"],["Unverified","Unverified / other"]];
 const typeGroups=r=>{

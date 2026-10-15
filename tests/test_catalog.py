@@ -16,6 +16,9 @@ EXPECTED = {
     "comrades-marathon": ("South Africa", "Africa"),
     "utmb-mont-blanc": ("France", "Europe"),
     "singapore-marathon": ("Singapore", "Asia"),
+    "vancouver-marathon": ("Canada", "North America"),
+    "reykjavik-marathon": ("Iceland", "Europe"),
+    "bergen-city-marathon": ("Norway", "Europe"),
 }
 
 class CatalogAndDashboardTests(unittest.TestCase):
@@ -60,6 +63,11 @@ class CatalogAndDashboardTests(unittest.TestCase):
         self.assertIn("position:static;", css)
         self.assertIn("overflow-y:auto;", css)
         self.assertIn("max-height:min(55vh,420px)", css)
+
+    def test_expanded_scope_heading(self):
+        self.assertIn("Marathons · Half Marathons · Ultras · Worldwide", str(self.page))
+        self.assertIn('"Canada":"North America"', self.script)
+        self.assertIn('"Norway":"Europe"', self.script)
 
     def test_existing_filters_and_date_range_preserved(self):
         for item in ("#distance-filter", "#type-filter", "#status-filter", "#date-from", "#date-to", "#include-undated"):

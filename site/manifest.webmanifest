@@ -1,0 +1,18 @@
+{
+  "name": "Race Entry Radar",
+  "short_name": "Race Radar",
+  "description": "Race entry dates and alerts for marathons, half marathons and ultras",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101216",
+  "theme_color": "#101216",
+  "icons": [
+    {
+      "src": "./race-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

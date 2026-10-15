@@ -124,6 +124,8 @@ def extract(html, url, race):
                         prices.append({"text": txt, "source_url": url, "method": "JSON-LD offer", "verification":"unverified"})
     for node in soup(["script", "style", "footer", "nav", "noscript"]):
         node.decompose()
+    headings = " ".join(tag.get_text(" ", strip=True) for tag in soup.select("title, h1")[:6])
+    page_matches_event = event_match(headings, race)
     chunks = [re.sub(r"\s+", " ", s).strip() for s in soup.stripped_strings]
     # Keep local context rather than scanning dates against the whole page:
     # this reduces unrelated news headlines and other events being misassigned.
@@ -133,6 +135,10 @@ def extract(html, url, race):
         neighbors = " ".join(chunks[idx:idx+3])[:220]
         for key, rx in DATE_LABEL.items():
             if key in detected:
+                continue
+            # Generic registration calendars often contain dates for OTHER
+            # races. Only infer race day when this page names the race.
+            if key == "race_date" and not page_matches_event:
                 continue
             label = rx.search(chunk)
             if not label:

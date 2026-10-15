@@ -4221,32 +4221,43 @@
   {
     "id": "comrades-marathon",
     "name": "Comrades Marathon",
-    "country": "International Ultra",
-    "city": "KwaZulu-Natal, South Africa",
+    "country": "South Africa",
+    "city": "Pietermaritzburg to Durban",
     "distance": [
       "Ultra"
     ],
-    "entry_type": "Unverified",
+    "entry_type": "Ballot / priority / charity",
     "official_url": "https://www.comrades.com/",
-    "registration_url": "https://www.comrades.com/",
-    "registration_page_verified": false,
-    "priority": 3,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "entry_price_note": null,
+    "registration_url": "https://enter.comrades.com/comrades-2027",
+    "registration_page_verified": true,
+    "priority": 1,
+    "race_date": "2027-06-13",
+    "entry_open_date": "2026-09-09",
+    "entry_close_date": "2026-09-22",
+    "date_source": "https://enter.comrades.com/comrades-2027",
+    "date_verified_at": "2026-10-15",
+    "entry_price_note": "Standard entry price not verified; 2027 guaranteed charity entry requires applicable base fee plus R10,000 donation (sold out).",
     "entry_options": [],
     "eligibility": {
-      "minimum_age": null,
-      "residency": null,
-      "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
-    }
+      "minimum_age": 20,
+      "residency": "International athletes accepted (subject to eligibility)",
+      "qualifying_time": "Official marathon under 5 hours, or an accepted longer-distance equivalent",
+      "other_requirements": [
+        "Qualifying result must fall between 15 June 2026 and 3 May 2027",
+        "Submit qualifying proof and compulsory details by 3 May 2027",
+        "General ballot application window has closed for 2027",
+        "Officially timed race of at least 42.2 km; watch/Strava activities are not accepted as qualification"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://comrades.com/comrades-race-rules",
+      "verified_at": "2026-10-15"
+    },
+    "ultra_distances_km": [
+      89
+    ],
+    "verified_entry_status": "closed",
+    "status_verified_at": "2026-10-15",
+    "status_source_url": "https://enter.comrades.com/comrades-2027"
   },
   {
     "id": "spartathlon",

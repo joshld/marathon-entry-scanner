@@ -886,5 +886,69 @@
     "before": "unknown",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "matsue-castle-marathon",
+    "name": "Matsue Castle Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "nagano-marathon",
+    "name": "Nagano Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "niigata-city-marathon",
+    "name": "Niigata City Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "beppu-oita-mainichi-marathon",
+    "name": "Beppu-Oita Mainichi Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "lake-biwa-marathon",
+    "name": "Lake Biwa Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "okinawa-marathon",
+    "name": "Okinawa Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "conflicting_signals",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T05:11:55+00:00",
+    "id": "ibusuki-nanohana-marathon",
+    "name": "Ibusuki Nanohana Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

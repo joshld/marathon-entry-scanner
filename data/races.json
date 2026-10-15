@@ -1,1 +1,229 @@
-{"generated_at": null, "disclaimer": "No scan performed yet. Run GitHub Actions workflow manually to populate this dashboard.", "races": []}
+{
+  "generated_at": "2026-10-15T03:16:29+00:00",
+  "disclaimer": "Automated text signals only; always verify eligibility, distance and entry window on the official site.",
+  "races": [
+    {
+      "id": "sydney-marathon",
+      "name": "Sydney Marathon",
+      "country": "Australia",
+      "city": "Sydney",
+      "distance": [
+        "Marathon"
+      ],
+      "entry_type": "Ballot",
+      "official_url": "https://www.tcssydneymarathon.com/marathon",
+      "registration_url": "https://www.tcssydneymarathon.com/marathon",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": ""
+    },
+    {
+      "id": "gold-coast",
+      "name": "Gold Coast Marathon",
+      "country": "Australia",
+      "city": "Gold Coast",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / varies",
+      "official_url": "https://goldcoastmarathon.com.au/",
+      "registration_url": "https://goldcoastmarathon.com.au/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "entries open",
+      "error": ""
+    },
+    {
+      "id": "brisbane",
+      "name": "Brisbane Marathon Festival",
+      "country": "Australia",
+      "city": "Brisbane",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.brisbanemarathon.com.au/",
+      "registration_url": "https://www.brisbanemarathon.com.au/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "REGISTER NOW",
+      "error": ""
+    },
+    {
+      "id": "canberra",
+      "name": "Canberra Marathon Festival",
+      "country": "Australia",
+      "city": "Canberra",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.runningfestival.com.au/",
+      "registration_url": "https://www.runningfestival.com.au/",
+      "priority": 2,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "unknown",
+      "http_status": null,
+      "evidence": "",
+      "error": "HTTPSConnectionPool(host='events.solemotive.com', port=443): Max retries exceeded with url: /canberra-marathon (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certifi"
+    },
+    {
+      "id": "sunshine-coast",
+      "name": "Sunshine Coast Marathon",
+      "country": "Australia",
+      "city": "Sunshine Coast",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://sunshinecoastmarathon.com.au/",
+      "registration_url": "https://sunshinecoastmarathon.com.au/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "entries open",
+      "error": ""
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne Marathon Festival",
+      "country": "Australia",
+      "city": "Melbourne",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct / varies",
+      "official_url": "https://melbournemarathon.com.au/",
+      "registration_url": "https://melbournemarathon.com.au/",
+      "priority": 2,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "REGISTER NOW",
+      "error": ""
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo Marathon",
+      "country": "Japan",
+      "city": "Tokyo",
+      "distance": [
+        "Marathon"
+      ],
+      "entry_type": "Ballot",
+      "official_url": "https://www.marathon.tokyo/en/",
+      "registration_url": "https://www.marathon.tokyo/en/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": ""
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka Marathon",
+      "country": "Japan",
+      "city": "Osaka",
+      "distance": [
+        "Marathon"
+      ],
+      "entry_type": "Ballot / varies",
+      "official_url": "https://www.osaka-marathon.com/",
+      "registration_url": "https://www.osaka-marathon.com/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "unknown",
+      "http_status": 404,
+      "evidence": "",
+      "error": "404 Client Error: Not Found for url: https://www.osaka-marathon.com/"
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto Marathon",
+      "country": "Japan",
+      "city": "Kyoto",
+      "distance": [
+        "Marathon"
+      ],
+      "entry_type": "Ballot / overseas direct",
+      "official_url": "https://www.kyoto-marathon.com/en/",
+      "registration_url": "https://www.kyoto-marathon.com/en/",
+      "priority": 1,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": ""
+    },
+    {
+      "id": "nagoya",
+      "name": "Nagoya City Marathon",
+      "country": "Japan",
+      "city": "Nagoya",
+      "distance": [
+        "Half marathon"
+      ],
+      "entry_type": "Direct / varies",
+      "official_url": "https://city-marathon.nagoya/",
+      "registration_url": "https://city-marathon.nagoya/",
+      "priority": 2,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": ""
+    },
+    {
+      "id": "rotorua",
+      "name": "Rotorua Marathon",
+      "country": "New Zealand",
+      "city": "Rotorua",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.rotoruamarathon.co.nz/",
+      "registration_url": "https://www.rotoruamarathon.co.nz/",
+      "priority": 3,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "Entries Open",
+      "error": ""
+    },
+    {
+      "id": "wellington",
+      "name": "Wellington Marathon",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "distance": [
+        "Marathon",
+        "Half marathon"
+      ],
+      "entry_type": "Direct",
+      "official_url": "https://www.wellingtonmarathon.co.nz/",
+      "registration_url": "https://www.wellingtonmarathon.co.nz/",
+      "priority": 3,
+      "checked_at": "2026-10-15T03:16:29+00:00",
+      "status": "no_signal",
+      "http_status": 200,
+      "evidence": "",
+      "error": ""
+    }
+  ]
+}

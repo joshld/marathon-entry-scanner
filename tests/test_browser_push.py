@@ -63,6 +63,13 @@ class BrowserPushTests(unittest.TestCase):
         self.assertIn("localStorage",html)
         self.assertIn('r.status==="confirmed_open"',html)
         self.assertIn("renderRaceUpdates()",html)
+        # Notifications are global and must not depend on dashboard filter selections.
+        help_text=page.select_one(".updates-help").get_text()
+        self.assertIn("all tracked countries and distances",help_text)
+        inbox=html.split("function relevantRaceUpdates(){",1)[1].split("function renderRaceUpdates(){",1)[0]
+        self.assertIn("raceUpdates.filter(e=>tracked.has(e.id))",inbox)
+        self.assertNotIn('chosen("country")',inbox)
+        self.assertNotIn('chosen("distance")',inbox)
         self.assertNotIn('id="push-controls"',html)
         self.assertNotIn('initBrowserPush()',html)
         self.assertNotIn('Notification.requestPermission()',html)

@@ -240,7 +240,7 @@ a:hover { color: #ffcf9c; }
   </button>
   <section class="updates-panel" id="updates-panel" aria-label="Recent race updates" hidden>
    <div class="updates-panel-head"><strong>Race updates</strong><button id="updates-mark-read" type="button">Mark all read</button></div>
-   <div class="updates-help">Verified openings, upcoming entry dates and newly tracked races. Uses your current location and distance filters.</div>
+   <div class="updates-help">Verified openings, upcoming entry dates and newly tracked races. Shows recent updates for all tracked countries and distances.</div>
    <div class="updates-list" id="updates-list" aria-live="polite"><p class="updates-empty">Loading updates…</p></div>
   </section>
  </div>
@@ -482,9 +482,11 @@ function buildRaceUpdates(published,items,today){
     a.name.localeCompare(b.name)).slice(0,RACE_UPDATE_LIMIT);
 }
 function relevantRaceUpdates(){
-  const countries=new Set(chosen("country")),distances=new Set(chosen("distance"));
+  // The inbox is global: dashboard location/distance filters do not suppress
+  // notifications about newly added races, opening dates or entry openings.
+  // Only include still-tracked races so every entry links to a real race card.
   const tracked=new Set(races.map(r=>r.id));
-  return raceUpdates.filter(e=>tracked.has(e.id)&&countries.has(e.country)&&safeArr(e.distance).some(d=>distances.has(d)));
+  return raceUpdates.filter(e=>tracked.has(e.id));
 }
 function renderRaceUpdates(){
   const relevant=relevantRaceUpdates(),unread=relevant.filter(e=>!raceUpdatesSeen.has(e.key));
@@ -501,7 +503,7 @@ function renderRaceUpdates(){
       '"><span class="updates-item-top"><span>'+esc(e.title)+
       '</span>'+(unread?'<span class="is-new">NEW</span>':"")+'</span><strong>'+esc(e.name)+'</strong>'+
       '<small>'+esc(e.country)+" · "+esc(safeArr(e.distance).join(" + "))+esc(date)+'</small></a>';
-  }).join(""):'<p class="updates-empty">No recent verified updates match your selected locations and distances. Try broadening your filters.</p>';
+  }).join(""):'<p class="updates-empty">No recent race updates yet. New verified openings, upcoming entry dates and newly tracked races will appear here.</p>';
 }
 function openRaceUpdates(open){
   $("updates-panel").hidden=!open;

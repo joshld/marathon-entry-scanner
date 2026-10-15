@@ -1246,5 +1246,53 @@
     "before": "unknown",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "amazing-thailand-marathon",
+    "name": "Amazing Thailand Marathon Bangkok",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "hcmc-marathon",
+    "name": "HCMC Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-15T06:59:43+00:00",
+    "id": "oslo-marathon",
+    "name": "Oslo Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

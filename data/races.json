@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:15:26+00:00",
+  "generated_at": "2026-10-15T07:21:58+00:00",
   "disclaimer": "Dates are only shown when explicitly verified and recorded. Automated text detection is not a confirmation of current entry eligibility.",
   "races": [
     {
@@ -50,7 +50,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.tcssydneymarathon.com/sign-up",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -97,7 +97,7 @@
       "race_date_note": "Half marathon: 3 July; full marathon: 4 July 2027.",
       "entry_open_note": "Early December 2026 (exact day TBA)",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -159,7 +159,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.brisbanemarathon.com.au/marathon",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -203,7 +203,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -243,7 +243,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 entries open",
@@ -288,7 +288,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -349,7 +349,7 @@
       },
       "entry_notes": "Entry window refers to general ballot; ONE TOKYO GLOBAL and charity use different windows.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -411,36 +411,71 @@
       "distance": [
         "Marathon"
       ],
-      "entry_type": "Ballot / varies",
-      "official_url": "https://www.osaka-marathon.com/",
-      "registration_url": "https://www.osaka-marathon.com/",
+      "entry_type": "General ballot / charity (separate windows)",
+      "official_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+      "registration_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
       "priority": 1,
-      "race_date": null,
-      "entry_open_date": null,
-      "entry_close_date": null,
-      "date_source": null,
-      "date_verified_at": null,
-      "registration_page_verified": false,
-      "entry_options": [],
-      "entry_price_note": null,
+      "race_date": "2027-02-28",
+      "entry_open_date": "2026-07-28",
+      "entry_close_date": "2026-08-28",
+      "date_source": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+      "date_verified_at": "2026-10-15",
+      "registration_page_verified": true,
+      "entry_options": [
+        {
+          "category": "General ballot — individual (Japan domestic)",
+          "distance": "Marathon",
+          "currency": "JPY",
+          "amount": 16000
+        },
+        {
+          "category": "General ballot — individual (international)",
+          "distance": "Marathon",
+          "currency": "USD",
+          "amount": 145
+        },
+        {
+          "category": "General ballot — group per runner (Japan domestic)",
+          "distance": "Marathon",
+          "currency": "JPY",
+          "amount": 16500
+        },
+        {
+          "category": "General ballot — group per runner (international)",
+          "distance": "Marathon",
+          "currency": "USD",
+          "amount": 150
+        }
+      ],
+      "entry_price_note": "Separate processing fees and charity contributions apply. The displayed general-ballot amounts are not prices for charity entries.",
       "eligibility": {
-        "minimum_age": null,
-        "residency": null,
+        "minimum_age": 18,
+        "residency": "Domestic and international applicants; entry categories and fees vary.",
         "qualifying_time": null,
-        "other_requirements": [],
-        "verification_status": "unverified",
-        "source_url": null,
-        "verified_at": null
+        "other_requirements": [
+          "General individual/group entry is by ballot if demand exceeds capacity.",
+          "General ballot application period was 28 July–28 August 2026 (now closed).",
+          "Separate charity entry application window: 28 July–19 October 2026, subject to availability, separate fundraising and fees.",
+          "A sports-supporter donation-based route had its own dates and conditions."
+        ],
+        "verification_status": "verified",
+        "source_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+        "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": 404,
+      "entry_notes": "The displayed entry-opening and closing dates refer ONLY to the standard general ballot, which ended 28 August 2026. Charity applications have a separate deadline of 19 October 2026 (capacity may be exhausted). The original organiser domain osaka-marathon.com currently returns 404 to automated scanners; this working Osaka City government race-information page is used as the scan source and links to organiser/registration providers.",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "404 Client Error: Not Found for url: https://www.osaka-marathon.com/",
-      "checked_url": "https://www.osaka-marathon.com/",
-      "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "error": "",
+      "checked_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+      "date_window_status": "window_ended",
+      "detected": {},
+      "scanned_pages": [
+        "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "kyoto",
@@ -496,7 +531,7 @@
       },
       "entry_notes": "Dates apply to overseas first-come-first-served entry; domestic ballot has a different application schedule.",
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -554,7 +589,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -599,7 +634,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 Entries Open",
@@ -656,7 +691,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: entries close",
@@ -722,7 +757,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -766,7 +801,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Entries close",
@@ -837,7 +872,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -881,7 +916,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -921,7 +956,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1001,7 +1036,7 @@
       "race_end_date": "2027-05-09",
       "race_date_note": "80 km ultra and relay on 8 May; 42 km trail marathon on 9 May 2027.",
       "entry_open_note": "Early November 2026; exact opening date to be announced.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -1054,7 +1089,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1107,7 +1142,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1163,7 +1198,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1202,7 +1237,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1241,7 +1276,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -1284,7 +1319,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1323,7 +1358,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -1374,7 +1409,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1413,7 +1448,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1452,7 +1487,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -1524,7 +1559,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1564,7 +1599,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1608,7 +1643,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1652,7 +1687,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -1710,7 +1745,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1782,7 +1817,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1822,7 +1857,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -1862,7 +1897,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1906,7 +1941,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -1949,7 +1984,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -1994,7 +2029,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2038,7 +2073,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2077,7 +2112,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2116,7 +2151,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2169,7 +2204,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2208,7 +2243,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2252,7 +2287,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2302,7 +2337,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2346,7 +2381,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: 受付終了",
@@ -2390,7 +2425,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2429,7 +2464,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2480,7 +2515,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2523,7 +2558,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2586,7 +2621,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2629,7 +2664,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "受付終了",
@@ -2672,7 +2707,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -2711,7 +2746,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2755,7 +2790,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 202,
       "evidence": "",
@@ -2798,14 +2833,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.naganomarathon.gr.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.naganomarathon.gr.jp', port=443) at 0x7f96040",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "受付終了",
+      "error": "",
       "checked_url": "https://www.naganomarathon.gr.jp/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://www.naganomarathon.gr.jp/",
+        "https://www.naganomarathon.gr.jp/entrant/requirements"
+      ],
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "sendai-international-half-marathon",
@@ -2837,7 +2877,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -2888,7 +2928,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -2932,7 +2972,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "募集終了",
@@ -2990,7 +3030,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -3029,7 +3069,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3073,14 +3113,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='runfes-niigata.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='runfes-niigata.com', port=443) at 0x7f95f4a108c0>, 'Con",
+      "error": "",
       "checked_url": "https://runfes-niigata.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://runfes-niigata.com/",
+        "https://runfes-niigata.com/requirements/"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "beppu-oita-mainichi-marathon",
@@ -3112,14 +3157,32 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.betsudai.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.betsudai.com', port=443) at 0x7f96043040e0>, 'Connect",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "エントリー開始",
+      "error": "",
       "checked_url": "https://www.betsudai.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "entry_open_date": {
+          "value": "2026-08-13",
+          "source_url": "https://www.betsudai.com/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        },
+        "restrictions": [
+          {
+            "text": "2001年50回記念大会からは世界選手権の選考レースに。10年59回大会から大分市の高崎山・うみたまご前をスタートし、大分市営陸上競技場にフィニッシュするコースに大幅変更。翌60回大会からは参加資格をマラソン3時間30分以内に緩和し、女子選手にも門戸を開いた。",
+            "source_url": "https://www.betsudai.com/",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://www.betsudai.com/"
+      ],
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "lake-biwa-marathon",
@@ -3151,14 +3214,28 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='biwako-marathon.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='biwako-marathon.com', port=443) at 0x7f96044079e0>, 'C",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "possible_closed",
+      "http_status": 200,
+      "evidence": "Registration closed",
+      "error": "",
       "checked_url": "https://biwako-marathon.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "prices": [
+          {
+            "text": "r 30",
+            "source_url": "https://biwako-marathon.com/entry/",
+            "method": "Page text",
+            "verification": "unverified"
+          }
+        ]
+      },
+      "scanned_pages": [
+        "https://biwako-marathon.com/",
+        "https://biwako-marathon.com/entry/"
+      ],
+      "registration_evidence_status": "possible_closed"
     },
     {
       "id": "okinawa-marathon",
@@ -3190,14 +3267,26 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.okinawa-marathon.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.okinawa-marathon.com', port=443) at 0x7f96042",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "エントリー開始",
+      "error": "",
       "checked_url": "https://www.okinawa-marathon.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {
+        "entry_open_date": {
+          "value": "2026-08-03",
+          "source_url": "https://okinawa-marathon.com/",
+          "method": "Date next to entry/race label",
+          "verification": "unverified"
+        }
+      },
+      "scanned_pages": [
+        "https://okinawa-marathon.com/",
+        "https://okinawa-marathon.com/entry/"
+      ],
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "naha-marathon",
@@ -3229,14 +3318,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.naha-marathon.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.naha-marathon.jp', port=443) at 0x7f96045cbf20>, ",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "conflicting_signals",
+      "http_status": 200,
+      "evidence": "Open: エントリー開始; closed: 受付終了",
+      "error": "",
       "checked_url": "https://www.naha-marathon.jp/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://naha-marathon.jp/",
+        "https://naha-marathon.jp/news/%F0%9F%86%95%E3%80%90%E7%AC%AC40%E5%9B%9E%E8%A8%98%E5%BF%B5naha%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B3%E7%94%B3%E8%BE%BC%E5%8F%97%E4%BB%98%E7%B5%82%E4%BA%86%E3%80%91%E5%A4%9A%E6%95%B0%E3%81%AE%E3%81%8A/"
+      ],
+      "registration_evidence_status": "conflicting_signals"
     },
     {
       "id": "ibusuki-nanohana-marathon",
@@ -3268,14 +3362,19 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "no_signal",
+      "http_status": 200,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.ibusuki-nanohana.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ibusuki-nanohana.com', port=443) at 0x7f96047",
+      "error": "",
       "checked_url": "https://www.ibusuki-nanohana.com/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://ibusuki-nanohana.com/",
+        "https://ibusuki-nanohana.com/entry/"
+      ],
+      "registration_evidence_status": "no_signal"
     },
     {
       "id": "miyazaki-aoshima-taiheiyo-marathon",
@@ -3307,7 +3406,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -3347,7 +3446,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter now; closed: SOLD OUT",
@@ -3431,7 +3530,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3476,7 +3575,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3554,7 +3653,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -3638,7 +3737,7 @@
         "verified_at": null
       },
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -3681,7 +3780,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3726,7 +3825,7 @@
       "race_end_date": "2027-04-25",
       "race_date_note": "Special double race weekend 24–25 April 2027; mass starts on both days.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "secure your spot",
@@ -3778,7 +3877,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3877,7 +3976,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3920,7 +4019,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -3991,7 +4090,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4035,7 +4134,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -4074,7 +4173,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Registration is open",
@@ -4149,7 +4248,7 @@
       "priority": 1,
       "race_end_date": "2027-05-16",
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Entries open; closed: sold out",
@@ -4237,7 +4336,7 @@
       "entry_type": "Direct / capacity",
       "priority": 1,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "entries open",
@@ -4313,7 +4412,7 @@
       "entry_type": "Direct",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4395,7 +4494,7 @@
       "entry_type": "Direct / verify",
       "priority": 2,
       "continent": "Oceania",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "2027 ENTRIES OPEN",
@@ -4489,7 +4588,7 @@
       "entry_type": "Direct / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4545,7 +4644,7 @@
       "entry_type": "Qualifying / verify",
       "priority": 1,
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "エントリー開始",
@@ -4597,7 +4696,7 @@
       },
       "entry_notes": "General places sold out; some charity places advertised. Published entry dates refer to public release.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4640,7 +4739,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: sold out",
@@ -4686,7 +4785,7 @@
       },
       "entry_notes": "2027 marathon and half marathon race on 30 May 2027.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -4729,7 +4828,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Enter Now; closed: Sold Out",
@@ -4773,7 +4872,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4831,7 +4930,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4870,7 +4969,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -4909,7 +5008,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Entries open",
@@ -4952,7 +5051,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -4995,7 +5094,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5039,7 +5138,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 500,
       "evidence": "",
@@ -5080,7 +5179,7 @@
       },
       "race_date_note": "Weekend 30–31 October; marathon and half marathon typically Sunday.",
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5145,7 +5244,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: registrations open",
@@ -5198,7 +5297,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5241,7 +5340,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5285,7 +5384,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Secure Your Spot",
@@ -5328,7 +5427,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Linked entry page: sold out",
@@ -5387,7 +5486,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 404,
       "evidence": "",
@@ -5426,7 +5525,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5513,7 +5612,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://stockholmmarathon.se/eng/eng-lopare/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 403,
       "evidence": "Organiser verified on 2026-10-15",
@@ -5552,7 +5651,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -5595,7 +5694,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5638,7 +5737,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5681,7 +5780,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "SOLD OUT",
@@ -5728,7 +5827,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://www.helsinkimarathon.fi/en/event-info/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -5786,7 +5885,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: Entries Open",
@@ -5875,7 +5974,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -5919,7 +6018,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -5971,7 +6070,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6015,7 +6114,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6058,7 +6157,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6110,7 +6209,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: SOLD OUT",
@@ -6154,7 +6253,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6197,7 +6296,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6249,7 +6348,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6326,7 +6425,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6376,7 +6475,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6419,7 +6518,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER TODAY",
@@ -6463,7 +6562,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6507,7 +6606,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register Now",
@@ -6577,7 +6676,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -6654,7 +6753,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Register Today; closed: Sold Out",
@@ -6732,7 +6831,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -6776,7 +6875,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6819,7 +6918,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6869,7 +6968,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Registrations closed",
@@ -6919,7 +7018,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -6997,7 +7096,7 @@
         "verified_at": null
       },
       "continent": "North America",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7051,7 +7150,7 @@
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://enter.comrades.com/comrades-2027",
       "continent": "Africa",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_closed",
       "http_status": 200,
       "evidence": "Organiser confirmed closed/sold out on 2026-10-15",
@@ -7101,7 +7200,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7144,7 +7243,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: REGISTRATION OPEN; closed: Registrations closed",
@@ -7240,7 +7339,7 @@
         "verified_at": null
       },
       "continent": "Europe",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7300,7 +7399,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7373,7 +7472,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7450,7 +7549,7 @@
         "verified_at": "2026-10-15"
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7503,7 +7602,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7543,7 +7642,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7587,7 +7686,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -7626,7 +7725,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7669,7 +7768,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7712,7 +7811,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -7751,11 +7850,11 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
-      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7f95e4e5a4b0>, 'Connection to www",
+      "error": "HTTPSConnectionPool(host='www.kumf.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kumf.kr', port=443) at 0x7fa5501301d0>, 'Connection to www",
       "checked_url": "https://www.kumf.kr/",
       "date_window_status": "dates_unknown",
       "registration_evidence_status": "unknown"
@@ -7792,7 +7891,7 @@
       },
       "race_date_note": "Half marathon is 28 Nov 2026; full marathon 29 Nov",
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7849,7 +7948,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7893,7 +7992,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Linked entry page: Register now",
@@ -7938,7 +8037,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -7982,7 +8081,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -8022,7 +8121,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -8074,7 +8173,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -8119,14 +8218,18 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
-      "status": "unknown",
-      "http_status": null,
-      "evidence": "",
-      "error": "HTTPSConnectionPool(host='hanoi.vietnamheritagemarathon.com', port=443): Max retries exceeded with url: /en/the-race/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='hanoi.vietnamheritagemaratho",
+      "checked_at": "2026-10-15T07:21:58+00:00",
+      "status": "possible_open",
+      "http_status": 200,
+      "evidence": "Register Now",
+      "error": "",
       "checked_url": "https://hanoi.vietnamheritagemarathon.com/en/the-race/",
       "date_window_status": "dates_unknown",
-      "registration_evidence_status": "unknown"
+      "detected": {},
+      "scanned_pages": [
+        "https://hanoi.vietnamheritagemarathon.com/en/the-race/"
+      ],
+      "registration_evidence_status": "possible_open"
     },
     {
       "id": "cebu-marathon",
@@ -8172,7 +8275,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Register now",
@@ -8216,7 +8319,7 @@
         "verified_at": null
       },
       "continent": "Asia",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "REGISTER NOW",
@@ -8281,7 +8384,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Book Now; closed: SOLD OUT",
@@ -8351,7 +8454,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://www.torontomarathon.com/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8401,7 +8504,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://bmovanmarathon.ca/halfmarathon",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8452,7 +8555,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://www.runottawa.ca/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8529,7 +8632,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://calgarymarathon.com/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8590,7 +8693,7 @@
         "verified_at": null
       },
       "race_date_note": "2027 weekend is 8–10 October. Organiser's race-day text appears to reuse 2026 weekday/date; exact marathon day needs confirmation.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "SOLD OUT",
@@ -8649,7 +8752,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -8701,7 +8804,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -8745,7 +8848,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -8792,7 +8895,7 @@
       "status_source_url": "https://www.banffhalf.com/",
       "entry_notes": "Organiser reports 2027 half marathon is 85% sold out.",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8837,7 +8940,7 @@
         "source_url": "https://www.whistlerhalfmarathon.com/whistler-half-marathon/",
         "verified_at": "2026-10-15"
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -8907,7 +9010,7 @@
       "entry_notes": "Individual start dates differ by distance, July 2 for QMT50/QMT135 and July 3 for QMT80.",
       "status_source_url": "https://ultratrailcanada.com/en/ultra-trail-races/registration/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -8952,7 +9055,7 @@
       },
       "race_end_date": "2027-09-12",
       "race_date_note": "Three-day ultra and single-day trail events; individual distances vary by day.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: REGISTER NOW; closed: SOLD OUT",
@@ -9028,7 +9131,7 @@
         118
       ],
       "entry_notes": "Event includes 118 km ultra; smaller 41.3 km race is not an official 42.195 km marathon.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -9073,7 +9176,7 @@
         "source_url": null,
         "verified_at": null
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold out",
@@ -9145,7 +9248,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://secure.onreg.com/onreg2/front/step1.php?id=7748",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9192,7 +9295,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://msm.no/en/midnight-sun-marathon/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9240,7 +9343,7 @@
         "verified_at": "2026-10-15"
       },
       "entry_open_note": "February 2027; exact date TBA",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -9289,7 +9392,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://www.rmi.is/en/registration",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9338,7 +9441,7 @@
       "ultra_distances_km": [
         55
       ],
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -9395,7 +9498,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://fireandiceultra.com/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9475,7 +9578,7 @@
       "verified_entry_status": "closed",
       "status_source_url": "https://www.goteborgsvarvet.se/en/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_closed",
       "http_status": 200,
       "evidence": "Organiser confirmed closed/sold out on 2026-10-15",
@@ -9521,7 +9624,7 @@
         "verified_at": null
       },
       "entry_notes": "Official site advertises opening for 2027 on 18 October 2026; exact 2027 race date not yet verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -9585,7 +9688,7 @@
         173
       ],
       "entry_notes": "Official site currently shows 2026 race editions; do not assume registration dates apply to 2027.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Registrations open",
@@ -9666,7 +9769,7 @@
       "verified_entry_status": "open",
       "status_source_url": "https://helsinkihalfmarathon.fi/en/",
       "status_verified_at": "2026-10-15",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9734,7 +9837,7 @@
         "verified_at": null
       },
       "entry_notes": "2026 race confirmed, 2027 event date and registration window to be verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -9784,7 +9887,7 @@
         "source_url": "https://www.pentathrun.com/the-race/how-to-enter/",
         "verified_at": "2026-10-15"
       },
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -9828,7 +9931,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://maratonadorio.com.br/en/corrida/42k-2027",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -9882,7 +9985,7 @@
         "verified_at": null
       },
       "entry_notes": "Organiser lists domestic/resident and foreign entry options; check 2027 availability and fee per category.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -9926,7 +10029,7 @@
         "verified_at": null
       },
       "entry_notes": "Official page currently primarily describes the September 2026 edition. 2027 date and entry opening not yet verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": 403,
       "evidence": "",
@@ -9968,7 +10071,7 @@
       "race_end_date": "2027-05-23",
       "race_date_note": "2027 event weekend 22–23 May; confirm the specific marathon day on the official schedule.",
       "entry_notes": "2027 general ballot ran 10–24 June 2026 and is closed; selected charity and international travel entry channels differ. Do not treat ballot-closed as all entry routes closed.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: ENTRIES OPEN; closed: BALLOT CLOSED",
@@ -10023,7 +10126,7 @@
       "race_end_date": "2027-04-04",
       "race_date_note": "Half marathon 3 April 2027; 56 km ultra 4 April 2027.",
       "entry_notes": "2027 entry channels vary by region and category, including club, ballot, international travel and access-controlled entries. An ultra qualifying performance may be required.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "ENTER NOW",
@@ -10068,7 +10171,7 @@
         "verified_at": null
       },
       "entry_notes": "Official event presently promotes its 25 October 2026 race; registration for the 2027 edition is not yet verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "unknown",
       "http_status": null,
       "evidence": "",
@@ -10111,7 +10214,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://tatamumbaimarathon.procam.in/race-categories/marathon/information",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -10176,7 +10279,7 @@
         "verified_at": null
       },
       "entry_notes": "Organiser lists registration as paused for 2027. Do not assume entry is open until the race site updates.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -10220,7 +10323,7 @@
         "verified_at": null
       },
       "entry_notes": "Official English site currently promotes 2026 registration; 2027 race date, selection criteria and entry period not verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -10299,7 +10402,7 @@
       },
       "race_end_date": "2026-11-28",
       "entry_notes": "2026 race features KosciMiler, Kosci100 and Kosci50. 2027 edition and entry window not confirmed. 2026 event shows sold-out notice.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "conflicting_signals",
       "http_status": 200,
       "evidence": "Open: Entries Open; closed: SOLD OUT",
@@ -10382,7 +10485,7 @@
         "verified_at": null
       },
       "entry_notes": "2027 edition announced for 18 September 2027; solo 50 km, 100 km and team relay options. Check exact 2027 registration period.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_open",
       "http_status": 200,
       "evidence": "Enter Now",
@@ -10442,7 +10545,7 @@
         "verified_at": null
       },
       "entry_notes": "100 km and 50 km ultras plus a 21 km trail run; official page currently shows 17 October 2026. Next edition date and registration to be verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -10513,7 +10616,7 @@
         "verified_at": null
       },
       "entry_notes": "2027 general entry and ballot are sold out/closed; limited charity and authorised travel/code entry routes may remain. Do not infer ordinary open registration.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "Sold Out",
@@ -10588,7 +10691,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://romaostia.it/?lang=en",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -10632,7 +10735,7 @@
         "verified_at": null
       },
       "entry_notes": "2027 public lottery pre-registration opens 11 January and closes 22 January. This is a mountain marathon, not a road marathon.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -10691,7 +10794,7 @@
         "verified_at": null
       },
       "entry_notes": "42.195 km fancy-dress marathon with limited places and age and health-pass eligibility requirements. 2027 registration dates not independently verified.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "no_signal",
       "http_status": 200,
       "evidence": "",
@@ -10739,7 +10842,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://www.dubaimarathon.org/",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -10785,7 +10888,7 @@
       },
       "race_end_date": "2026-11-01",
       "entry_notes": "2026 100-mile and 100 km courses; current organiser page features a waitlist. The 2027 registration cycle is not yet confirmed.",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "possible_closed",
       "http_status": 200,
       "evidence": "sold out",
@@ -10872,7 +10975,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://tarawera.utmb.world/runners/entry-info",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",
@@ -10960,7 +11063,7 @@
       "verified_entry_status": "open",
       "status_verified_at": "2026-10-15",
       "status_source_url": "https://runlarapinta.rapidascent.com.au/event-entry/enter-online/",
-      "checked_at": "2026-10-15T07:15:26+00:00",
+      "checked_at": "2026-10-15T07:21:58+00:00",
       "status": "confirmed_open",
       "http_status": 200,
       "evidence": "Organiser verified on 2026-10-15",

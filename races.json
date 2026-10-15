@@ -16,7 +16,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "gold-coast",
@@ -36,7 +47,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "brisbane",
@@ -56,7 +78,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "canberra",
@@ -76,7 +109,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "sunshine-coast",
@@ -96,7 +140,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "melbourne",
@@ -116,7 +171,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "tokyo",
@@ -135,7 +201,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "osaka",
@@ -154,7 +231,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "kyoto",
@@ -173,7 +261,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "nagoya",
@@ -192,7 +291,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "rotorua",
@@ -212,7 +322,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "wellington",
@@ -232,7 +353,18 @@
     "entry_close_date": null,
     "date_source": null,
     "date_verified_at": null,
-    "registration_page_verified": false
+    "registration_page_verified": false,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "hobart-marathon",
@@ -252,7 +384,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "adelaide-marathon-festival",
@@ -272,7 +415,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "perth-running-festival",
@@ -292,7 +446,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "perth-marathon",
@@ -312,7 +477,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "bunbury-3-waters-running-festival",
@@ -332,7 +508,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "margaret-river-ultra-marathon",
@@ -351,7 +538,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "great-ocean-road-running-festival",
@@ -371,7 +569,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "ballarat-marathon",
@@ -391,7 +600,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "bendigo-running-festival",
@@ -410,7 +630,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "geelong-half-marathon",
@@ -429,7 +660,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "run-melbourne",
@@ -448,7 +690,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "mornington-running-festival",
@@ -467,7 +720,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "hobart-run-the-bridge",
@@ -486,7 +750,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "launceston-running-festival",
@@ -505,7 +780,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "cadbury-marathon",
@@ -525,7 +811,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "sydney-half-marathon",
@@ -544,7 +841,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "runaway-sydney-half-marathon",
@@ -563,7 +871,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "newcastle-running-festival",
@@ -583,7 +902,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "port-macquarie-running-festival",
@@ -603,7 +933,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "mudgee-running-festival",
@@ -623,7 +964,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "orange-running-festival",
@@ -643,7 +995,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "dubbo-stampede",
@@ -662,7 +1025,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "bathurst-half-marathon",
@@ -681,7 +1055,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "noosa-marathon",
@@ -701,7 +1086,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "cairns-marathon-festival",
@@ -721,7 +1117,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "townsville-running-festival",
@@ -741,7 +1148,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "mackay-marina-run",
@@ -760,7 +1178,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "7-cairns-marathon",
@@ -780,7 +1209,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "toowoomba-marathon",
@@ -800,7 +1240,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "hervey-bay-running-festival",
@@ -819,7 +1270,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "darwin-city2surf-half-marathon",
@@ -838,7 +1300,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "alice-springs-running-festival",
@@ -858,7 +1331,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "nagoya-women-s-marathon",
@@ -877,7 +1361,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "kobe-marathon",
@@ -896,7 +1391,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "fukuoka-marathon",
@@ -915,7 +1421,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "hokkaido-marathon",
@@ -934,7 +1451,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "nara-marathon",
@@ -953,7 +1481,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "kumamoto-castle-marathon",
@@ -972,7 +1511,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "shizuoka-marathon",
@@ -991,7 +1541,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "yokohama-marathon",
@@ -1010,7 +1571,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "kanazawa-marathon",
@@ -1029,7 +1601,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "toyama-marathon",
@@ -1048,7 +1631,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "okayama-marathon",
@@ -1067,7 +1661,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "matsue-castle-marathon",
@@ -1086,7 +1691,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "tsukuba-marathon",
@@ -1105,7 +1721,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "nagano-marathon",
@@ -1124,7 +1751,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "sendai-international-half-marathon",
@@ -1143,7 +1781,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "sapporo-marathon",
@@ -1162,7 +1811,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "kagawa-marugame-international-half-marathon",
@@ -1181,7 +1841,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "osaka-half-marathon",
@@ -1200,7 +1871,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "shonan-international-marathon",
@@ -1219,7 +1901,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "niigata-city-marathon",
@@ -1238,7 +1931,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "beppu-oita-mainichi-marathon",
@@ -1257,7 +1961,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "lake-biwa-marathon",
@@ -1276,7 +1991,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "okinawa-marathon",
@@ -1295,7 +2021,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "naha-marathon",
@@ -1314,7 +2051,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "ibusuki-nanohana-marathon",
@@ -1333,7 +2081,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "miyazaki-aoshima-taiheiyo-marathon",
@@ -1352,7 +2111,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "auckland-marathon",
@@ -1372,7 +2142,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "christchurch-marathon",
@@ -1392,7 +2173,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "queenstown-marathon",
@@ -1412,7 +2204,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "hawke-s-bay-marathon",
@@ -1432,7 +2235,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "taupo-marathon",
@@ -1452,7 +2266,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "berlin-marathon",
@@ -1471,7 +2296,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "london-marathon",
@@ -1490,7 +2326,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "chicago-marathon",
@@ -1509,7 +2356,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "new-york-city-marathon",
@@ -1528,7 +2386,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "boston-marathon",
@@ -1547,7 +2416,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "valencia-marathon",
@@ -1566,7 +2446,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "singapore-marathon",
@@ -1586,7 +2477,18 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
   },
   {
     "id": "honolulu-marathon",
@@ -1605,6 +2507,229 @@
     "entry_open_date": null,
     "entry_close_date": null,
     "date_source": null,
-    "date_verified_at": null
+    "date_verified_at": null,
+    "entry_options": [],
+    "entry_price_note": null,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    }
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": "https://uta.utmb.world/runners/event-schedule",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": true,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [
+        "UTAMiler has qualifying conditions; check event entry page",
+        "Mandatory gear and trail experience requirements apply"
+      ],
+      "verification_status": "partially_verified",
+      "source_url": "https://uta.utmb.world/runners/entry-info",
+      "verified_at": "2026-10-15"
+    },
+    "id": "uta",
+    "name": "Ultra-Trail Australia by UTMB",
+    "country": "Australia",
+    "city": "Katoomba",
+    "distance": [
+      "Ultra"
+    ],
+    "ultra_distances_km": [
+      51,
+      101,
+      161.1
+    ],
+    "official_url": "https://uta.utmb.world/",
+    "registration_url": "https://uta.utmb.world/runners/entry-info",
+    "race_date_note": "13–16 May 2027; distances run on different days",
+    "entry_type": "Direct / capacity",
+    "priority": 1
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": "https://www.theguzzlerultra.com.au/",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": false,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "id": "guzzler",
+    "name": "The Guzzler Ultra",
+    "country": "Australia",
+    "city": "Brisbane",
+    "distance": [
+      "Ultra",
+      "Half marathon"
+    ],
+    "ultra_distances_km": [
+      52,
+      105
+    ],
+    "official_url": "https://www.theguzzlerultra.com.au/",
+    "registration_url": "https://www.theguzzlerultra.com.au/",
+    "race_date_note": "17–18 July 2027; check distance-specific start dates",
+    "entry_type": "Direct / capacity",
+    "priority": 1
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": "https://www.cape2capeultra.com.au/",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": false,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "id": "cape2cape-ultra",
+    "name": "Cape2Cape Ultra",
+    "country": "Australia",
+    "city": "Augusta to Yallingup",
+    "distance": [
+      "Ultra"
+    ],
+    "ultra_distances_km": [
+      80.5,
+      160.9
+    ],
+    "official_url": "https://www.cape2capeultra.com.au/",
+    "registration_url": "https://www.cape2capeultra.com.au/",
+    "race_date_note": "12–13 June 2027",
+    "entry_type": "Direct",
+    "priority": 2
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "id": "ultra-perth",
+    "name": "Ultra Perth",
+    "country": "Australia",
+    "city": "Perth",
+    "distance": [
+      "Ultra",
+      "Half marathon"
+    ],
+    "ultra_distances_km": [
+      50
+    ],
+    "official_url": "https://www.ultraperth.com.au/",
+    "registration_url": "https://www.ultraperth.com.au/",
+    "entry_type": "Direct / verify",
+    "priority": 2
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "id": "saroma-100",
+    "name": "Lake Saroma 100km Ultramarathon",
+    "country": "Japan",
+    "city": "Hokkaido",
+    "distance": [
+      "Ultra"
+    ],
+    "ultra_distances_km": [
+      50,
+      100
+    ],
+    "official_url": "https://saromanblue.jp/",
+    "registration_url": "https://saromanblue.jp/outline/",
+    "entry_type": "Direct / verify",
+    "priority": 1
+  },
+  {
+    "race_date": null,
+    "entry_open_date": null,
+    "entry_close_date": null,
+    "entry_price_note": null,
+    "entry_options": [],
+    "date_source": null,
+    "date_verified_at": null,
+    "registration_page_verified": false,
+    "eligibility": {
+      "minimum_age": null,
+      "residency": null,
+      "qualifying_time": null,
+      "other_requirements": [],
+      "verification_status": "unverified",
+      "source_url": null,
+      "verified_at": null
+    },
+    "id": "mt-fuji-100",
+    "name": "Mt. FUJI 100",
+    "country": "Japan",
+    "city": "Mount Fuji region",
+    "distance": [
+      "Ultra"
+    ],
+    "ultra_distances_km": [
+      100,
+      160
+    ],
+    "official_url": "https://mtfuji100.com/",
+    "registration_url": "https://mtfuji100.com/",
+    "entry_type": "Qualifying / verify",
+    "priority": 1
   }
 ]

@@ -285,28 +285,59 @@
     "distance": [
       "Marathon"
     ],
-    "entry_type": "Ballot / varies",
-    "official_url": "https://www.osaka-marathon.com/",
-    "registration_url": "https://www.osaka-marathon.com/",
+    "entry_type": "General ballot / charity (separate windows)",
+    "official_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+    "registration_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
     "priority": 1,
-    "race_date": null,
-    "entry_open_date": null,
-    "entry_close_date": null,
-    "date_source": null,
-    "date_verified_at": null,
-    "registration_page_verified": false,
-    "entry_options": [],
-    "entry_price_note": null,
+    "race_date": "2027-02-28",
+    "entry_open_date": "2026-07-28",
+    "entry_close_date": "2026-08-28",
+    "date_source": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+    "date_verified_at": "2026-10-15",
+    "registration_page_verified": true,
+    "entry_options": [
+      {
+        "category": "General ballot — individual (Japan domestic)",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 16000
+      },
+      {
+        "category": "General ballot — individual (international)",
+        "distance": "Marathon",
+        "currency": "USD",
+        "amount": 145
+      },
+      {
+        "category": "General ballot — group per runner (Japan domestic)",
+        "distance": "Marathon",
+        "currency": "JPY",
+        "amount": 16500
+      },
+      {
+        "category": "General ballot — group per runner (international)",
+        "distance": "Marathon",
+        "currency": "USD",
+        "amount": 150
+      }
+    ],
+    "entry_price_note": "Separate processing fees and charity contributions apply. The displayed general-ballot amounts are not prices for charity entries.",
     "eligibility": {
-      "minimum_age": null,
-      "residency": null,
+      "minimum_age": 18,
+      "residency": "Domestic and international applicants; entry categories and fees vary.",
       "qualifying_time": null,
-      "other_requirements": [],
-      "verification_status": "unverified",
-      "source_url": null,
-      "verified_at": null
+      "other_requirements": [
+        "General individual/group entry is by ballot if demand exceeds capacity.",
+        "General ballot application period was 28 July–28 August 2026 (now closed).",
+        "Separate charity entry application window: 28 July–19 October 2026, subject to availability, separate fundraising and fees.",
+        "A sports-supporter donation-based route had its own dates and conditions."
+      ],
+      "verification_status": "verified",
+      "source_url": "https://www.city.osaka.lg.jp/keizaisenryaku/page/0000684141.html",
+      "verified_at": "2026-10-15"
     },
-    "continent": "Asia"
+    "continent": "Asia",
+    "entry_notes": "The displayed entry-opening and closing dates refer ONLY to the standard general ballot, which ended 28 August 2026. Charity applications have a separate deadline of 19 October 2026 (capacity may be exhausted). The original organiser domain osaka-marathon.com currently returns 404 to automated scanners; this working Osaka City government race-information page is used as the scan source and links to organiser/registration providers."
   },
   {
     "id": "kyoto",

@@ -66,6 +66,20 @@ class CatalogAndDashboardTests(unittest.TestCase):
         self.assertIn("Four separate stages",tracked["run-larapinta"]["race_date_note"])
         self.assertIn("ballot",tracked["run-larapinta"]["entry_notes"].lower())
 
+    def test_osaka_2027_dates_and_working_government_source(self):
+        by_id = {r["id"]: r for r in self.races}
+        osaka = by_id["osaka"]
+        self.assertEqual(osaka["race_date"], "2027-02-28")
+        self.assertEqual(osaka["entry_open_date"], "2026-07-28")
+        self.assertEqual(osaka["entry_close_date"], "2026-08-28")
+        self.assertEqual(osaka["date_verified_at"], "2026-10-15")
+        self.assertIn("city.osaka.lg.jp", osaka["registration_url"])
+        self.assertEqual(osaka["registration_url"], osaka["date_source"])
+        self.assertNotIn("osaka-marathon.com", osaka["registration_url"])
+        self.assertIn("charity", osaka["entry_notes"].lower())
+        self.assertIn("general ballot", osaka["entry_notes"].lower())
+        self.assertGreater(len(osaka["entry_options"]), 0)
+
     def test_known_country_continent_mapping(self):
         by_id = {r["id"]: r for r in self.races}
         for event_id, (country, continent) in EXPECTED.items():

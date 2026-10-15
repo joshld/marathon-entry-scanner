@@ -449,14 +449,17 @@ function buildRaceUpdates(published,items,today){
     const event={...x,when:at,title:x.type==="new"?"New race added":x.type==="soon"?"Entries opening soon":"Entries confirmed open"};
     if(typeof x.url==="string"&&x.url.startsWith("https://"))result.set(x.key,event);
   }
-  // The site also shows confirmed currently-open entries, even before the new
-  // event journal has accumulated changes. Never upgrade possible_open hints.
+  // The site also shows recently confirmed openings backed by published
+  // opening dates, even before the journal has accumulated transitions.
+  // Never treat daily re-verification or possible_open text as a new opening.
   for(const r of items){
     if(r.status==="confirmed_open"&&r.verified_entry_status==="open"&&
-        (!r.entry_close_date||r.entry_close_date>=today)){
-      const when=r.entry_open_date||r.status_verified_at;
-      if(when&&when>=earliest&&when<=today){
-        const key="current-open:"+r.id+":"+(r.entry_open_date||r.race_date||"date-not-published");
+        r.entry_open_date&&(!r.entry_close_date||r.entry_close_date>=today)){
+      // A daily re-verification is not a new opening. Require an actual
+      // organiser-published opening date for this fallback alert.
+      const when=r.entry_open_date;
+      if(when>=earliest&&when<=today){
+        const key="current-open:"+r.id+":"+when;
         if(![...result.values()].some(x=>x.id===r.id&&x.type==="open"))
           result.set(key,{key,type:"open",title:"Entries confirmed open",when,
             name:r.name,country:r.country,distance:safeArr(r.distance),

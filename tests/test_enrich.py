@@ -55,6 +55,13 @@ class EnrichmentTests(unittest.TestCase):
         self.assertTrue(found.get("prices"))
         self.assertTrue(found.get("restrictions"))
 
+    def test_generic_registration_calendar_does_not_invent_race_date(self):
+        html = """<html><title>Race Registration Launch Timeline</title>
+        <body><h1>Registration launch calendar</h1><p>Event Date: 20 October 2026</p>
+        </body></html>"""
+        found, _ = extract(html, "https://example.org/run/race-registration-launch-timeline", RACE)
+        self.assertNotIn("race_date", found)
+
     def test_link_stays_on_official_host(self):
         html = """<a href="/register">Register now</a>
         <a href="https://unknown-payments.test/pay">Enter here</a>"""

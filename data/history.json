@@ -1454,5 +1454,53 @@
     "before": "unknown",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "yokohama-marathon",
+    "name": "Yokohama Marathon",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "new-york-city-marathon",
+    "name": "New York City Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "mt-fuji-100",
+    "name": "Mt. FUJI 100",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "athens-authentic-marathon",
+    "name": "Athens Authentic Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-16T23:37:50+00:00",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

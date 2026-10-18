@@ -1510,5 +1510,45 @@
     "before": "no_signal",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-18T23:15:06+00:00",
+    "id": "rotorua",
+    "name": "Rotorua Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-18T23:15:06+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-18T23:15:06+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-18T23:15:06+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-18T23:15:06+00:00",
+    "id": "beijing-marathon",
+    "name": "Beijing Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

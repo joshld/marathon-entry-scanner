@@ -1606,5 +1606,29 @@
     "before": "confirmed_open",
     "after": "window_ended",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T23:54:39+00:00",
+    "id": "gold-coast",
+    "name": "Gold Coast Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T23:54:39+00:00",
+    "id": "oxford-half-marathon",
+    "name": "Oxford Half Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T23:54:39+00:00",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

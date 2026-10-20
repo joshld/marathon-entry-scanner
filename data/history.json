@@ -1550,5 +1550,61 @@
     "before": "no_signal",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "sydney-marathon",
+    "name": "Sydney Marathon",
+    "before": "confirmed_open",
+    "after": "window_ended",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "rotorua",
+    "name": "Rotorua Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "loch-ness-marathon",
+    "name": "Loch Ness Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "beijing-marathon",
+    "name": "Beijing Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-20T00:22:39+00:00",
+    "id": "run-larapinta",
+    "name": "Run Larapinta Stage Race",
+    "before": "confirmed_open",
+    "after": "window_ended",
+    "dates_changed": false
   }
 ]

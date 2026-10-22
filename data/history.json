@@ -1630,5 +1630,77 @@
     "before": "possible_open",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "adelaide-marathon-festival",
+    "name": "Adelaide Marathon Festival",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "great-ocean-road-running-festival",
+    "name": "Great Ocean Road Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "fukuoka-marathon",
+    "name": "Fukuoka Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "nara-marathon",
+    "name": "Nara Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "toyama-marathon",
+    "name": "Toyama Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T00:00:59+00:00",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

@@ -1750,5 +1750,45 @@
     "before": "no_signal",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-23T23:52:11+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-23T23:52:11+00:00",
+    "id": "matsue-castle-marathon",
+    "name": "Matsue Castle Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-23T23:52:11+00:00",
+    "id": "sendai-international-half-marathon",
+    "name": "Sendai International Half Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-23T23:52:11+00:00",
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-23T23:52:11+00:00",
+    "id": "manitoba-marathon",
+    "name": "Manitoba Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

@@ -1702,5 +1702,53 @@
     "before": "unknown",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "great-ocean-road-running-festival",
+    "name": "Great Ocean Road Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "toyama-marathon",
+    "name": "Toyama Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-22T23:59:39+00:00",
+    "id": "manitoba-marathon",
+    "name": "Manitoba Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

@@ -1790,5 +1790,21 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-24T23:17:31+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-24T23:17:31+00:00",
+    "id": "matsue-castle-marathon",
+    "name": "Matsue Castle Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

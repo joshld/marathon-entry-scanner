@@ -1806,5 +1806,53 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "new-york-city-marathon",
+    "name": "New York City Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "frankfurt-marathon",
+    "name": "Frankfurt Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-25T23:17:41+00:00",
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

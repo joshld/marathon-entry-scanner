@@ -1854,5 +1854,61 @@
     "before": "conflicting_signals",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-27T00:27:25+00:00",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

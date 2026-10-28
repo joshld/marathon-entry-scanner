@@ -1910,5 +1910,29 @@
     "before": "possible_open",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-28T00:32:00+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-28T00:32:00+00:00",
+    "id": "valencia-half-marathon",
+    "name": "Valencia Half Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-28T00:32:00+00:00",
+    "id": "nairobi-marathon",
+    "name": "Standard Chartered Nairobi Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

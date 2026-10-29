@@ -1934,5 +1934,53 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "fukuoka-marathon",
+    "name": "Fukuoka Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "toyama-marathon",
+    "name": "Toyama Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "big-sur-international-marathon",
+    "name": "Big Sur International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "california-international-marathon",
+    "name": "California International Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-29T00:59:42+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

@@ -1982,5 +1982,189 @@
     "before": "no_signal",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "brisbane",
+    "name": "Brisbane Marathon Festival",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "stockholm-marathon",
+    "name": "Stockholm Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "helsinki-city-marathon",
+    "name": "Helsinki City Marathon",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "comrades-marathon",
+    "name": "Comrades Marathon",
+    "before": "confirmed_closed",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "toronto-marathon",
+    "name": "Toronto Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "vancouver-marathon",
+    "name": "BMO Vancouver Marathon",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "ottawa-marathon-weekend",
+    "name": "Tamarack Ottawa Race Weekend",
+    "before": "confirmed_open",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "confirmed_open",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "banff-half-marathon",
+    "name": "Banff Half Marathon",
+    "before": "confirmed_open",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "quebec-mega-trail",
+    "name": "Québec Mega Trail",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "bergen-city-marathon",
+    "name": "Bergen City Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "tromso-midnight-sun-marathon",
+    "name": "Tromsø Midnight Sun Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "reykjavik-marathon",
+    "name": "Reykjavík Marathon",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "fire-and-ice-ultra",
+    "name": "Fire + Ice Ultra",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "goteborgsvarvet-half-marathon",
+    "name": "Göteborgsvarvet Half Marathon",
+    "before": "confirmed_closed",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "helsinki-half-marathon",
+    "name": "Helsinki Half Marathon",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "rio-de-janeiro-marathon",
+    "name": "Rio de Janeiro Marathon (Maratona do Rio)",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "tata-mumbai-marathon",
+    "name": "Tata Mumbai Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "roma-ostia-half-marathon",
+    "name": "RomaOstia Half Marathon",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "dubai-marathon",
+    "name": "Dubai Marathon",
+    "before": "confirmed_open",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-10-30T01:02:12+00:00",
+    "id": "tarawera-ultra-trail",
+    "name": "Tarawera Ultra-Trail by UTMB",
+    "before": "confirmed_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

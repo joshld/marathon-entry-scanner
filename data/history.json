@@ -2206,5 +2206,29 @@
     "before": "possible_closed",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-01T00:08:55+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-01T00:08:55+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-01T00:08:55+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

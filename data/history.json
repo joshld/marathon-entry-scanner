@@ -2230,5 +2230,37 @@
     "before": "unknown",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-02T00:46:31+00:00",
+    "id": "barcelona-marathon",
+    "name": "Barcelona Marathon",
+    "before": "possible_open",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-02T00:46:31+00:00",
+    "id": "victoria-marathon",
+    "name": "Royal Victoria Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-02T00:46:31+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "conflicting_signals",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-02T00:46:31+00:00",
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

@@ -2262,5 +2262,85 @@
     "before": "no_signal",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "lake-biwa-marathon",
+    "name": "Lake Biwa Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "auckland-marathon",
+    "name": "Auckland Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "mt-fuji-100",
+    "name": "Mt. FUJI 100",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "victoria-marathon",
+    "name": "Royal Victoria Marathon",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-03T02:55:51+00:00",
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "before": "possible_open",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

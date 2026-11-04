@@ -2342,5 +2342,37 @@
     "before": "possible_open",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-04T01:24:13+00:00",
+    "id": "sunshine-coast",
+    "name": "Sunshine Coast Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-04T01:24:13+00:00",
+    "id": "beppu-oita-mainichi-marathon",
+    "name": "Beppu-Oita Mainichi Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-04T01:24:13+00:00",
+    "id": "brooklyn-half-marathon",
+    "name": "Brooklyn Half Marathon",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-04T01:24:13+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

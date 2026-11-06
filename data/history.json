@@ -2446,5 +2446,45 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-06T01:34:26+00:00",
+    "id": "maybank-bali-marathon",
+    "name": "Maybank Marathon Bali",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-06T01:34:26+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-06T01:34:26+00:00",
+    "id": "laugavegur-ultramarathon",
+    "name": "Laugavegur Ultra Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-06T01:34:26+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-06T01:34:26+00:00",
+    "id": "tata-mumbai-marathon",
+    "name": "Tata Mumbai Marathon",
+    "before": "unknown",
+    "after": "window_ended",
+    "dates_changed": false
   }
 ]

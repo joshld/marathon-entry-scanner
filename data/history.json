@@ -2486,5 +2486,53 @@
     "before": "unknown",
     "after": "window_ended",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "valencia-marathon",
+    "name": "Valencia Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "maybank-bali-marathon",
+    "name": "Maybank Marathon Bali",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "stavanger-marathon",
+    "name": "Stavanger Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-07T00:57:11+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

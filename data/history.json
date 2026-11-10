@@ -2574,5 +2574,53 @@
     "before": "possible_closed",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "sendai-international-half-marathon",
+    "name": "Sendai International Half Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "valencia-marathon",
+    "name": "Valencia Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "valencia-half-marathon",
+    "name": "Valencia Half Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-10T03:35:27+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
   }
 ]

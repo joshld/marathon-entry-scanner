@@ -2622,5 +2622,109 @@
     "before": "unknown",
     "after": "possible_closed",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "melbourne",
+    "name": "Melbourne Marathon Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "great-ocean-road-running-festival",
+    "name": "Great Ocean Road Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "valencia-marathon",
+    "name": "Valencia Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "valencia-half-marathon",
+    "name": "Valencia Half Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "whistler-half-marathon",
+    "name": "Whistler Half Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "canadian-death-race",
+    "name": "Canadian Death Race",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "fire-and-ice-ultra",
+    "name": "Fire + Ice Ultra",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-11T01:15:35+00:00",
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "before": "possible_closed",
+    "after": "conflicting_signals",
+    "dates_changed": false
   }
 ]

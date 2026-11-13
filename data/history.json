@@ -2822,5 +2822,37 @@
     "before": "unknown",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-13T01:50:58+00:00",
+    "id": "queenstown-marathon",
+    "name": "Queenstown Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-13T01:50:58+00:00",
+    "id": "hawke-s-bay-marathon",
+    "name": "Hawke's Bay Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-13T01:50:58+00:00",
+    "id": "rotterdam-marathon",
+    "name": "Rotterdam Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-13T01:50:58+00:00",
+    "id": "kullamannen-utmb",
+    "name": "Kullamannen by UTMB",
+    "before": "conflicting_signals",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

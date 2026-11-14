@@ -2854,5 +2854,45 @@
     "before": "conflicting_signals",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-14T01:27:32+00:00",
+    "id": "adelaide-marathon-festival",
+    "name": "Adelaide Marathon Festival",
+    "before": "no_signal",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-14T01:27:32+00:00",
+    "id": "queenstown-marathon",
+    "name": "Queenstown Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-14T01:27:32+00:00",
+    "id": "hawke-s-bay-marathon",
+    "name": "Hawke's Bay Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-14T01:27:32+00:00",
+    "id": "valencia-marathon",
+    "name": "Valencia Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-14T01:27:32+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

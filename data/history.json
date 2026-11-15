@@ -2894,5 +2894,29 @@
     "before": "possible_open",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-15T01:04:26+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-15T01:04:26+00:00",
+    "id": "philadelphia-marathon",
+    "name": "Philadelphia Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-15T01:04:26+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "conflicting_signals",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

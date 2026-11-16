@@ -2918,5 +2918,29 @@
     "before": "conflicting_signals",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-16T01:03:49+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-16T01:03:49+00:00",
+    "id": "victoria-marathon",
+    "name": "Royal Victoria Marathon",
+    "before": "possible_closed",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-16T01:03:49+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "no_signal",
+    "after": "conflicting_signals",
+    "dates_changed": false
   }
 ]

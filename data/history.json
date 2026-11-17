@@ -2942,5 +2942,37 @@
     "before": "no_signal",
     "after": "conflicting_signals",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-17T03:55:20+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "conflicting_signals",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-17T03:55:20+00:00",
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-17T03:55:20+00:00",
+    "id": "twin-cities-marathon",
+    "name": "Twin Cities Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-17T03:55:20+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

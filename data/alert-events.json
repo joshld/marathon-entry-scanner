@@ -297,5 +297,19 @@
     "race_date": null,
     "entry_open_date": "2026-11-16",
     "url": "https://www.runvictoriamarathon.com/royal-victoria-marathon"
+  },
+  {
+    "key": "soon:golden-ultra:2026-11-25",
+    "at": "2026-11-18T02:55:21+00:00",
+    "type": "soon",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "country": "Canada",
+    "distance": [
+      "Ultra"
+    ],
+    "race_date": "2027-09-10",
+    "entry_open_date": "2026-11-25",
+    "url": "https://www.goldenultra.com/registration"
   }
 ]

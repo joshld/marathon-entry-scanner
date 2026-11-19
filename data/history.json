@@ -2998,5 +2998,53 @@
     "before": "possible_open",
     "after": "unknown",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "nagano-marathon",
+    "name": "Nagano Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "comrades-marathon",
+    "name": "Comrades Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "transgrancanaria",
+    "name": "Transgrancanaria",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-19T02:35:41+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
   }
 ]

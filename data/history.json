@@ -3046,5 +3046,61 @@
     "before": "unknown",
     "after": "possible_open",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "perth-running-festival",
+    "name": "Perth Running Festival",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "port-macquarie-running-festival",
+    "name": "Port Macquarie Running Festival",
+    "before": "unknown",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "townsville-running-festival",
+    "name": "Townsville Running Festival",
+    "before": "unknown",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "comrades-marathon",
+    "name": "Comrades Marathon",
+    "before": "unknown",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-20T02:20:53+00:00",
+    "id": "canadian-death-race",
+    "name": "Canadian Death Race",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

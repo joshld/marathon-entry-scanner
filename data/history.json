@@ -3294,5 +3294,21 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-23T01:45:42+00:00",
+    "id": "sunshine-coast",
+    "name": "Sunshine Coast Marathon",
+    "before": "no_signal",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-23T01:45:42+00:00",
+    "id": "naha-marathon",
+    "name": "Naha Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]

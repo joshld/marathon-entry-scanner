@@ -3310,5 +3310,53 @@
     "before": "possible_closed",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "cairns-marathon-festival",
+    "name": "Cairns Marathon Festival",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "amsterdam-marathon",
+    "name": "Amsterdam Marathon",
+    "before": "possible_open",
+    "after": "conflicting_signals",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "philadelphia-marathon",
+    "name": "Philadelphia Marathon",
+    "before": "possible_closed",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "techcombank-ho-chi-minh-city-marathon",
+    "name": "Techcombank Ho Chi Minh City International Marathon",
+    "before": "possible_open",
+    "after": "possible_closed",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "hanoi-heritage-marathon",
+    "name": "Standard Chartered Hanoi Marathon Heritage Race",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-24T05:20:07+00:00",
+    "id": "uppsala-marathon",
+    "name": "Uppsala Marathon",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

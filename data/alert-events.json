@@ -311,5 +311,20 @@
     "race_date": "2027-09-10",
     "entry_open_date": "2026-11-25",
     "url": "https://www.goldenultra.com/registration"
+  },
+  {
+    "key": "soon:manitoba-marathon:2026-12-01",
+    "at": "2026-11-24T05:20:49+00:00",
+    "type": "soon",
+    "id": "manitoba-marathon",
+    "name": "Manitoba Marathon",
+    "country": "Canada",
+    "distance": [
+      "Marathon",
+      "Half marathon"
+    ],
+    "race_date": "2027-06-20",
+    "entry_open_date": "2026-12-01",
+    "url": "https://manitobamarathon.mb.ca/marathon/half-marathon/"
   }
 ]

@@ -3382,5 +3382,61 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "wellington",
+    "name": "Wellington Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "orange-running-festival",
+    "name": "Orange Running Festival",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "rotterdam-marathon",
+    "name": "Rotterdam Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "possible_closed",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-26T03:35:51+00:00",
+    "id": "canadian-death-race",
+    "name": "Canadian Death Race",
+    "before": "no_signal",
+    "after": "unknown",
+    "dates_changed": false
   }
 ]

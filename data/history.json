@@ -3510,5 +3510,85 @@
     "before": "unknown",
     "after": "no_signal",
     "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "helsinki-city-marathon",
+    "name": "Helsinki City Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "dublin-marathon",
+    "name": "Dublin Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "hcmc-marathon",
+    "name": "HCMC Marathon",
+    "before": "possible_open",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "vancouver-marathon",
+    "name": "BMO Vancouver Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "ottawa-marathon-weekend",
+    "name": "Tamarack Ottawa Race Weekend",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "calgary-marathon",
+    "name": "Beneva Calgary Marathon",
+    "before": "possible_closed",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "golden-ultra",
+    "name": "Golden Ultra",
+    "before": "conflicting_signals",
+    "after": "possible_open",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "oslo-marathon",
+    "name": "Oslo Marathon",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "helsinki-half-marathon",
+    "name": "Helsinki Half Marathon",
+    "before": "possible_open",
+    "after": "unknown",
+    "dates_changed": false
+  },
+  {
+    "at": "2026-11-28T03:19:31+00:00",
+    "id": "javelina-jundred",
+    "name": "Javelina Jundred",
+    "before": "possible_closed",
+    "after": "no_signal",
+    "dates_changed": false
   }
 ]
